@@ -1,9 +1,11 @@
 # CheatSheets
 
 This repo is small project to allow new starters to contribute to projects on Github and get used to Git tools and commands. 
-Is is a central place for the most common commands used for systems we may use in work/projects.
+It is a central place for the most common commands used for systems we may use in work/projects.
+
 You dont really need any coding experience as this is more of a documentation project, so no stress.
-I am still learning about Github and Git myself so what better way to get involved with the opensuource community and give something back.
+I am still learning about Github and Git myself so what better way to get involved with the opensource community and give something back.
+
 So please feel free contribute what ever time you can, I appreciate it.
 
 --------------------------------------------------
@@ -27,6 +29,9 @@ The changes will be reviewed and if all is well merged into master.
 Please have a look to see if the categories are already added per file and add your changes there, please do not duplicate already added entries.
 The structure should be as followed:
 
+Linux_CheatSheet.txt
+      |
+      |------
 
 
 
