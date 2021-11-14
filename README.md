@@ -7,10 +7,18 @@ You dont really need any coding experience as this is more of a documentation pr
 
 There are a few rule to follow though ;)
 
-To add stuff to to this repo it is best to do it the proper way of cloning this repo, make changes and then commit them.
+To add stuff to this repo it is best to do it the proper way of cloning this repo, make changes and then commit them.
 
-Steps include:
+High level Steps include:
 
-Cloni
+1. Cloning the repo - https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+2. Create your branch - https://www.atlassian.com/git/tutorials/using-branches
+3. Make your changes
+4. Commit them with a quick message of what was added - https://www.atlassian.com/git/tutorials/saving-changes/git-commit
+6. Push your branch with changes for a PR - "Almighty Push" ;)
+
+The changes will be reviewed and if all is well merged into master.
+
+
 
 Structure of the changes and categories:
