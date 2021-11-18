@@ -30,7 +30,8 @@ Please have a look to see if the categories are already added per file and add y
 
 The structure should be as followed.
 
-![image](https://user-images.githubusercontent.com/43029151/142506557-60572f40-ad8a-4b92-9c34-0ca9f4ff7a37.png)
+![image](https://user-images.githubusercontent.com/43029151/142508837-fd7d56b2-e808-4fa1-a77e-c8bd8accd484.png)
+
 
 
 Sub category:
@@ -46,7 +47,7 @@ Linux/Unix:
     ls
       #Options include.
         -l = List
-        -h = Human readable file/Direcory size
+        -h = Human readable file/Directory size
         etc
                 
         
