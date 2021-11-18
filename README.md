@@ -28,18 +28,29 @@ The changes will be reviewed and if all is well merged into master.
 
 Please have a look to see if the categories are already added per file and add your changes there, please do not duplicate already added entries.
 
-The structure should be as followed: Include screenshot
+The structure should be as followed.
 
-#Quick explanation of command
-Command
+Sub category:
+
+  #Quick explanation of command.
+    Command
 
 e.g
 
-#List files and Directories
-ls
+Linux/Unix:
 
-#List files in a list, shows file size in humnan readable format and shows hidden files
-ls -lha
+  #List files and Directories.
+    ls
+      #Options include.
+        -l = List
+        -h = Human readable file/Direcory size
+        etc
+                
+        
+  #List files in a list, shows file size in humnan readable format and shows hidden files.
+    ls -lha
 
 
-Structure of the changes and categories:
+Looking at the example above the category/sub category name ends in a colon, then the command desription is idented 1 space bellow. The command itself is then idented 2 spaces, the option title if applicable idented 3 spaces and the options themselves idented 4 spaces.
+
+This is how the layout should be for the listed
