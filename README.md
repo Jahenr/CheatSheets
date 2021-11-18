@@ -54,6 +54,6 @@ Linux/Unix:
     ls -lha
 
 
-Looking at the example above the category/sub category name ends in a colon, then the command desription is idented 1 space bellow. The command itself is then idented 2 spaces, the option title if applicable idented 3 spaces and the options themselves idented 4 spaces.
+Looking at the example above the category/sub category name ends in a colon, then the command description is idented 1 tab(8 Spaces) below. The command itself is then indented 2 tabs(16 Spaces), the options title if applicable is idented 3 tabs(24 Spaces) and the options themselves idented 4 tabs(32 Spaces).
 
-This is how the layout should be for the listed
+This is how the layout should be for the listed commands etc.
