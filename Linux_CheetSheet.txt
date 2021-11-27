@@ -6,5 +6,8 @@ Linux/Unix:
 				-l = List
 				-h = Human readable file/directory size
 
+    #Run previous command as sudo.
+        sudo !!
 
-	
+    #Run command with history ID <id>
+	    !<id>
