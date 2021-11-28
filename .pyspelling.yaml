@@ -10,6 +10,6 @@ matrix:
   aspell:
     lang: en
     d: en_US
-  glob_flags: G
+  glob_flags: N
   sources:
   - *.md
