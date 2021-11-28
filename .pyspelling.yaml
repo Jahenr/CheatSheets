@@ -6,7 +6,7 @@ matrix:
   sources:
   - README.md
   
-  - name: MD test1
+- name: MD test1
   aspell:
     lang: en
     d: en_US
