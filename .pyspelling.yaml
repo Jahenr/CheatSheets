@@ -5,3 +5,10 @@ matrix:
     d: en_US
   sources:
   - README.md
+  
+  - name: MD test1
+  aspell:
+    lang: en
+    d: en_US
+  sources:
+  - Linux_CheatSheet.md
