@@ -11,4 +11,4 @@ matrix:
     lang: en
     d: en_US
   sources:
-  - CheatSheets/*.md
+  - **/*.md
