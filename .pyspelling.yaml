@@ -12,4 +12,4 @@ matrix:
     d: en_US
   glob_flags: N
   sources:
-  - *md
+  - '*.md'
