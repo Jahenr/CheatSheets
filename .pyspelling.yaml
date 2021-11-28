@@ -6,9 +6,9 @@ matrix:
   sources:
   - README.md
   
-- name: MD test1
+- name: MD test2
   aspell:
     lang: en
     d: en_US
   sources:
-  - Linux_CheatSheet.md
+  - *.md
