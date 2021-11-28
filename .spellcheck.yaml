@@ -1,0 +1,7 @@
+matrix:
+- name: Readme test
+  aspell:
+    lang: en
+    d: en_US
+  sources:
+  - README.md
