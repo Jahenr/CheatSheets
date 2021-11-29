@@ -1,12 +1,5 @@
 matrix:
-- name: Readme test
-  aspell:
-    lang: en
-    d: en_US
-  sources:
-  - README.md
-  
-- name: MD test2
+  - name: .md file spellcheck
   aspell:
     lang: en
     d: en_US
