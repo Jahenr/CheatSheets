@@ -1,5 +1,5 @@
 matrix:
-  - name: .md file spellcheck
+- name: .md file spellcheck
   aspell:
     lang: en
     d: en_US
