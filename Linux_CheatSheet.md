@@ -34,7 +34,7 @@ Linux/Unix:
 		ctrl + r <command>
 			Tip: Press ctrl + r to cycle to the next command etc
 
-	#Show curret user
+	#Show current user
 		whoami
 
 	#Show logged in user with  what process they are running etc
