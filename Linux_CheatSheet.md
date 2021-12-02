@@ -34,5 +34,24 @@ Linux/Unix:
 		ctrl + r <command>
 			Tip: Press ctrl + r to cycle to the next command etc
 
+	#Show curret user
+		whoami
 
+	#Show logged in user with  what process they are running etc
+		w
+
+	#Show logged in user
+		who
+
+	#Pause current session
+		ctrl + z
+
+	#Show current paused sessions
+		jobs
+
+	#Resume paused session
+		fg
+
+	#Send paused session to background
+		bg
 
