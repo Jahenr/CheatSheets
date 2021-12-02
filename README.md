@@ -30,9 +30,6 @@ Please have a search (ctrl + f) to see if the categories/commands or options hav
 
 The structure should be as followed.
 
-![image](https://user-images.githubusercontent.com/43029151/142509174-95dd2262-8509-457e-9c71-1bf5c3148604.png)
-    
-
 Sub category:
 
     #Quick explanation of command
