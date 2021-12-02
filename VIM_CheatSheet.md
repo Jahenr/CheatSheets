@@ -45,7 +45,11 @@
 	#Redo vim action
 		ctrl + r
 
+	#Open a bash session from Vim
+		:! bash
 
+	#Exit a bash session to go back to Vim
+		exit
 
 		
 		
