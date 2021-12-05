@@ -6,7 +6,7 @@ It can allow new starters to contribute to projects on Github and get used to Gi
 
 You dont really need any coding experience as this is more of a documentation project, so no stress. Please feel free to contribute anytime you can, its appreciated.
 
-I am still learning about Github and Git myself and want to get involved more within the opensource community, so please feel free to give any advice or reccomendations via an issue request.
+I am still learning about Github and Git myself and want to get involved more within the opensource community, so please feel free to give any advice or recommendations via an issue request.
 
 --------------------------------------------------
 
@@ -26,7 +26,7 @@ Tip: Remember to do a git pull or fetch to keep your local up to date with the m
 
 --------------------------------------------------
 
-Please have a search (ctrl + f) to see if the categories/commands or options have already been added, please do not duplicate already added entries. If possible try to group simmilar bundles of commands with each other.
+Please have a search (ctrl + f) to see if the categories/commands or options have already been added, please do not duplicate already added entries. If possible try to group similar bundles of commands with each other.
 
 The structure should be as followed.
 
