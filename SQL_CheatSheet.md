@@ -1,5 +1,3 @@
-#SQL_CheatSheet
-
 
 MariaDB:
 
