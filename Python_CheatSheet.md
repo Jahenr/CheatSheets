@@ -18,5 +18,8 @@
 
 	#Exit virtual environment.
 		deactivate
+	
+	#Run python script from IDLE.
+		exec(open('path/to/file or filename').read())
 
 
