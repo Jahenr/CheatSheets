@@ -33,6 +33,10 @@
 
 	#Push changes to the default remote repo.
 		git push
+			Tip: you can specify the name of another tracked repo after "push"
 
-	#Pull changes from default remote repo.
+	#Pull changes from default remote repo and merges them into local.
 		git pull
+
+	#Update remote repo
+
