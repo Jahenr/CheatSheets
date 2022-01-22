@@ -32,25 +32,25 @@ Please have a search (ctrl + f) to see if the categories/commands or options hav
 
 The structure should be as followed.
 
-Sub category:
+Category or sub category:
 
-    # Quick explanation of command
-        Command
+	#Quick explanation of command
+		Command
 
 e.g
 
-Linux/Unix:
+Linux:
 
-    #List files and Directories.
-        ls
-            #Options include.
-                -l = List
-                -h = Human readable file/directory size
-                etc
+	#List files and Directories.
+		ls
+			#Options include.
+				-l = List
+				-h = Human readable file/directory size
+				etc
                 
         
-    #List files in a list, shows file size in human readable format and shows hidden files.
-        ls -lha
+	#List files in a list, shows file size in human readable format and shows hidden files.
+		ls -lha
 
 
 Looking at the example above the category/sub category name ends in a colon, then the command description is indented 1 tab (8 Spaces) below. The command itself is then indented 2 tabs (16 Spaces), the options title if applicable is indented 3 tabs (24 Spaces) and the options themselves indented 4 tabs (32 Spaces).
