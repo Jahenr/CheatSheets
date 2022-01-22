@@ -33,6 +33,18 @@
 
 	#Push changes to the default remote repo.
 		git push
+			Tip: you can specify the name of another tracked repo after "push".
 
-	#Pull changes from default remote repo.
+	#Pull changes from default remote repo and merges them into local.
 		git pull
+
+	#Pull changes from default remote repo but do not merg into local.
+		git fetch
+
+	#Roll back and reset the last staged commit.
+		git reset HEAD~1
+			Tip: The number specifies how much commits to reset by, git reset HEAD~2 rolls back 2 commits etc.
+
+
+
+
