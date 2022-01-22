@@ -89,7 +89,3 @@ Linux/Unix:
 	#Close an active SSH session or exit the terminal
 		exit
 		
-		
-		
-	
-
