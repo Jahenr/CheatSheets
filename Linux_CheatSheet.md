@@ -5,9 +5,25 @@ Linux/Unix:
 			#Options include.
 				-l = List
 				-h = Human readable file/directory size
+				-a = Show hidden files/directories
+	
+	#List running processes
+		ps
+	
+	#Print the working directory
+		pwd
+		
+	#Recursively search for a file or directory
+		find <file or directory name>
 	
 	#View full contents of file in terminal
 		cat <filename>
+		
+	#Copy a file
+		cp <original filename> <copy filename>
+		
+	#Move or rename a file
+		mv <original file> <new location or name>
 
 	#Run previous command as sudo.
 		sudo !!
@@ -54,4 +70,26 @@ Linux/Unix:
 
 	#Send paused session to background
 		bg
+		
+	#Show network interface information
+		ifconfig
+		
+	#Show drive usage information
+		df
+		
+	#Show memory usage information
+		free
+		
+	#Ping a given IP or domain
+		ping <ip or domain>
+		
+	#Open an SSH session with a given user and machine
+		ssh <user>@<machine IP or domain>
+		
+	#Close an active SSH session or exit the terminal
+		exit
+		
+		
+		
+	
 
