@@ -22,7 +22,7 @@ High level Steps include:
 
 The changes will be reviewed and if all is well, merged into master.
 
-Tip: Remember to add the main project as upstream and do a git pull or fetch to keep your local fork up to date with the main project before you commit and push any changes to your forked version, ready for aPR. 
+Tip: Remember to add the main project as upstream and do a git pull or fetch to keep your local fork up to date with the main project, before you commit and push any changes to your forked version ready for a PR. 
 
 Here is a handy guide with more detail for clarity. - https://stefanbauer.me/articles/how-to-keep-your-git-fork-up-to-date
 
