@@ -10,7 +10,7 @@ I am still learning about Github and Git myself and want to get involved more wi
 
 --------------------------------------------------
 
-To add stuff to this repo it best to fork this repo, git clone your fork of the repo, create a branch and make changes, push them to your fork and then open a PR
+To add stuff to this repo it is best to fork this repo, git clone your fork of the repo, create a branch and make changes, push them to your fork and then open a PR.
 
 High level Steps include:
 
@@ -22,7 +22,9 @@ High level Steps include:
 
 The changes will be reviewed and if all is well, merged into master.
 
-Tip: Remember to do a git pull or fetch to keep your local up to date with the main project before you commit and push any changes, this ensures your local is up to date with remote main project. - https://stefanbauer.me/articles/how-to-keep-your-git-fork-up-to-date
+Tip: Remember to add the main project as upstream and do a git pull or fetch to keep your local fork up to date with the main project before you commit and push any changes to your forked version, ready for aPR. 
+
+Here is a handy guide with more detail for clarity. - https://stefanbauer.me/articles/how-to-keep-your-git-fork-up-to-date
 
 --------------------------------------------------
 
@@ -32,7 +34,7 @@ The structure should be as followed.
 
 Sub category:
 
-    #Quick explanation of command
+    # Quick explanation of command
         Command
 
 e.g
