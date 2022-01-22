@@ -10,7 +10,7 @@ I am still learning about Github and Git myself and want to get involved more wi
 
 --------------------------------------------------
 
-To add stuff to this repo it best to fork this repo, git clone your fork of the repo, create a branch and make changes, push them to your fork and then open a PR
+To add stuff to this repo it is best to fork this repo, git clone your fork of the repo, create a branch and make changes, push them to your fork and then open a PR.
 
 High level Steps include:
 
@@ -22,7 +22,9 @@ High level Steps include:
 
 The changes will be reviewed and if all is well, merged into master.
 
-Tip: Remember to do a git pull or fetch to keep your local up to date with the main project before you commit and push any changes, this ensures your local is up to date with remote main project. - https://stefanbauer.me/articles/how-to-keep-your-git-fork-up-to-date
+Tip: Remember to add the main project as upstream and do a git pull or fetch to keep your local fork up to date with the main project, before you commit and push any changes to your forked version ready for a PR. 
+
+Here is a handy guide with more detail for clarity. - https://stefanbauer.me/articles/how-to-keep-your-git-fork-up-to-date
 
 --------------------------------------------------
 
@@ -30,25 +32,25 @@ Please have a search (ctrl + f) to see if the categories/commands or options hav
 
 The structure should be as followed.
 
-Sub category:
+Category or sub category:
 
-    #Quick explanation of command
-        Command
+	#Quick explanation of command
+		Command
 
 e.g
 
-Linux/Unix:
+Linux:
 
-    #List files and Directories.
-        ls
-            #Options include.
-                -l = List
-                -h = Human readable file/directory size
-                etc
+	#List files and Directories.
+		ls
+			#Options include.
+				-l = List
+				-h = Human readable file/directory size
+				etc
                 
         
-    #List files in a list, shows file size in human readable format and shows hidden files.
-        ls -lha
+	#List files in a list, shows file size in human readable format and shows hidden files.
+		ls -lha
 
 
 Looking at the example above the category/sub category name ends in a colon, then the command description is indented 1 tab (8 Spaces) below. The command itself is then indented 2 tabs (16 Spaces), the options title if applicable is indented 3 tabs (24 Spaces) and the options themselves indented 4 tabs (32 Spaces).
