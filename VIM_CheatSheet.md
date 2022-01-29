@@ -3,6 +3,12 @@
 	#Insert mode
 		i
 
+    #Insert after cursor
+        a
+
+    #Create blank line below & insert
+        o
+
 	#Normal mode
 		esc key
 
