@@ -21,5 +21,8 @@
 	
 	#Run python script from IDLE.
 		exec(open('path/to/file or filename').read())
+	
+	#Redirect the modules and dependencies installed to requirements.txt.
+		pip3 freeze > requirements.txt
 
 
