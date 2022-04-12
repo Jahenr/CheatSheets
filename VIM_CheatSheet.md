@@ -3,6 +3,12 @@
 	#Insert mode
 		i
 
+    #Insert after cursor
+        a
+
+    #Create blank line below & insert
+        o
+
 	#Normal mode
 		esc key
 
@@ -51,5 +57,25 @@
 	#Exit a bash session to go back to Vim
 		exit
 
-		
-		
+	#Turn word-wrap on/off
+        :set wrap
+        :set nowrap	
+
+    #Turn line numbers on/off
+        :set number
+        :set nonumber
+
+    #Open multiple files in new tabs (from bash prompt)
+        vim -p <file1> <file2> ...
+
+    #Quick switch to next tab
+        gt
+
+    #Quick switch to previous tab
+        gT
+
+    #Save tab session to file
+        :mksession <session_filename.vim>
+
+    #Load saved tab session (from bash prompt)
+        vim -S <session_filename.vim>
