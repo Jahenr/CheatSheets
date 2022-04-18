@@ -32,7 +32,7 @@ Linux/Unix:
 		history
 
 	#Run command with history ID <id>
-		 !<id>
+		!<id>
 
 	#Run last command via command name
 		!<command name>
@@ -89,3 +89,10 @@ Linux/Unix:
 	#Close an active SSH session or exit the terminal
 		exit
 		
+	#Show logs of specified service
+		journalctl -u <service name>
+
+	#Show logs of specified process ID
+		journalctl _PID=<process id>
+
+	
