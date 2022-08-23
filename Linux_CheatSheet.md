@@ -94,5 +94,8 @@ Linux/Unix:
 
 	#Show logs of specified process ID
 		journalctl _PID=<process id>
+    
+	#Terminate process 
+	    kill <process id>
 
 	
