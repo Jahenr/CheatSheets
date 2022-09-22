@@ -99,6 +99,6 @@ Linux/Unix:
 	    kill <process id>
 
 	#Create a file
-			touch <filename>
+	    touch <filename>
 
 	
