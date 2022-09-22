@@ -98,4 +98,7 @@ Linux/Unix:
 	#Terminate process 
 	    kill <process id>
 
+	#Create a file
+			touch <filename>
+
 	
