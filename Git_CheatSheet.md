@@ -44,7 +44,11 @@
 	#Roll back and reset the last staged commit.
 		git reset HEAD~1
 			Tip: The number specifies how much commits to reset by, git reset HEAD~2 rolls back 2 commits etc.
-
-
-
-
+    
+	#Squash multiple commits into one commit.
+		squash last 4 commits:
+			git rebase -i HEAD~4
+				Note: This command will open up default editor then replace "pick" on the second and subsequent commits with "squash".
+		Squash all commits:
+			git rebase --root -i
+				Note: This command will open up default editor then replace "pick" on the second and subsequent commits with "squash".
