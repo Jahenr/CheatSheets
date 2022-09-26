@@ -7,6 +7,9 @@ Linux/Unix:
 				-h = Human readable file/directory size
 				-a = Show hidden files/directories
 	
+	#Change Directory
+	    cd <pathname>
+
 	#List running processes
 		ps
 	
