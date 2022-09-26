@@ -97,11 +97,14 @@ Linux/Unix:
 
 	#Show logs of specified process ID
 		journalctl _PID=<process id>
+		
+	#Show all installed services
+		systemctl list-unit-files --type=service
     
 	#Terminate process 
-	    kill <process id>
+		kill <process id>
 
 	#Create a file
-	    touch <filename>
+		touch <filename>
 
 	
