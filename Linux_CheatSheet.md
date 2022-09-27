@@ -107,4 +107,16 @@ Linux/Unix:
 	#Create a file
 		touch <filename>
 
+	#Print the first 10 lines of a file to standard output
+		head <filename>
+			#Options include
+				-n [NUM] = Print the first NUM lines instead of 10
+				-n -[NUM] = Print all but the last NUM lines of a file
+        
+	#Print the last 10 lines of a file to standard output
+		tail <filename>
+
+			#Options include
+				-n [NUM] = Print the last [NUM] lines instead of 10
+				-n +[NUM] = Print all lines starting with [NUM] until EOF
 	
