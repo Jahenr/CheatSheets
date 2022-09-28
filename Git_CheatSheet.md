@@ -52,3 +52,12 @@
 		Squash all commits:
 			git rebase --root -i
 				Note: This command will open up default editor then replace "pick" on the second and subsequent commits with "squash".
+
+	#Stash the current state of the working directory
+		git stash
+
+	#Remove the stashed code and apply it in the current working directory
+		git stash pop
+
+	#Remove all stashed entries
+		git stash clear
