@@ -21,7 +21,8 @@ WINDOWS:
 	#Run the Python program stored in the 'program.py' file
 		python program.py
 
-
+	#List all content in current directory
+		ls
 
 
 

@@ -2,12 +2,12 @@
 	
 	#Insert mode
 		i
-
-    #Insert after cursor
-        a
-
-    #Create blank line below & insert
-        o
+	
+	#Insert after cursor
+        	a
+	
+	#Create blank line below & insert
+        	o
 
 	#Normal mode
 		esc key
@@ -79,3 +79,7 @@
 
     #Load saved tab session (from bash prompt)
         vim -S <session_filename.vim>
+
+	#Search and replace all patterns found in file
+		:%s/<pattern match>/<replace with>/g
+	

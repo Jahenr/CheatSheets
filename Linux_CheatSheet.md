@@ -7,6 +7,9 @@ Linux/Unix:
 				-h = Human readable file/directory size
 				-a = Show hidden files/directories
 	
+	#Change Directory
+	    cd <pathname>
+
 	#List running processes
 		ps
 	
@@ -94,12 +97,13 @@ Linux/Unix:
 
 	#Show logs of specified process ID
 		journalctl _PID=<process id>
+		
+	#Show all installed services
+		systemctl list-unit-files --type=service
     
 	#Terminate process 
-	    kill <process id>
+		kill <process id>
 
-	#View calender on terminal 
-		cal 
 	
 	#View Date on terminal 
 		date
