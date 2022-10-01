@@ -119,23 +119,107 @@ Linux/Unix:
 			#Options include
 				-n [NUM] = Print the last [NUM] lines instead of 10
 				-n +[NUM] = Print all lines starting with [NUM] until EOF
+        
+  #Control System time and date
+     timedatectl [OPTIONS...] {COMMAND}
+      
+      #Options include
+                          
+        - timedatectl = Check the current system clock time
+				- timedatectl set-time "yyyy-MM-dd hh:mm:ss" = Set the local time of the system clock directly
+	  		- timedatectl list-timezonesList = available timezones
+	  		- timedatectl set-timezone timezone = Set the system timezone
+  			- timedatectl set-ntp on = Enable Network Time Protocol (NTP) synchronization
+        
+	#View Date on terminal 
+		date
 
-       #Control System time and date.
-              timedatectl [OPTIONS...] {COMMAND}
+	#Change the permissions granted
+		chmod
 
-                        #Options include
-                              
-                        - Check the current system clock time:
-    			  timedatectl
+	#change a file's ownership
+		chown
+	
+	#change the apparent root directory for the current running process and its children
+		chroot
 
-  			- Set the local time of the system clock directly:
-    			  timedatectl set-time "yyyy-MM-dd hh:mm:ss"
+	#Edit file using vi
+		vi <file name>
+	
+	#Edit file using nano
+		nano <file name>
+	
+	#Displays active TCP connections, ports
+		netstat -tulpn
+	
+	#Download from terminal
+		wget <url>
 
-  			- List available timezones:
-    			  timedatectl list-timezones
+	#unzip a file
+		unzip <filename>
+	
+	#mount a drive
+		mount <drive name> <mount point>
 
-  			- Set the system timezone:
-    			  timedatectl set-timezone timezone
+	#unmount a drive
+		umount <drive name>
+	
+	#Switch to users
+		su <username>
+	
+	#Switch to root
+		sudo su
+	
+	#Find the location of source/binary file
+		whereis <file name>
 
-  			- Enable Network Time Protocol (NTP) synchronization:
-    			  timedatectl set-ntp on	
+	#Manipulation of partition tables
+		fdisk 
+	
+	#Install, build, remove and manage Debian packages
+		dpkg
+
+	#Install, build, remove and manage Debian packages
+		apt-get
+	
+	#Creates a new user account
+		adduser
+	
+	#Creates a new group
+		groupadd 
+
+	#Adds a user to a group
+		usermod
+	
+	#Remove a user from a group
+		userdel
+
+	#Change password of user
+		passwd
+	
+	#Check md5sum of file
+		md5sum <filename>
+
+	#Check sha1sum of file
+		sha1sum <filename>
+
+	#Prints the name of the terminal
+		tty
+
+	#Ftp on a remote host
+		ftp <host>
+
+	#Dns lookup 
+		nslookup <host>
+
+	#Show domain information
+		host <host>
+
+	#Show detailed domain information
+		dig <host>
+	
+	#View sttrings in a file
+		strings <filename>
+
+	#View file type
+		file <filename>
