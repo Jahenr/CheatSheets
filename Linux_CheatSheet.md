@@ -120,10 +120,10 @@ Linux/Unix:
 				-n [NUM] = Print the last [NUM] lines instead of 10
 				-n +[NUM] = Print all lines starting with [NUM] until EOF
 	#Control System time and date
-                timedatectl [OPTIONS...]  {COMMAND}
+	        timedatectl [OPTIONS...]  {COMMAND}
       
                         #Options include  
-                                - timedatectl = Check the current system clock time
+			        - timedatectl = Check the current system clock time
 				- timedatectl set-time "yyyy-MM-dd hh:mm:ss" = Set the local time of the system clock directly
 	  		        - timedatectl list-timezonesList = available timezones
 				- timedatectl set-timezone timezone = Set the system timezone
