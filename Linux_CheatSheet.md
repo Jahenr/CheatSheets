@@ -213,3 +213,11 @@ Linux/Unix:
 	#View file type
 		file <filename>
 	
+	#Create a new directory
+		mkdir directory_name
+	
+	#Remove directory (empty directory)
+		rmdir directory_name
+	
+	#Recursively delete directory and all its subdirectories and files
+		rm -r directory_name 
