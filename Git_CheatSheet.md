@@ -65,5 +65,5 @@
 	#Remove all stashed entries
 		git stash clear
   
-  #Remove new/existing files from staged files
+  	#Remove new/existing files from staged files
 		git restore --staged <file_name>
