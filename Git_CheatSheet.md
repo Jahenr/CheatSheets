@@ -9,6 +9,9 @@
 	#Commits files added with a message ready to be pushed.
 		git commit -m "add message here"
 
+	#Display record of commits made
+		git log
+
 	#List branches.
 		git branch
 
@@ -52,3 +55,5 @@
 		Squash all commits:
 			git rebase --root -i
 				Note: This command will open up default editor then replace "pick" on the second and subsequent commits with "squash".
+	#Remove new/existing files from staged files
+		git restore --staged <file_name>
