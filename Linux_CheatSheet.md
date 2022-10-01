@@ -213,3 +213,23 @@ Linux/Unix:
 	#View file type
 		file <filename>
 	
+	#Generate a listing of user logins
+		last
+	
+	#Prints the last login times of all users
+		lastlog
+	
+	#Temporarily lock terminal
+		lock
+		
+	#Dumps contents of a file
+		od
+		
+	#Prints list of users on the system
+		users
+		
+	#Translate underscores to underlining
+		ul
+		
+	#Graphical display of load and memory usage
+		xsysinfo
