@@ -119,7 +119,18 @@ Linux/Unix:
 			#Options include
 				-n [NUM] = Print the last [NUM] lines instead of 10
 				-n +[NUM] = Print all lines starting with [NUM] until EOF
-		
+				
+       #Control System time and date
+                timedatectl [OPTIONS...] {COMMAND}
+	      
+  	                #Options include
+                              
+	                        - timedatectl = Check the current system clock time
+    				- timedatectl set-time "yyyy-MM-dd hh:mm:ss" = Set the local time of the system clock directly
+    	  			- timedatectl list-timezonesList = available timezones
+    	  			- timedatectl set-timezone timezone = Set the system timezone
+	  			- timedatectl set-ntp on = Enable Network Time Protocol (NTP) synchronization:
+	
 	#View Date on terminal 
 		date
 
@@ -212,4 +223,6 @@ Linux/Unix:
 
 	#View file type
 		file <filename>
+
+       	
 	
