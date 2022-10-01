@@ -52,7 +52,8 @@
 		squash last 4 commits:
 			git rebase -i HEAD~4
 				Note: This command will open up default editor then replace "pick" on the second and subsequent commits with "squash".
-		Squash all commits:
+        
+	#Squash all commits:
 			git rebase --root -i
 				Note: This command will open up default editor then replace "pick" on the second and subsequent commits with "squash".
 
@@ -65,5 +66,10 @@
 	#Remove all stashed entries
 		git stash clear
   
-  	#Remove new/existing files from staged files
+ 	#Remove new/existing files from staged files
 		git restore --staged <file_name>
+
+  	#Cherry Pick enables arbitrary Git commits to be picked by reference and appended to the current working HEAD.  
+               cherry pick a commit on to main branch:
+                        git cherry-pick commitSHA
+  
