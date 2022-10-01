@@ -69,7 +69,7 @@
  	#Remove new/existing files from staged files
 		git restore --staged <file_name>
 
-  #Cherry Pick enables arbitrary Git commits to be picked by reference and appended to the current working HEAD.  
+  	#Cherry Pick enables arbitrary Git commits to be picked by reference and appended to the current working HEAD.  
                cherry pick a commit on to main branch:
                         git cherry-pick commitSHA
   
