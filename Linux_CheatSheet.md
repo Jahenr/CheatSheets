@@ -119,4 +119,13 @@ Linux/Unix:
 			#Options include
 				-n [NUM] = Print the last [NUM] lines instead of 10
 				-n +[NUM] = Print all lines starting with [NUM] until EOF
+
+	#Create a directory
+		mkdir directory_name
+	
+	#Remove empty directory
+		rmdir directory_name
+
+	#Remove directory including subdirectories
+		rm directory_name
 	
