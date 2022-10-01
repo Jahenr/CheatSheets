@@ -10,4 +10,7 @@
                         curl -X GET https://localhost:9200/_cluster/health?pretty -u <username:password> --insecure
                         
                 #Show total indices
-                        curl -XGET localhost:9200/_cat/indices?pretty -u <username:password> --insecure
+                        curl -XGET https://localhost:9200/_cat/indices?pretty -u <username:password> --insecure
+                        
+                #Show shards
+                        curl -XGET https://localhost:9200/_cat/shards?pretty -u <username:password> --insecure
