@@ -119,9 +119,8 @@ Linux/Unix:
 			#Options include
 				-n [NUM] = Print the last [NUM] lines instead of 10
 				-n +[NUM] = Print all lines starting with [NUM] until EOF
-        
-       #Control System time and date
-               timedatectl [OPTIONS...]  {COMMAND}
+	#Control System time and date
+                timedatectl [OPTIONS...]  {COMMAND}
       
                         #Options include  
                                 - timedatectl = Check the current system clock time
