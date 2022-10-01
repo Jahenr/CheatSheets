@@ -9,6 +9,9 @@
 	#Commits files added with a message ready to be pushed.
 		git commit -m "add message here"
 
+	#Display record of commits made
+		git log
+
 	#List branches.
 		git branch
 
@@ -61,3 +64,6 @@
 
 	#Remove all stashed entries
 		git stash clear
+  
+  	#Remove new/existing files from staged files
+		git restore --staged <file_name>
