@@ -122,7 +122,7 @@ Linux/Unix:
 	#Control System time and date
 	        timedatectl [OPTIONS...]  {COMMAND}
       
-                        #Options include  
+                       #Options include  
 			        -timedatectl = Check the current system clock time
 				-timedatectl set-time "yyyy-MM-dd hh:mm:ss" = Set the local time of the system clock directly
 	  		        -timedatectl list-timezonesList = available timezones
