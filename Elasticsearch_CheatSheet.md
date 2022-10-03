@@ -12,11 +12,14 @@
                 #Show total indices
                         curl -XGET localhost:9200/_cat/indices?pretty -u <username:password> --insecure
                 
+                #Show shards
+                        curl -XGET https://localhost:9200/_cat/shards?pretty -u <username:password> --insecure
+                
                 #Nodes overview
-                        curl -XGET http://elasticsearch:9200/_cat/nodes?v
+                        curl -XGET http://localhost:9200/_cat/nodes?v
                 
                 #Check who is master
-                        curl -XGET http://elasticsearch:9200/_cat/master?v
+                        curl -XGET http://localhost:9200/_cat/master?v
                 
                 #List all indices
                         curl -X GET ‘http://localhost:9200/_cat/indices?v
@@ -59,4 +62,3 @@
                 
                 #Check pending tasks
                         curl -XGET http://localhost:9200/_cat/pending_tasks?v
-                
