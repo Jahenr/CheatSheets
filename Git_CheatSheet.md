@@ -73,3 +73,8 @@
                cherry pick a commit on to main branch:
                         git cherry-pick commitSHA
   
+	#Graphical Git branch log on terminal
+		git log --all --decorate --graph --oneline
+		\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+		NOTE: you can define it like this too
+			git config --global alias.adgo  'log --all --decorate --graph --oneline'
