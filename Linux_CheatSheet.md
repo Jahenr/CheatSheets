@@ -212,4 +212,7 @@ Linux/Unix:
 
 	#View file type
 		file <filename>
-	
+
+    #Determine system boot-up performance statistics
+        systemd-analyze
+
