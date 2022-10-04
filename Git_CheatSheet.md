@@ -78,3 +78,17 @@
                cherry pick a commit on to main branch:
                         git cherry-pick commitSHA
   
+	#Command to merge a specific branch into the current branch
+		git merge <branch name>
+
+	#To resolve merge conflict manually open the merge tool
+		git mergetool
+
+	#To remove untracked files from the working directory
+		git clean 
+
+	#Command to configure your username
+		git config --global user.name "your name"
+
+	#To see all configurations
+		git config --list
