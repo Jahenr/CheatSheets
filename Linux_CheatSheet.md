@@ -220,3 +220,7 @@ Linux/Unix:
 
 	#View file type
 		file <filename>
+    
+	#Details on all Active Processes
+		top
+
