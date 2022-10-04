@@ -11,6 +11,16 @@
 
 	#Display record of commits made
 		git log
+		
+      #GIT LOG
+      
+	    git log master             # branch
+            git log origin/master      # branch, remote
+            git log v1.0.0  
+	    # tag
+    git log master develop
+           git log v2.0..master       # reachable from *master* but not *v2.0*
+           git log v2.0...master      # reachable from *master* and *v2.0*, but not both
 
 	#List branches.
 		git branch
