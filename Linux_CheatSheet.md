@@ -212,4 +212,7 @@ Linux/Unix:
 
 	#View file type
 		file <filename>
+		
+	#find the files by name
+		locate <filename>
 	
