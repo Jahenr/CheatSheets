@@ -1,4 +1,4 @@
-        #Get total node in cluster
+        #Get total nodes in cluster
                 kubectl get nodes
                 
         #Get pods in current namespace
