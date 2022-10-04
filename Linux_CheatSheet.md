@@ -222,5 +222,5 @@ Linux/Unix:
 		file <filename>
     
 	#Details on all Active Processes
-	  top
+		top
 
