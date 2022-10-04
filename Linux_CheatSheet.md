@@ -121,7 +121,6 @@ Linux/Unix:
 				-n +[NUM] = Print all lines starting with [NUM] until EOF
 				
        #Control System time and date
-                timedatectl [OPTIONS...] {COMMAND}
 	      
   	                #Options include
                               
