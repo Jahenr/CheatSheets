@@ -20,7 +20,6 @@
 	#List branches.
 		git branch
 		
-
 	#Create a new branch.
 		git branch <branch name>
 
@@ -38,8 +37,7 @@
 		git switch -
 
 	#Show tracked repos.
-		git remote -v
-		
+		git remote -v	
 
 	#Push changes to the default remote repo.
 		git push
@@ -76,9 +74,6 @@
  	#Remove new/existing files from staged files
 		git restore --staged <file_name>
 		
-		
-		
-
   	#Cherry Pick enables arbitrary Git commits to be picked by reference and appended to the current working HEAD.  
                cherry pick a commit on to main branch:
                         git cherry-pick commitSHA
