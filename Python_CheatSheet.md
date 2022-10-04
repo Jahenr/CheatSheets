@@ -25,4 +25,5 @@
 	#Redirect the modules and dependencies installed to requirements.txt.
 		pip3 freeze > requirements.txt
 
-
+	#Install the requirments listed in requirments.txt.
+		pip3 install -r requirments.txt
