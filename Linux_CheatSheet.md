@@ -122,12 +122,12 @@ Linux/Unix:
 				
 	#Check the current system clock time
 		timedatectl
-	                #Options include
+	        	#Options include
 				set-time "yyyy-MM-dd hh:mm:ss" = Set the local time of the system clock directly
 	  		        list-timezones = available timezones
 				set-timezone timezone = Set the system timezone
 				set-ntp on = Enable Network Time Protocol (NTP) synchronization
-        
+       
 	#View Date on terminal 
 		date
 
