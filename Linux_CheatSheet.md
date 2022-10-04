@@ -12,6 +12,9 @@ Linux/Unix:
 
 	#List running processes
 		ps
+
+	#Create a new directory
+		mkdir <directory name to be created>
 	
 	#Print the working directory
 		pwd
