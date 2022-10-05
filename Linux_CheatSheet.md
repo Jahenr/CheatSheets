@@ -119,7 +119,15 @@ Linux/Unix:
 			#Options include
 				-n [NUM] = Print the last [NUM] lines instead of 10
 				-n +[NUM] = Print all lines starting with [NUM] until EOF
-		
+				
+	#Check the current system clock time
+		timedatectl
+	        	#Options include
+				set-time "yyyy-MM-dd hh:mm:ss" = Set the local time of the system clock directly
+	  		        list-timezones = available timezones
+				set-timezone timezone = Set the system timezone
+				set-ntp on = Enable Network Time Protocol (NTP) synchronization
+       
 	#View Date on terminal 
 		date
 
@@ -212,24 +220,3 @@ Linux/Unix:
 
 	#View file type
 		file <filename>
-	
-	#Generate a listing of user logins
-		last
-	
-	#Prints the last login times of all users
-		lastlog
-	
-	#Temporarily lock terminal
-		lock
-		
-	#Dumps contents of a file
-		od
-		
-	#Prints list of users on the system
-		users
-		
-	#Translate underscores to underlining
-		ul
-		
-	#Graphical display of load and memory usage
-		xsysinfo
