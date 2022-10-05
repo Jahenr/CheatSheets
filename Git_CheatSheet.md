@@ -1,3 +1,8 @@
+         #creates a new local repo.
+	       git init
+	       
+	 #shows changes not yet staged 
+	       git diff
 
 	#Show what files are changed, staged etc
 		git status
@@ -14,7 +19,7 @@
 
 	#List branches.
 		git branch
-
+		
 	#Create a new branch.
 		git branch <branch name>
 
@@ -32,7 +37,7 @@
 		git switch -
 
 	#Show tracked repos.
-		git remote -v
+		git remote -v	
 
 	#Push changes to the default remote repo.
 		git push
@@ -68,8 +73,22 @@
   
  	#Remove new/existing files from staged files
 		git restore --staged <file_name>
-
+		
   	#Cherry Pick enables arbitrary Git commits to be picked by reference and appended to the current working HEAD.  
                cherry pick a commit on to main branch:
                         git cherry-pick commitSHA
   
+	#Command to merge a specific branch into the current branch
+		git merge <branch name>
+
+	#To resolve merge conflict manually open the merge tool
+		git mergetool
+
+	#To remove untracked files from the working directory
+		git clean 
+
+	#Command to configure your username
+		git config --global user.name "your name"
+
+	#To see all configurations
+		git config --list
