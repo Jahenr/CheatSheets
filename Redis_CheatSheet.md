@@ -114,32 +114,3 @@ Redis:
 
     #Incrby Command
         INCRBY KEY_NAME INCR_AMOUNT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
