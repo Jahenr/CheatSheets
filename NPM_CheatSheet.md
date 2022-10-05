@@ -8,3 +8,6 @@ NPM / Node Package Manager
 
 # To install a particular package for all the projects, in other words install package with global scope
         npm install package_name -g
+
+# To Lists the installed versions of all dependencies in this software
+        npm list
