@@ -31,6 +31,12 @@ MariaDB:
 
 	#Update specified row by specifying id of row
 		update "table name" set "column name" = "data in row", where "column name" = "data in row"
+	
+	#Disable foreign key checks
+	         SET FOREIGN_KEY_CHECKS=0
+        
+	#Enable foreign key checks
+	         SET FOREIGN_KEY_CHECKS=1
 
 	  
 
