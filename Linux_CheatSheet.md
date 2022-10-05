@@ -217,241 +217,377 @@ Linux/Unix:
 *###Basic Linux commands###*
 
 
-'''**Command        -       Description**''' 
+#Lists all files and directories in the present working directory   
 
+	             ls 
 
+#Lists files in sub-directories as well  
 
-*ls* 	  **Lists all files and directories in the present working directory**  
+             ls -R
 
-*ls -R*   **Lists files in sub-directories as well**  
+#Lists hidden files as well    
 
-*ls -a* 	**Lists hidden files as well**  
+	    ls -a 
 
-*ls -al* 	**Lists files and directories with detailed information like permissions,size, owner, etc.**
+#Lists files and directories with detailed information like permissions,size, owner, etc.  
 
-*cd or cd ~* 	**Navigate to HOME directory**
+            ls -al 
 
-*cd ..* 	**Move one level up**
+#Navigate to HOME directory  
 
-*cd* 	**To change to a particular directory** 
+	   cd or cd ~ 
 
-*cd /* 	**Move to the root directory**
+#Move one level #  
 
-*cat > filename* 	**Creates a new file**
+	    cd ..
 
-*cat filename* 	**Displays the file content**
+#To change to a particular directory   
 
-*cat file1 file2 > file3* 	**Joins two files (file1, file2) and stores the output in a new file (file3)**
+	   cd*
 
-*mv file "new file path"* 	**Moves the files to the new location**
+#Move to the root directory  
 
-*mv filename new_file_name* 	**Renames the file to a new filename**
+	    cd /
 
-*sudo* 	**Allows regular users to run programs with the security privileges of the superuser or root**
+#Creates a new file  
 
-*rm filename* 	**Deletes a file**
+	    cat > filename
 
-*man* 	**Gives help information on a command**
+#Displays the file content  
 
-*history* 	**Gives a list of all past commands typed in the current terminal session**
+	  cat filename
 
-*clear* 	**Clears the terminal**
+#Joins two files (file1, file2) and stores the output in a new file (file3)  
 
-*mkdir directoryname* 	**Creates a new directory in the present working directory or a at the specified path**
+	    cat file1 file2 > file3
 
-*rmdir* 	**Deletes a directory**
+#Moves the files to the new location  
 
-*mv* 	**Renames a directory**
+	    mv file "new file path"
 
-*pr -x* 	**Divides the file into x columns**
+#Renames the file to a new filename  
 
-*pr -h* 	**Assigns a header to the file**
+	  mv filename new_file_name
 
-*pr -n* 	**Denotes the file with Line Numbersv**
+#Allows regular users to run programs with the security privileges of the superuser or root  
 
-*vlp -nc , lpr c*	**Prints “c” copies of the File**
+	                   sudo
 
- *lp-d lp-P*         **Specifies name of the printer**
+#Deletes a file  
+
+	   rm filename
+
+#Gives help information on a command  
+
+	   man
+
+#Gives a list of all past commands typed in the current terminal session  
+
+	        history 
+
+#Clears the terminal 
+
+	clear
+
+#Creates a new directory in the present working directory or a at the specified path 
+
+	mkdir directoryname
+
+#Deletes a directory 
+
+	rmdir
+
+#Renames a directory 
+
+	         mv
+
+#Divides the file into x columns 
+
+	         pr -x 
+
+#Assigns a header to the file 
+
+	        pr -h 
+
+#Denotes the file with Line Numbers 
+
+	        pr -n 
+
+#Prints “c” copies of the File 
+
+	          vlp -nc , lpr c
+
+#Specifies name of the printer 
+
+                   lp-d lp-P 
  
-*apt-get*        **Command used to install and update packages**
+#Command used to install and update packages 
 
-*mail -s 'subject'*
-*-c 'cc-address'*
-*-b 'bcc-address'*
-*'to-address'*
-	**Command to send email**
+                  apt-get 
+
+#Command to send email
+
+          mail -s 'subject'
+          -c 'cc-address'
+          -b 'bcc-address'
+          'to-address'
 	
-*mail -s "Subject"
-*to-address < Filename*
-	**Command to send email with attachment**
+#Command to send email with attachment 
+
+                mail -s "Subject"
+                to-address < Filename
+	
 	
 	
 *###File Permission commands###*
 
 
-'''**Command        -       Description**''' 
+#to show file typ*e and access permission 
 
+	     ls -l 
 
+#read permission 
 
+	     r 
 
-*ls -l* 	**to show file typ*e and access permission**
+#write permission 
 
-*r* 	**read permission**
+	    w 
 
-*w* 	**write permission**
+#execute permission 
 
-*x* 	**execute permission**
+	    x 
 
-*-=* 	**no permission**
+#no permission 
 
-*Chown user* 	**For changing the ownership of a file/directory**
+	     -=
 
-*Chown user:group filename* 	**change the user as well as group for a file or directory**
+#For changing the ownership of a file/directory 
+
+	       Chown user
+
+#change the user as well as group for a file or directory 
+
+	          Chown user:group filename 
 
 
 *###Environment Variables command###*
 
 
-'''**Command        -       Description**''' 
+#To display value of a variable 
 
+	      echo $VARIABLE 
 
+#Displays all environment variables 
 
+	      env 
 
-*echo $VARIABLE* 	**To display value of a variable**
+#Create a new variable 
 
-*env* 	**Displays all environment variables**
+	VARIABLE_NAME= variable_value 
 
-*VARIABLE_NAME= variable_value* 	**Create a new variable**
+#Remove a variable 
 
-*Unset* 	**Remove a variable**
+	   Unset
 
-*export Variable=value* 	**To set value of an environment variable**
+#To set value of an environment variable#export Variable=value 
 
+              export Variable=value
 
 *###User management commands of linux###*
+ 
 
+#To add a new user 
 
-'''**Command        -       Description**''' 
+	  sudo adduser username
 
+#To change the password of a user 
 
+	  sudo passwd -l 'username'
 
+#To remove a newly created user 
 
-*sudo adduser username* 	  **To add a new user**
+	 sudo userdel -r 'username'
 
-*sudo passwd -l 'username'*    	**To change the password of a user**
+#To add a user to a group 
 
-*sudo userdel -r 'username'* 	**To remove a newly created user**
+	 sudo usermod -a -G GROUPNAME USERNAME
 
-*sudo usermod -a -G GROUPNAME USERNAME* 	**To add a user to a group**
+#To remove a user from a group 
 
-*sudo deluser USER GROUPNAME* 	**To remove a user from a group**
+	 sudo deluser USER GROUPNAME 
 
-*finger* 	**Shows information of all the users logged in**
+#hows information of all the users logged in 
 
-*finger username* 	**Gives information of a particular user**
+	         finger 
+
+#Gives information of a particular user 
+
+	          finger username
 
 
 *###Networking command###*
 
 
-'''**Command        -       Description**''' 
+#login into a remote Linux machine using SSH 
 
+	      SSH username@ip-address or hostname 
 
+#To ping and Analyzing network and host connections 
 
+	            Ping hostname="" or ="" 
 
-*SSH username@ip-address or hostname* 	**login into a remote Linux machine using SSH**
+#Display files in the current directory of a remote compute 
 
-*Ping hostname="" or =""* 	**To ping and Analyzing network and host connections**
+	          dir
 
-*dir* 	**Display files in the current directory of a remote computer**
+#change directory to “dirname” on a remote computer 
 
-*cd "dirname"* 	**change directory to “dirname” on a remote computer**
+	        cd "dirname" 
 
-*put file* 	**upload ‘file’ from local to remote computer**
+#upload ‘file’ from local to remote computer 
 
-*get file* 	**Download ‘file’ from remote to local computer**
+	         put file 
 
-*quit* 	**Logout**
+#Download ‘file’ from remote to local computer 
+
+	      get file 
+
+#Logout 
+
+        quit 	
 
 
 *###Process command###*
 
 
-'''**Command        -       Description**''' 
+#To send a process to the background# 
 
+	         bg
 
+#To run a stopped process in the foreground# 
 
+	           fg
 
-*bg* 	**To send a process to the background**
+#Details on all Active Processes# 
 
-*fg* 	**To run a stopped process in the foreground**
+	           top 
 
-*top* 	**Details on all Active Processes**
+#Give the status of processes running for a user# 
 
-*ps* 	**Give the status of processes running for a user**
+                       ps 	
 
-*ps PID* 	**Gives the status of a particular process**
+#Gives the status of a particular process# 
 
-*pidof* 	**Gives the Process ID (PID) of a process**
+	         ps PID 
 
-*kill PID* 	**Kills a process**
+#Gives the Process ID (PID) of a process# 
 
-*nice* 	**Starts a process with a given priority**
+	         pidof
 
-*renice* 	**Changes priority of an already running process**
+#Kills a process# 
 
-*df* 	**Gives free hard disk space on your system**
+	kill PID 
 
-*free* 	**Gives free RAM on your system**
+#Starts a process with a given priority# 
+
+	             nice
+
+#Changes priority of an already running process# 
+
+	               renice
+
+#Gives free hard disk space on your system# 
+
+	              df 
+
+#Gives free RAM on your system# 
+
+	         free
 
 
 *###VI Editing Commands###*
 
 
-'''**Command        -       Description**''' 
+#Insert at cursor (goes into insert mode) 
 
+	       i
 
+#Write after cursor (goes into insert mode) 
 
+	       a 
 
-*i* 	**Insert at cursor (goes into insert mode)**
+#Write at the end of line (goes into insert mode) 
 
-*a* 	**Write after cursor (goes into insert mode)**
+	       A 
 
-*A* 	**Write at the end of line (goes into insert mode)**
+#Terminate insert mode 
 
-*ESC* 	**Terminate insert mode**
+	     ESC 
 
-*u* 	**Undo last change**
+#Undo last change 
 
-*U* 	**Undo all changes to the entire line**
+	     u
 
-*o* 	**Open a new line (goes into insert mode)**
+#Undo all changes to the entire line 
 
-*dd* 	**Delete line**
+	         U
 
-*3dd* 	**Delete 3 lines**
+#Open a new line (goes into insert mode) 
 
-*D* 	**Delete contents of line after the cursor**
+	         o
+ 
+#Delete line 
 
-*C* 	**Delete contents of a line after the cursor and insert new text. Press ESC key to end insertion.**
+	 dd 
 
-*dw* 	**Delete word**
+#Delete 3 lines 
 
-*4dw* 	**Delete 4 words**
+	   3dd 
 
-*cw* 	**Change word**
+#Delete contents of line after the cursor 
 
-*x* 	**Delete character at the cursor**
+	            D 
 
-*r* 	**Replace character**
+#Delete contents of a line after the cursor and insert new text. Press ESC key to end insertion. 
 
-*R* 	**Overwrite characters from cursor onward**
+	           C 
 
-*s* 	**Substitute one character under cursor continue to insert**
+#Delete word 
 
-*S* 	**Substitute entire line and begin to insert at the beginning of the line**
+	    dw 
 
-*~* 	**Change case of individual character**
+#Delete 4 words 
+
+	  4dw 
+
+#Change word 
+
+	 cw 
+
+ #Delete character at the cursor 
+ 
+	      x
+
+#Replace character 
+
+	      r 
+
+#Overwrite characters from cursor onward 
+
+	          R 
+
+#Substitute one character under cursor continue to insert 
+
+	          s 
+
+#Substitute entire line and begin to insert at the beginning of the line 
+
+	          S 
+
+#Change case of individual character 
+ 
+                    ~ 
 
 
 **Hope this Linux reference guide helps you**	
