@@ -220,6 +220,9 @@ Linux/Unix:
 
 	#View file type
 		file <filename>
-    
+
 	#Details on all Active Processes
 		top
+   
+  #Determine system boot-up performance statistics
+    systemd-analyze
