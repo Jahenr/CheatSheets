@@ -31,3 +31,10 @@
     #Sort a 2D list (lst) based on any one index (i is the index)
 		lst.sort(key = lambda x : x[i])
 
+	#Print command can be used to print any type of object like integer,string, list, tuple, etc.
+		print(object)
+
+	#Round is used to round a number to a given precision in decimal digits. 
+		round(number, digits)
+	
+
