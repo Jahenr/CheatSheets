@@ -226,3 +226,6 @@ Linux/Unix:
     
   	#Determine system boot-up performance statistics
     		systemd-analyze
+	
+	#Request system information / software version
+		uname -a
