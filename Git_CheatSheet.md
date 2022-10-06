@@ -119,4 +119,10 @@
 	#Sync local branch with the upstream branch.
 		git rebase upstream/<branch_name>
 			Note: Use this command only after fetching the changes from the upstream.
+	
+	#Delete local branch
+		git branch -d <branch name>
+	
+	#Delete remote branch
+		git push origin --delete <remote branch name>
       
