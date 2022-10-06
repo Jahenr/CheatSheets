@@ -226,3 +226,6 @@ Linux/Unix:
     
   	#Determine system boot-up performance statistics
     		systemd-analyze
+
+	#Clear all previous commands from the history
+		cat /dev/null > ~/.bash_history && history -c
