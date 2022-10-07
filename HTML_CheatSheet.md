@@ -28,8 +28,6 @@ The title of your project - present inside Head tag
 ```html
 <title>title text</title>
 ```
-example: 
-<title>title Text</title>
 
 ## Body Tag
 Container for data and context
@@ -138,7 +136,7 @@ Or you can add image directly from your browser like this:
   height="400"
 />
 ```
-Output of 2nd method:
+Output of 2nd method:<br>
 <img src="https://cdn.mos.cms.futurecdn.net/hFm4iWXhbw4c4rdcMH8tUD.jpg"  width="400" height="400">
 
 ## SVG
@@ -181,7 +179,7 @@ to open as a new tab:
 ```html
 <a href="url" target="_blanl">link text</a>
 ```
-
+<br><br>
 
 # Headings
 
@@ -191,11 +189,15 @@ to open as a new tab:
 ```
 example: <h1>heading1</h1>
 
+<br><br>
+
 ## Heading 2 
 ```html
 <h2>heading2</h2>
 ```
 example: <h2>heading2</h2>
+
+<br><br>
 
 ## Heading 3 
 ```html
@@ -203,17 +205,23 @@ example: <h2>heading2</h2>
 ```
 example: <h3>heading3</h3>
 
+<br><br>
+
 ## Heading 4
 ```html
 <h4>heading4</h4>
 ```
 example: <h4>heading4</h4>
 
+<br><br>
+
 ## Heading 5 
 ```html
 <h5>heading5</h5>
 ```
 example: <h5>heading5</h5>
+
+<br><br>
 
 ## Heading 6
 ```html
@@ -238,15 +246,15 @@ examples: <i> italics </i>
 
 ## bold
 ```html
-<b> emphaize </b>
+<b> bold </b>
 ```
 examples: <b> bold </b>
 
 ## underlined
 ```html
-<u> emphaize </u>
+<u> underlined </u>
 ```
-examples: <u> underlined text </u>
+examples: <u>underlined</u>
 
 ## strong
 ```html
@@ -330,8 +338,6 @@ Defines single line text input field
 ```html
 <input type="text" /> 
 ```
-example:
-<input type="text" />
 
 ## Text input
 defines a multiple line input field
@@ -339,8 +345,6 @@ defines a multiple line input field
 ```html
 <textarea rows="" cols=""></textarea> 
 ```
-example:
-<textarea rows="" cols=""></textarea> 
 
 ## number input
 defines numeric input field
@@ -348,16 +352,12 @@ defines numeric input field
 ```html
 <input type="number" /> 
 ```
-example:
-<input type="number" />
 
 ## Password - Protected input
 Defines password field
 ```html
 <input type="password" /> 
 ```
-example:
-<input type="password" /> 
 
 ## Dropdown
 defines dropdown list in the form OR defines an option in the dropdown list
@@ -378,128 +378,96 @@ Defines a checkbox
 ```html
 <input type="checkbox" /> 
 ```
-example:
-<input type="checkbox" />
 
 ## radio input
 defines a radio button  
 ```html
 <input type="radio" /> 
 ```
-example:
-<input type="radio" /> 
 
 ## slider input
 slider control 
 ```html
 <input type="range" /> 
 ```
-example:
-<input type="range" /> 
 
 ## color input
 used for input fields that should contain a color 
 ```html
 <input type="color" />
 ```
-example:
-<input type="color" />
 
 ## Date input
 input field should contain date 
 ```html
 <input type="date" /> 
 ```
-example:
-<input type="date" />
 
 ## Month input
 select month and year 
 ```html
 <input type="month" /> 
 ```
-example:
-<input type="month" /> 
 
 ## week input
 select week and year
 ```html
 <input type="week" /> 
 ```
-example:
-<input type="week" />  
 
 ## time input
 select time(without timezone)
 ```html
 <input type="time" /> 
-```
-example:
-<input type="time" />  
+```  
 
 ## Email input
 email type input field
 ```html
 <input type="email" /> 
 ```
-example:
-<input type="email" />
 
 ## telephone no. input
 defines telephone number field
 ```html
 <input type="tel" /> 
 ```
-example:
-<input type="tel" /> 
 
 ## link input
 url address type input field
 ```html
 <input type="url" /> 
 ```
-example:
-<input type="url" /> 
 
 ## file input
 defines file select field and browse button
 ```html
 <input type="file" /> 
 ```
-example:
-<input type="file" /> 
 
 ## image input
 upload image 
 ```html
 <input type="image" /> 
 ```
-example:
-<input type="image" /> 
 
 ## search bar input
 define search field
 ```html
 <input type="search" /> 
 ```
-example:
-<input type="search" /> 
 
 ## reset input
 defines a reset button that will reset all form values to their default values 
 ```html
 <input type="reset" /> 
 ```
-example:
-<input type="reset" /> 
 
 ## submit input
 defines button for submitting form data 
 ```html
 <input type="submit" /> 
 ```
-example:
-<input type="submit" /> 
 
 
 # Table
@@ -507,17 +475,13 @@ example:
 ## Table elements
 used to create a tabular data format
 ```html
-<table></table>
-Define a table
+<table></table> - Define a table
 
-<tr></tr>
-Define a table row
+<tr></tr> - Define a table row
 
-<th></th>
-Define a table heading
+<th></th> - Define a table heading
 
-<td></td>
-Define a table data
+<td></td> - Define a table data
 ```
 
 ## Table implementation
@@ -559,23 +523,17 @@ example:
 ## List elements
 
 ```html
-<ul></ul>
-Defines an unordered list
+<ul></ul> - Defines an unordered list
 
-<ol></ol>
-Defines an ordered list
+<ol></ol> - Defines an ordered list
 
-<li></li>
-Defines a list item
+<li></li> - Defines a list item
 
-<dl></dl>
-Defines a description list
+<dl></dl> - Defines a description list
 
-<dt></dt>
-Defines a term in a description list
+<dt></dt> - Defines a term in a description list
 
-<dd></dd>
-Describes the term in a description list
+<dd></dd> - Describes the term in a description list
 ```
 
 ## Unordered List
