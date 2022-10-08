@@ -36,17 +36,17 @@
 		git branch
 		
 	#Create a new branch.
-		git branch <branch-name>
+		git branch <branch_name>
 
 	#Creates branch and changes to it.
-		git switch -c <branch-name>
+		git switch -c <branch_name>
 		or
-		git checkout -b <branch-name>
+		git checkout -b <branch_name>
 
 	#Change to specified branch.
-		git switch <branch-name>
+		git switch <branch_name>
 		or
-		git checkout <branch-name>
+		git checkout <branch_name>
 
 	#Change to last branch used.
 		git switch -
@@ -58,7 +58,7 @@
 		git push
 	
 	#Push changes a specified branch.
-		git push <branch-name>
+		git push <branch_name>
 			Tip: You can add a '+' before the branch name to force push the changes.
 
 	#Pull changes from default remote repo and merges them into local.
@@ -68,7 +68,7 @@
 		git fetch
 		
 	#Clone or download a repo that already exists on github, including all of the files, branches and commits
-		git clone <repo-url>
+		git clone <github_repo_url>
 
 	#Roll back and reset the last staged commit.
 		git reset HEAD~1
@@ -106,7 +106,7 @@
                         git cherry-pick commitSHA
   
 	#Command to merge a specific branch into the current branch
-		git merge <branch-name>
+		git merge <branch_name>
 
 	#To resolve merge conflict manually open the merge tool
 		git mergetool
@@ -139,5 +139,5 @@
 			Note: Use this command only after fetching the changes from the upstream.
 	
 	#Command to delete specified branch
-		git branch -d <branch-name>
+		git branch -d <branch_name>
       
