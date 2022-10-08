@@ -226,3 +226,6 @@ Linux/Unix:
     
   	#Determine system boot-up performance statistics
     		systemd-analyze
+
+  	#find the files by name
+		locate <filename>
