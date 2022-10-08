@@ -58,27 +58,27 @@
 		exit
 
 	#Turn word-wrap on/off
-        :set wrap
-        :set nowrap	
+        	:set wrap
+        	:set nowrap	
 
-    #Turn line numbers on/off
-        :set number
-        :set nonumber
+	#Turn line numbers on/off
+        	:set number
+        	:set nonumber
 
-    #Open multiple files in new tabs (from bash prompt)
-        vim -p <file1> <file2> ...
+	#Open multiple files in new tabs (from bash prompt)
+        	vim -p <file1> <file2> ...
 
-    #Quick switch to next tab
-        gt
+	#Quick switch to next tab
+        	gt
 
-    #Quick switch to previous tab
-        gT
+	#Quick switch to previous tab
+        	gT
 
-    #Save tab session to file
-        :mksession <session_filename.vim>
+	#Save tab session to file
+        	:mksession <session_filename.vim>
 
-    #Load saved tab session (from bash prompt)
-        vim -S <session_filename.vim>
+	#Load saved tab session (from bash prompt)
+        	vim -S <session_filename.vim>
 
 	#Search and replace all patterns found in file
 		:%s/<pattern match>/<replace with>/g
