@@ -9,6 +9,9 @@ Linux/Unix:
 	
 	#Change Directory
 	    cd <pathname>
+	    
+	#Print ASCII character strings in large letters
+		banner <text>
 
 	#List running processes
 		ps
