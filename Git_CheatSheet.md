@@ -1,8 +1,17 @@
-         #creates a new local repo.
-	       git init
+	#Install Github for Windows
+		https://windows.github.com
+		
+	#Install Github for Mac
+		https://mac.github.com
+	
+	#Install Github for all platforms
+		https://git-scm.com
+	
+	#Creates a new local repo.
+	       	git init
 	       
-	 #shows changes not yet staged 
-	       git diff
+	#Shows changes not yet staged 
+	       	git diff
 
 	#Show what files are changed, staged etc
 		git status
@@ -27,17 +36,17 @@
 		git branch
 		
 	#Create a new branch.
-		git branch <branch name>
+		git branch <branch-name>
 
 	#Creates branch and changes to it.
-		git switch -c <branch name>
+		git switch -c <branch-name>
 		or
-		git checkout -b <branch name>
+		git checkout -b <branch-name>
 
 	#Change to specified branch.
-		git switch <branch name>
+		git switch <branch-name>
 		or
-		git checkout <branch name>
+		git checkout <branch-name>
 
 	#Change to last branch used.
 		git switch -
@@ -49,14 +58,17 @@
 		git push
 	
 	#Push changes a specified branch.
-		git push <branch_name>
+		git push <branch-name>
 			Tip: You can add a '+' before the branch name to force push the changes.
 
 	#Pull changes from default remote repo and merges them into local.
 		git pull
 
-	#Pull changes from default remote repo but do not merg into local.
+	#Pull changes from default remote repo but do not merge into local.
 		git fetch
+		
+	#Clone or download a repo that already exists on github, including all of the files, branches and commits
+		git clone <repo-url>
 
 	#Roll back and reset the last staged commit.
 		git reset HEAD~1
@@ -94,7 +106,7 @@
                         git cherry-pick commitSHA
   
 	#Command to merge a specific branch into the current branch
-		git merge <branch name>
+		git merge <branch-name>
 
 	#To resolve merge conflict manually open the merge tool
 		git mergetool
@@ -104,6 +116,12 @@
 
 	#Command to configure your username
 		git config --global user.name "your name"
+		
+	#Command to configure your email-id
+		git config --global user.email "your email address"
+
+	#Command to enable helpful colorization of command line output
+		git config --global color.ui auto
 
 	#To see all configurations
 		git config --list
@@ -119,4 +137,7 @@
 	#Sync local branch with the upstream branch.
 		git rebase upstream/<branch_name>
 			Note: Use this command only after fetching the changes from the upstream.
+	
+	#Command to delete specified branch
+		git branch -d <branch-name>
       
