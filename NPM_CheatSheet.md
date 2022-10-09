@@ -1,33 +1,33 @@
 NPM / Node Package Manager
 
 
-# Install all packages defined in package.json
-        npm install 
+        # Install all packages defined in package.json
+                npm install 
 
-# Install a particular package for the given project
-        npm install package_name
+        # Install a particular package for the given project
+                npm install package_name
 
-# Install a particular package for all projects, in other words install package with global scope
-        npm install package_name -g
+        # Install a particular package for all projects, in other words install package with global scope
+                npm install package_name -g
 
-# To Lists the installed versions of all dependencies in this software
-        npm list
+        # To Lists the installed versions of all dependencies in this software
+                npm list
 
-# Remove packages globally
-        npm uninstall -g package-name        
+        # Remove packages globally
+                npm uninstall -g package-name        
 
-# Show global packages    
-        npm list -g
+        # Show global packages    
+                npm list -g
 
-# List all npm configuration flags
-        npm config ls -l
+        # List all npm configuration flags
+                npm config ls -l
 
-# Update the global npm version.
-        npm update npm -g
+        # Update the global npm version.
+                npm update npm -g
 
-# Locally edit a dependency
-        npm edit <module_name>
+        # Locally edit a dependency
+                npm edit <module_name>
 
-# Test & Show the full dependency tree 
-        npm install --dry-run
+        # Test & Show the full dependency tree 
+                npm install --dry-run
 
