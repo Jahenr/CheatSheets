@@ -235,3 +235,6 @@ Linux/Unix:
 
   	#find the files by name
 		locate <filename>
+
+	#Replace old text with new text
+		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
