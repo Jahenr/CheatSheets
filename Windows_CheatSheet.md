@@ -30,6 +30,12 @@ WINDOWS:
 
 	#Run the Python program stored in the 'program.py' file
 		python program.py
+		
+	#Compile a Java program
+		javac program.java
+
+	#Run the Java program stored in the 'program.java' file
+		java program
 
 	#Rename a file or folder
 		rename originalfilename newfilename
@@ -39,18 +45,20 @@ WINDOWS:
 	#Move a file from one location to another
 		move ..\folder1\filename.txt ..\folder2\     
 		
-		(..\folder1\filename.txt -> the path of the file to move)
+		(..\folder1\filename.txt -> the path of the file)
 		(..\folder2\ -> the path of the folder to move to)
 		
 	
 	#Copy a file from one location to another
 		copy ..\folder1\filename.txt ..\folder2\
 		
-		(..\folder1\filename.txt -> the path of the file to copy)
+		(..\folder1\filename.txt -> the path of the file)
 		(..\folder2\ -> the path of the folder to copy to)
 		
 	#Delete a file
 		del filename
+			OR
+		erase filename
 	
 	#Clear command prompt window
 		cls
