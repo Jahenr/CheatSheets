@@ -11,6 +11,8 @@
                         
                 #Show total indices
                         curl -XGET https://localhost:9200/_cat/indices?pretty -u <username:password> --insecure
+                        or
+                        curl -v "localhost:9200/_cat/indices"
                 
                 #Show shards
                         curl -XGET https://localhost:9200/_cat/shards?pretty -u <username:password> --insecure
@@ -20,12 +22,7 @@
                 
                 #Check who is master
                         curl -XGET http://localhost:9200/_cat/master?v
-                
-                #List all indices
-                        curl -X GET ‘http://localhost:9200/_cat/indices?v
-                        or
-                        curl -v "localhost:9200/_cat/indices"
-                
+    
                 #Delete an index
                         curl -X DELETE 'http://localhost:9200/examples'
                 
