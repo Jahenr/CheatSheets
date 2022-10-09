@@ -10,6 +10,10 @@
 	#Add files that are new, updated etc
 		git add <filenames>
 			Tip: git add . adds all files in the current directory.
+	
+	#Add patches of a file
+		git add <filename> -p  #this command adds a specific file
+		git add . -p  #this command adds patches from all files within directory
 
 	#Commits files added with a message ready to be pushed.
 		git commit -m "add message here"
