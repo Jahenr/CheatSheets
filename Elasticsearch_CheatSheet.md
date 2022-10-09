@@ -35,10 +35,10 @@
                 #Backup an index
                         curl -XPOST --header 'Content-Type: application/json' http://localhost:9200/_reindex -d '{
                                       "source": {
-                                      "index1": "someexamples"
+                                      "index1": <"mainindex">
                                       },
                                       "dest": {
-                                      "index2": "someexamples_copy"
+                                      "index2": <"mainindex_copy">
                                       }
                                       }'
                 
