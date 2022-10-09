@@ -221,7 +221,7 @@ Linux/Unix:
 	#Show detailed domain information
 		dig <host>
 	
-	#View sttrings in a file
+	#View strings in a file
 		strings <filename>
 
 	#View file type
