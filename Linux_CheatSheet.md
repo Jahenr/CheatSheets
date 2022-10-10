@@ -6,6 +6,9 @@ Linux/Unix:
 				-l = List
 				-h = Human readable file/directory size
 				-a = Show hidden files/directories
+
+	#Colorize the output of the ls command 
+		ls --color=auto
 	
 	#Change Directory
 	    cd <pathname>
@@ -235,3 +238,21 @@ Linux/Unix:
 
   	#find the files by name
 		locate <filename>
+
+	#Delete a regular file
+		rm <filename>
+	
+	#Delete an empty directory
+		rm -r <directory>/
+
+	#Delete a directory with content inside
+		rm -rf <directory>/
+
+	#Get the active username
+		whoami
+
+	#Find the difference between two files
+		diff <file 1> <file 2>
+
+	#Clear the terminal display
+		clear
