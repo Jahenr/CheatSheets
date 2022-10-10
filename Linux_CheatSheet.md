@@ -27,6 +27,15 @@ Linux/Unix:
 	
 	#View full contents of file in terminal
 		cat <filename>
+	
+	#Overwriting a file
+		cat > <filename>
+
+	#Appending text to a file from the terminal
+		cat >> <file name>
+
+			#Option include
+				>> = Redirection operator
 		
 	#Copy a file
 		cp <original filename> <copy filename>
@@ -112,6 +121,9 @@ Linux/Unix:
 
 	#Create a file
 		touch <filename>
+
+	#Create multiple files
+		touch <filename1> <filename2> <filename3>
 
 	#Print the first 10 lines of a file to standard output
 		head <filename>
@@ -235,3 +247,60 @@ Linux/Unix:
 
   	#find the files by name
 		locate <filename>
+
+	#Look for the path of the file
+		find <filename>
+
+			#Option include
+				f = file
+				. = current directory
+
+			#Query optimisation
+				-type = type of file
+				-name = matching with a filename	
+
+	#Look for a file with a giving name using query optimisation
+		find . -type f -name <filename>
+
+	#Remove Directory if it is empty
+		rmdir <directory name>
+
+	#Remove Directory
+		rm <option> <directory name>
+
+			#Options include
+				-r = recursive/content	
+
+	#Check OS Details
+		uname <option>
+
+			#Options include
+				-a = Information about the Operating System, Kernel version and hardware
+				-s = Kernel name
+
+	#Get information from a command and it's options
+		help <command>
+
+	#Display free disc space
+		df <option>
+
+			#Option include
+				-h = Disc space in human readable format
+
+	#Number of lines in a file
+		nl <filename>
+
+	#Content in alphabetical order
+		sort <filename>
+
+			#Option include
+				-o = Write the output to a new file
+				-r = Reverse Order
+
+	#Content in a reverse order from a file
+		sort -r <filename>
+
+	#Write the output to a new file
+		sort -o <current filename> <new filename>
+	
+	#
