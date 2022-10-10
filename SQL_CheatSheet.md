@@ -100,18 +100,4 @@ MariaDB:
 		
 	#Deletes multiple views.
 		DROP VIEW VIEW1,VIEW2…;
-		
-	
-		
-		
-		
-		
-	
-		
-		
-
-	  
-
-	
-    
     
