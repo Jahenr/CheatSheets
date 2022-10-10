@@ -10,6 +10,9 @@ NPM / Node Package Manager
         # Install a particular package for all projects, in other words install package with global scope
                 npm install package_name -g
 
+        # Install a package as a development dependency
+                npm install package_name --save-dev
+
         # To Lists the installed versions of all dependencies in this software
                 npm list
 
