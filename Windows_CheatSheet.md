@@ -24,5 +24,7 @@ WINDOWS:
 	#List all content in current directory
 		ls
 
+	#Deletes a folder
+		rmdir folderName
 
 
