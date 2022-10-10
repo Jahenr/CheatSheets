@@ -235,3 +235,14 @@ Linux/Unix:
 
   	#find the files by name
 		locate <filename>
+
+    #TCPdump filter HTTP Request (GET)
+        sudo tcpdump -s 0 -A 'tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420'
+
+    #TCPdump filter for HTTP Request(POST)
+        sudo tcpdump -s 0 -A 'tcp dst port 80 and (tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x504f5354)'
+
+    #TCPdump filter for HTTP traffic including request and response header and message body
+        tcpdump -A -s 0 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)'
+        tcpdump -X -s 0 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)'
+        
