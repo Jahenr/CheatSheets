@@ -1,7 +1,7 @@
-         #creates a new local repo.
+        #creates a new local repo.
 	       git init
 	       
-	 #shows changes not yet staged 
+	#shows changes not yet staged 
 	       git diff
 
 	#Show what files are changed, staged etc
@@ -26,9 +26,15 @@
 	#List branches.
 		git branch
 		
+	#List git branch with last commit info.
+		git branch -v
+		
+	#List git branch with last commit and remote branch info.
+		git branch -vv
+		
 	#Create a new branch.
 		git branch <branch name>
-
+		
 	#Creates branch and changes to it.
 		git switch -c <branch name>
 		or
@@ -125,4 +131,10 @@
 	
 	#Delete remote branch
 		git push origin --delete <remote branch name>
-      
+
+	#Reapply previously stashed changes and keep the stash
+		git stash apply
+	#Dropping changes in the stash
+		git stash drop
+	#Stashing everything (including ignored files)
+		git stash --all
