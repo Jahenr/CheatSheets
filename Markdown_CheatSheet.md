@@ -147,7 +147,7 @@ Content Cell  | Content Cell | Content Cell
 ## Triple Inverted Commas
 
 ```javascript
-code
+```code```
 ```
 
 ```javascript
@@ -175,23 +175,13 @@ code
     * Nested bullet
         * Sub-nested bullet etc
     * Bullet list item 2
-OR
-- Bullet list
-    - Nested bullet
-        - Sub-nested bullet etc
-    - Bullet list item 2
-``` 
+```
 
 Output:
 * Bullet list
     * Nested bullet
         * Sub-nested bullet etc
 * Bullet list item 2
-<br>
-- Bullet list
-    - Nested bullet
-        - Sub-nested bullet etc
-    - Bullet list item 2 
 
 
 ## Ordered List
@@ -234,6 +224,7 @@ Output:
 ```
 > Blockquote
 ```
+Example:
 > Blockquote
 <br><br>
 
@@ -243,6 +234,10 @@ Output:
     > Blockquote
     >> Nested Blockquote
 ```
+Example:
+>> Nested blockquote
+    > Blockquote
+    >> Nested Blockquote
 
 ## Horizontal Ray
 ```
@@ -250,18 +245,19 @@ _Horizontal line :_
 ```
 _Horizontal line :_
 
+OR
+
 ```
 - - - -
 ```
-
 - - - -
 
 # Images
 
+```
 _Image with alt :_
-
     ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
-
+```
 Example:
 ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
@@ -270,10 +266,12 @@ Example:
 Link to a specific part of the page:
    
     [text goes here](#section_name)
-         section_title<a name="section_name"></a>   
-
-[Go To TOP](#TOP) 
-
+         section_title<a name="section_name"></a>  
+Example:      
+```
+[Return to TOP](#TOP) 
+```
+[Return to TOP](#TOP)
 
 # Hotkey:
 
