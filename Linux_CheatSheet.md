@@ -238,6 +238,9 @@ Linux/Unix:
 
   	#find the files by name
 		locate <filename>
+    
+    #List Block Devices mounted on the system
+		lsblk
 
 	#Delete a regular file
 		rm <filename>
