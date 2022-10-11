@@ -63,7 +63,10 @@
 
 	#Pull changes from default remote repo but do not merg into local.
 		git fetch
-
+	#Remove Files from Working Directory
+		git rm
+		Tip: use rm -rf to remove all files forcefully
+		
 	#Roll back and reset the last staged commit.
 		git reset HEAD~1
 			Tip: The number specifies how much commits to reset by, git reset HEAD~2 rolls back 2 commits etc.
