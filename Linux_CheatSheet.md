@@ -229,9 +229,12 @@ Linux/Unix:
 
 	#Details on all Active Processes
 		top
-    
+		
   	#Determine system boot-up performance statistics
-    		systemd-analyze
+	   systemd-analyze
 
   	#find the files by name
 		locate <filename>
+		
+  	#List Block Devices mounted on the system
+		lsblk
