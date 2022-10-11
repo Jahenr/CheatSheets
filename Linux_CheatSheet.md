@@ -238,3 +238,7 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
+		
+	#Command line calculator
+		bc
+	
