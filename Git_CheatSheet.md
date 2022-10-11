@@ -50,9 +50,18 @@
 
 	#Show tracked repos.
 		git remote -v	
+		
+	#Add new origin
+		git remote add origin git@github.com:User/UserRepo.git
+		
+	#Change url of existing repo
+		git remote set-url origin git@github.com:User/UserRepo.git
 
 	#Push changes to the default remote repo.
 		git push
+		
+	#Push local branch code to the remote master branch of the repository
+		git push -u origin master
 	
 	#Push changes a specified branch.
 		git push <branch_name>
