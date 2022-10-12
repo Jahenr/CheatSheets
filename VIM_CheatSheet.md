@@ -5,12 +5,42 @@
 	
 	#Insert after cursor
         	a
+		
+	#Insert at the beginning of the line
+		I
+	
+	#Insert at the end of the line
+        	A
 	
 	#Create blank line below & insert
         	o
+	
+	#Create blank line above & insert
+        	O
 
 	#Normal mode
 		esc key
+	
+	#Down
+		j
+	
+	#Up
+		k
+	
+	#Left
+		h
+	
+	#Right
+		l
+	
+	#Hop forward by a word
+		w
+	
+	#Hop backward by a word
+		b
+	
+	#Move to end of current word
+		e
 
 	#Write changes
 		:w
@@ -32,6 +62,15 @@
 
 	#Cut current line
 		dd
+	
+	#Cut current word
+		diw
+	
+	#Cut current character
+		x
+	
+	#Cut current character and insert (Substitute)
+		s
 
 	#Copy(Yank) selected text
 		y
@@ -50,6 +89,18 @@
 
 	#Redo vim action
 		ctrl + r
+	
+	#Page up
+		ctrl + u
+	
+	#Page down
+		ctrl + d
+	
+	#Jump to beginning of file
+		gg
+	
+	#Jump to bottom of file
+		G
 
 	#Open a bash session from Vim
 		:! bash
