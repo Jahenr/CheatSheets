@@ -9,9 +9,15 @@ Linux/Unix:
 	
 	#Change Directory
 	    cd <pathname>
+	    
+	#Print ASCII character strings in large letters
+		banner <text>
 
 	#List running processes
 		ps
+
+	#Create a new directory
+		mkdir <directory name to be created>
 	
 	#Print the working directory
 		pwd
@@ -223,9 +229,16 @@ Linux/Unix:
 
 	#Details on all Active Processes
 		top
-    
-  	#Determine system boot-up performance statistics
-    		systemd-analyze
+		
+  #Determine system boot-up performance statistics
+    systemd-analyze
 
 	#Clear all previous commands from the history
 		cat /dev/null > ~/.bash_history && history -c
+
+  #find the files by name
+		locate <filename>
+		
+  #List Block Devices mounted on the system
+		lsblk
+
