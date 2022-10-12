@@ -18,7 +18,7 @@ VsCode:
     #Swap Current Line to the Line Below
         Alt + DOWN
 
-    #Cut Curren Line or Highlighted lines
+    #Cut Current Line or Highlighted lines
         Ctrl + X
 
     #Fold Block
