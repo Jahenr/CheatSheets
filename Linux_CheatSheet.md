@@ -9,6 +9,11 @@ Linux/Unix:
 	
 	#Change Directory
 	    cd <pathname>
+	        
+			#Options
+				cd .. = Moves to the previous parent directory
+				cd ~  = Moves to the home directory of current user
+				cd -  = Moves to the previous directory
 	    
 	#Print ASCII character strings in large letters
 		banner <text>
@@ -221,7 +226,7 @@ Linux/Unix:
 	#Show detailed domain information
 		dig <host>
 	
-	#View sttrings in a file
+	#View strings in a file
 		strings <filename>
 
 	#View file type
