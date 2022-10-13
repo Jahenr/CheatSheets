@@ -1,5 +1,9 @@
 NPM / Node Package Manager
 
+        # Initialize a node.js project
+                npm init
+                        # Options 
+                                -y = Skip all questions and use default values
 
         # Install all packages defined in package.json
                 npm install 
@@ -15,6 +19,9 @@ NPM / Node Package Manager
 
         # To Lists the installed versions of all dependencies in this software
                 npm list
+
+        # Remove a package from the project
+                npm uninstall package_name
 
         # Remove packages globally
                 npm uninstall -g package-name        
