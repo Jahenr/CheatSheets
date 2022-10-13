@@ -125,4 +125,10 @@
 	#Sync local branch with the upstream branch.
 		git rebase upstream/<branch_name>
 			Note: Use this command only after fetching the changes from the upstream.
+	#Reapply previously stashed changes and keep the stash
+		git stash apply
+	#Dropping changes in the stash
+		git stash drop
+	#Stashing everything (including ignored files)
+		git stash --all
       
