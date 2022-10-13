@@ -37,6 +37,11 @@ MariaDB:
         
 	#Enable foreign key checks
 	         SET FOREIGN_KEY_CHECKS=1
+		 
+	#Return the intersection of two queries
+	         SELECT c1,c2 FROM t1
+		 INTERSECT
+		 SELECT c1,c2 FROM t2;
 
 	  
 
