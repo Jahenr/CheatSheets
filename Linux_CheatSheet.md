@@ -238,3 +238,5 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
+	#Download files from the internet
+	        wget <option> <url>
