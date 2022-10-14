@@ -31,3 +31,161 @@ NPM / Node Package Manager
         # Test & Show the full dependency tree 
                 npm install --dry-run
 
+        # Set access level on published packages 
+                npm access
+
+        # Add a registry user account
+                npm adduser
+
+        # Run a security audit
+                npm audit
+
+        # Display npm bin folder
+                npm bin
+
+        # Bugs for a package in a web browser
+                npm bugs
+
+        # Manipulates packages cache
+                npm cache
+
+        # Install a project with a clean slate
+                npm ci
+
+        # Tab completion for npm
+                npm completion
+
+        # Reduce duplication
+                npm dedupe
+
+        # Deprecate a version of a package
+                npm deprecate
+
+        # The registry diff command
+                npm diff
+
+        # Docs for a package in a web browser maybe
+                npm docs
+
+        # Modify package distribution tags
+                npm dist-tag
+
+        # Check your environments
+                npm doctor
+
+        # Run a command from an npm package
+                npm exec
+
+        # Explain installed packages
+                npm explain
+
+        # Browse an installed package
+                npm explore
+
+        # Find duplication in the package tree
+                npm find-dupes
+
+        # Retrieve funding information
+                npm fund
+
+        # Search npm help documentation
+                npm help
+
+        # Get help on npm via search
+                npm help-search
+
+        # Manage registry hooks
+                npm hook
+
+        # Create a package.json file
+                npm init
+
+        # Symlink a package folder
+                npm link
+
+        # Log out of the registry
+                npm logout
+
+        # Manage orgs
+                npm org
+
+        # Check for outdated packages
+                npm outdated
+
+        # Manage package owners
+                npm owner
+
+        # Ping npm registry
+                npm ping
+
+        # Manage your package.json
+                npm pkg
+
+        # Change settings on your registry profile
+                npm profile
+
+        # Remove extraneous packages
+                npm prune
+
+        # Publish a package
+                npm publish
+
+        # Retrieve a filtered list of packages
+                npm query
+
+        # Rebuild a package
+                npm rebuild
+
+        # Open package repository page in the browser
+                npm repo
+
+        # Restart a package
+                npm restart
+
+        # Display npm root folder
+                npm root
+
+        # Run arbitrary package scripts
+                npm run-script
+
+        # Lock down dependency versions for publication
+                npm shrinkwrap
+
+        # Mark your favorite packages
+                npm star
+
+        # View packages marked as favorites
+                npm stars
+
+        # Start a package
+                npm start
+
+        # Stop a package
+                npm stop
+
+        # Manage organization teams and team memberships
+                npm team
+
+        # Test a package
+                npm test
+
+        # Manage your authentication tokens
+                npm token
+
+        # Remove a package from the registry
+                npm unpublish
+
+        # Remove an item from your favorite packages
+                npm unstar
+
+        # Update a package
+                npm update
+
+        # View registry info
+                npm view
+
+        # Display npm username
+                npm whoami
+
+        # Run a command from an npm package
+                npx
