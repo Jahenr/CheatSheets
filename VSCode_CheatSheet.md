@@ -71,6 +71,9 @@ VsCode:
 
     #Insert cursor to the Line Below
         Shift + Alt + DOWN
+        
+    #Add Cursor to Multiple Lines
+        Alt + Mouse Left Click
 
     #Hightlight Current Line
         Ctrl + I
@@ -98,4 +101,4 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
-
+       
