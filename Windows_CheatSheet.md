@@ -23,6 +23,9 @@ WINDOWS:
 
 	#List all content in current directory
 		ls
+	#Display the host name
+	        hostname
+	     
 
 
 
