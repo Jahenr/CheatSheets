@@ -98,4 +98,7 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+        
+    #Add multiple cursors
+        Ctrl + Alt + Up/Down
 
