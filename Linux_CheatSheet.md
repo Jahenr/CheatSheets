@@ -233,7 +233,7 @@ Linux/Unix:
 	#Show detailed domain information
 		dig <host>
 	
-	#View sttrings in a file
+	#View strings in a file
 		strings <filename>
 
 	#View file type
@@ -244,10 +244,19 @@ Linux/Unix:
 		
   	#Determine system boot-up performance statistics
 	   systemd-analyze
+     
+  	#Determine system boot-up performance statistics
+    		systemd-analyze
+
+	#Request system information / software version
+		uname -a
+    
+	#Clear all previous commands from the history
+		cat /dev/null > ~/.bash_history && history -c
 
   	#find the files by name
 		locate <filename>
-
+    
 	#Look for the path of the file
 		find <filename>
 
@@ -302,4 +311,10 @@ Linux/Unix:
 
 	#Write the output to a new file
 		sort -o <current filename> <new filename>
-	
+
+		
+  #List Block Devices mounted on the system
+		lsblk
+
+	#Replace old text with new text
+		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
