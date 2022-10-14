@@ -313,7 +313,7 @@ Linux/Unix:
 		sort -o <current filename> <new filename>
 
 		
-  #List Block Devices mounted on the system
+  	#List Block Devices mounted on the system
 		lsblk
 
 	#Replace old text with new text
