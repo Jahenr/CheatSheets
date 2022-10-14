@@ -34,6 +34,12 @@ WINDOWS:
 	#Compile a Java program
 		javac program.java
 
+	#List all content in current directory
+		ls
+
+	#Deletes a folder
+		rmdir folderName
+    
 	#Run the Java program stored in the 'program.java' file
 		java program
 
