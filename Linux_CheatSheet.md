@@ -231,10 +231,14 @@ Linux/Unix:
 		top
 		
   	#Determine system boot-up performance statistics
-	   systemd-analyze
+    		systemd-analyze
+
+	#Clear all previous commands from the history
+		cat /dev/null > ~/.bash_history && history -c
 
   	#find the files by name
 		locate <filename>
 		
   	#List Block Devices mounted on the system
 		lsblk
+
