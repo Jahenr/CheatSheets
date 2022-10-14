@@ -98,4 +98,8 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+        
+    #Go to Definition
+        F12
+        
 
