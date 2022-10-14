@@ -221,7 +221,7 @@ Linux/Unix:
 	#Show detailed domain information
 		dig <host>
 	
-	#View sttrings in a file
+	#View strings in a file
 		strings <filename>
 
 	#View file type
@@ -230,6 +230,9 @@ Linux/Unix:
 	#Details on all Active Processes
 		top
 		
+  	#Determine system boot-up performance statistics
+	   systemd-analyze
+     
   	#Determine system boot-up performance statistics
     		systemd-analyze
 
@@ -245,3 +248,5 @@ Linux/Unix:
   	#List Block Devices mounted on the system
 		lsblk
 
+	#Replace old text with new text
+		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
