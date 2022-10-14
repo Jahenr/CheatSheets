@@ -12,7 +12,13 @@ NPM / Node Package Manager
 
         # To Lists the installed versions of all dependencies in this software
                 npm list
+                
+        # To Update production packages
+                npm update
 
+        % To Lists the latest versions of all dependencies in this software
+                npm view
+                
         # Remove packages globally
                 npm uninstall -g package-name        
 
@@ -30,4 +36,4 @@ NPM / Node Package Manager
 
         # Test & Show the full dependency tree 
                 npm install --dry-run
-
+                
