@@ -81,6 +81,3 @@ WINDOWS:
 	#To exit the command prompt window
 		exit
 	
-	
-	
-	
