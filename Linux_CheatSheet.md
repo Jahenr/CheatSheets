@@ -238,3 +238,6 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
+		
+	#Find out how much space a directory or file takes
+		du <path of directory>
