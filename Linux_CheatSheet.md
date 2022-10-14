@@ -230,10 +230,10 @@ Linux/Unix:
 	#Details on all Active Processes
 		top
 		
-  #Determine system boot-up performance statistics
+  	#Determine system boot-up performance statistics
 	   systemd-analyze
      
-  #Determine system boot-up performance statistics
+  	#Determine system boot-up performance statistics
     		systemd-analyze
 
 	#Request system information / software version
@@ -242,10 +242,10 @@ Linux/Unix:
 	#Clear all previous commands from the history
 		cat /dev/null > ~/.bash_history && history -c
 
-  #find the files by name
+  	#find the files by name
 		locate <filename>
 		
-  #List Block Devices mounted on the system
+  	#List Block Devices mounted on the system
 		lsblk
 
 	#Replace old text with new text
