@@ -238,3 +238,6 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
+		
+	#Display a line of text on standard output
+		echo <string>
