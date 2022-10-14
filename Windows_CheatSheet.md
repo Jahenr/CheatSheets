@@ -23,6 +23,9 @@ WINDOWS:
 
 	#List all content in current directory
 		ls
+	#Displays the system time
+	        time
+	
 
 
 
