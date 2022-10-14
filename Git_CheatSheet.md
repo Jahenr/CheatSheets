@@ -151,7 +151,7 @@
 	#Delete remote branch
 		git push origin --delete <remote branch name>
 	
-  #Reapply previously stashed changes and keep the stash
+  	#Reapply previously stashed changes and keep the stash
 		git stash apply
     
 	#Dropping changes in the stash
