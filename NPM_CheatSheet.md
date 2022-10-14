@@ -30,4 +30,6 @@ NPM / Node Package Manager
 
         # Test & Show the full dependency tree 
                 npm install --dry-run
-
+        
+        # Manage package owners  
+                npm owner
