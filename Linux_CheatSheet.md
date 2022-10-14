@@ -238,3 +238,6 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
+		
+	#Create a new file
+		touch <file name>
