@@ -99,3 +99,5 @@ VsCode:
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
 
+    #Select Current Line
+        Ctrl + L
