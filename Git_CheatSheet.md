@@ -147,8 +147,11 @@
 
 	#Command to delete specified branch
 		git branch -d <branch_name>
-
-	#Reapply previously stashed changes and keep the stash
+	
+	#Delete remote branch
+		git push origin --delete <remote branch name>
+	
+  	#Reapply previously stashed changes and keep the stash
 		git stash apply
     
 	#Dropping changes in the stash
@@ -156,5 +159,3 @@
     
 	#Stashing everything (including ignored files)
 		git stash --all
-
-      
