@@ -98,4 +98,7 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+        
+    #Auto Fix...
+        Shift + Alt + .
 
