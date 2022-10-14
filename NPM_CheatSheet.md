@@ -30,4 +30,6 @@ NPM / Node Package Manager
 
         # Test & Show the full dependency tree 
                 npm install --dry-run
-
+        
+        # NPM Build Command: It is used to build a package
+                npm build
