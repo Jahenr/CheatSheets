@@ -238,3 +238,6 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
+		
+	#Print the system's hostname
+		hostname
