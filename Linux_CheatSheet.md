@@ -238,3 +238,6 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
+
+	#Displays the file content in reverse order
+		tac <file name>  
