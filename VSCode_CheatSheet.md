@@ -99,3 +99,5 @@ VsCode:
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
 
+    #Jump to matching bracket
+        Ctrl + SHIFT + \
