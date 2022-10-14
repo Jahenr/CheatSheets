@@ -25,10 +25,10 @@
 	#Redirect the modules and dependencies installed to requirements.txt.
 		pip3 freeze > requirements.txt
 
-    #Install modules whose names are listed in a file (requirements.txt)
+    	#Install modules whose names are listed in a file (requirements.txt)
 		pip3 install -r requirements.txt
         
-    #Sort a 2D list (lst) based on any one index (i is the index)
+    	#Sort a 2D list (lst) based on any one index (i is the index)
 		lst.sort(key = lambda x : x[i])
 
 	#Print command can be used to print any type of object like integer,string, list, tuple, etc.
