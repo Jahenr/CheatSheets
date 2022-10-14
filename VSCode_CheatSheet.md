@@ -98,4 +98,10 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+        
+    #To create a snippet in VSCode:
+
+    1.Open up VSCode, and press CMD + SHIFT + P to open the command palette. Windows: CTRL + SHIFT + P.
+    2.Find and select Preferences: Configure User Snippets. If it doesn’t show up right away, just start spelling the word “snippets” and it will              quickly     display it from the dropdown options    
+    
 
