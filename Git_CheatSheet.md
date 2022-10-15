@@ -20,6 +20,7 @@
 	#Add files that are new, updated etc
 		git add <filenames>
 			Tip: git add . adds all files in the current directory.
+			Tip: git add fil* adds all files starting with "fil" in the current directory.
 	
 	#Add patches of a file
 		git add <filename> -p  #this command adds a specific file
@@ -36,6 +37,7 @@
 
 	#Display record of commits made
 		git log
+			Tip: git log -p shows the commit's history including all files and their changes
 
 	#List branches.
 		git branch
