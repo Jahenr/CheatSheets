@@ -63,6 +63,7 @@
 
 	#Pull changes from default remote repo but do not merg into local.
 		git fetch
+		
 	#Remove Files from Working Directory
 		git rm
 		Tip: use rm -rf to remove all files forcefully
