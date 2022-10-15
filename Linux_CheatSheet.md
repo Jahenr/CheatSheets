@@ -12,6 +12,11 @@ Linux/Unix:
 	
 	#Change Directory
 	    cd <pathname>
+	        
+			#Options
+				cd .. = Moves to the previous parent directory
+				cd ~  = Moves to the home directory of current user
+				cd -  = Moves to the previous directory
 	    
 	#Home Directory 
 	     cd
