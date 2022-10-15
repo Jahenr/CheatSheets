@@ -38,7 +38,8 @@ MariaDB:
 	#Enable foreign key checks
 	         SET FOREIGN_KEY_CHECKS=1
 
-	  
+	#Drop a table
+		DROP TABLE [IF EXISTS] table_name;
 
 	
     
