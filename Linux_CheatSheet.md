@@ -13,6 +13,19 @@ Linux/Unix:
 	#Change Directory
 	    cd <pathname>
 	    
+	#Home Directory 
+	     cd
+	
+	#Moves to the Parent Directory of current Directory
+	      cd..
+	
+	#To find the content of the file
+		grep <"content to find"> <file name
+	    Ex: grep "Google" companies.txt
+	
+	#To see previously ran commands
+		history
+	
 	#Print ASCII character strings in large letters
 		banner <text>
 
