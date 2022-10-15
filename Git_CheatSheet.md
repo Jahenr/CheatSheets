@@ -80,6 +80,10 @@
 	#Pull changes from default remote repo but do not merge into local.
 		git fetch
 		
+	#Remove Files from Working Directory
+		git rm
+		Tip: use rm -rf to remove all files forcefully
+		
 	#Clone or download a repo that already exists on github, including all of the files, branches and commits
 		git clone <github_repo_url>
 
