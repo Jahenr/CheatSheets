@@ -357,7 +357,10 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
-		
+
+	#Displays screenful contents of a file at a time
+		more <file name> 
+
 	#Command line calculator
 		bc
 
