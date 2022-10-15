@@ -47,3 +47,5 @@ NPM / Node Package Manager
         # Test & Show the full dependency tree 
                 npm install --dry-run
                 
+        # Show npm version
+                npm --version
