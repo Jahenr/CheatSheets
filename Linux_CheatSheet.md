@@ -350,7 +350,7 @@ Linux/Unix:
 		sort -o <current filename> <new filename>
 
 		
-  #List Block Devices mounted on the system
+  	#List Block Devices mounted on the system
 		lsblk
 		
 	#Command line calculator
