@@ -355,7 +355,7 @@ Linux/Unix:
 		sort -o <current filename> <new filename>
 
 		
-  #List Block Devices mounted on the system
+  	#List Block Devices mounted on the system
 		lsblk
 
 	#Displays screenful contents of a file at a time
