@@ -1,8 +1,18 @@
-        #creates a new local repo.
-	       git init
+
+	#Install Github for Windows
+		https://windows.github.com
+		
+	#Install Github for Mac
+		https://mac.github.com
+	
+	#Install Github for all platforms
+		https://git-scm.com
+	
+	#Creates a new local repo.
+	       	git init
 	       
-	#shows changes not yet staged 
-	       git diff
+	#Shows changes not yet staged 
+	       	git diff
 
 	#Show what files are changed, staged etc
 		git status
@@ -10,6 +20,11 @@
 	#Add files that are new, updated etc
 		git add <filenames>
 			Tip: git add . adds all files in the current directory.
+			Tip: git add fil* adds all files starting with "fil" in the current directory.
+	
+	#Add patches of a file
+		git add <filename> -p  #this command adds a specific file
+		git add . -p  #this command adds patches from all files within directory
 
 	#Commits files added with a message ready to be pushed.
 		git commit -m "add message here"
@@ -22,6 +37,7 @@
 
 	#Display record of commits made
 		git log
+			Tip: git log -p shows the commit's history including all files and their changes
 
 	#List branches.
 		git branch
@@ -33,17 +49,17 @@
 		git branch -vv
 		
 	#Create a new branch.
-		git branch <branch name>
-		
+		git branch <branch_name>
+    
 	#Creates branch and changes to it.
-		git switch -c <branch name>
+		git switch -c <branch_name>
 		or
-		git checkout -b <branch name>
+		git checkout -b <branch_name>
 
 	#Change to specified branch.
-		git switch <branch name>
+		git switch <branch_name>
 		or
-		git checkout <branch name>
+		git checkout <branch_name>
 
 	#Change to last branch used.
 		git switch -
@@ -61,13 +77,16 @@
 	#Pull changes from default remote repo and merges them into local.
 		git pull
 
-	#Pull changes from default remote repo but do not merg into local.
+	#Pull changes from default remote repo but do not merge into local.
 		git fetch
 		
 	#Remove Files from Working Directory
 		git rm
 		Tip: use rm -rf to remove all files forcefully
 		
+	#Clone or download a repo that already exists on github, including all of the files, branches and commits
+		git clone <github_repo_url>
+
 	#Roll back and reset the last staged commit.
 		git reset HEAD~1
 			Tip: The number specifies how much commits to reset by, git reset HEAD~2 rolls back 2 commits etc.
@@ -104,7 +123,7 @@
                         git cherry-pick commitSHA
   
 	#Command to merge a specific branch into the current branch
-		git merge <branch name>
+		git merge <branch_name>
 
 	#To resolve merge conflict manually open the merge tool
 		git mergetool
@@ -114,6 +133,12 @@
 
 	#Command to configure your username
 		git config --global user.name "your name"
+		
+	#Command to configure your email-id
+		git config --global user.email "your email address"
+
+	#Command to enable helpful colorization of command line output
+		git config --global color.ui auto
 
 	#To see all configurations
 		git config --list
@@ -129,10 +154,18 @@
 	#Sync local branch with the upstream branch.
 		git rebase upstream/<branch_name>
 			Note: Use this command only after fetching the changes from the upstream.
-	#Reapply previously stashed changes and keep the stash
+
+	#Command to delete specified branch
+		git branch -d <branch_name>
+	
+	#Delete remote branch
+		git push origin --delete <remote branch name>
+	
+  	#Reapply previously stashed changes and keep the stash
 		git stash apply
+    
 	#Dropping changes in the stash
 		git stash drop
+    
 	#Stashing everything (including ignored files)
 		git stash --all
-      
