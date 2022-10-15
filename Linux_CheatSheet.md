@@ -352,6 +352,10 @@ Linux/Unix:
 		
   	#List Block Devices mounted on the system
 		lsblk
+		
+	#Command line calculator
+		bc
 
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
+
