@@ -98,4 +98,7 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+        
+    #To delete line
+        Ctrl + SHIFT + K
 
