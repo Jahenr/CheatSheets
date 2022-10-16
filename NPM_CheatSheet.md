@@ -49,3 +49,6 @@ NPM / Node Package Manager
                 
         # Show npm version
                 npm --version
+                
+        # Check for outdated packages
+                npm outdated     
