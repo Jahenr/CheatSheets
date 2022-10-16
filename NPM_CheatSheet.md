@@ -49,3 +49,6 @@ NPM / Node Package Manager
                 
         # Show npm version
                 npm --version
+                
+        # Scan and list all the vulnerabilities in the project
+                npm audit
