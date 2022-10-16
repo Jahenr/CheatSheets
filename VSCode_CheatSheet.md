@@ -98,4 +98,6 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
-
+ 
+    #Show Extensions
+        Ctrl + SHIFT + X
