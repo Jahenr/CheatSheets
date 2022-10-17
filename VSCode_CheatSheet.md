@@ -98,4 +98,10 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+        
+    #Open new terminal
+        Ctrl + `
+
+    #Auto Fix...
+        Shift + Alt + .
 
