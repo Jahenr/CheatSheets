@@ -46,7 +46,10 @@ NPM / Node Package Manager
 
         # Test & Show the full dependency tree 
                 npm install --dry-run
-                
+        
+        # Start a script defined in package.json file eg. npm run client, npm run server
+                npm run <script name>
+
         # Set access level on published packages 
                 npm access
 
@@ -208,4 +211,5 @@ NPM / Node Package Manager
                 
         # Show npm version
                 npm --version
+
 
