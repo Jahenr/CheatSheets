@@ -368,3 +368,6 @@ Linux/Unix:
 
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
+		
+	#Shows you the disk usage of the current directory you are in
+		du -h
