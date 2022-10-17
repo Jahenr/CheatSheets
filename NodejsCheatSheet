@@ -1,0 +1,90 @@
+/*                                                  Node Js cheatSheet
+
+{
+                 [Running Node.js]
+   node   -----> Run the node in your Terminal
+   node --version ----> Print your current Node Version
+   node filename.js   ------> Execute the Node code in filename.js
+}
+{
+                [Node.js Global Object]
+In Node, we have a global object that we can always access. Features that we expect
+to be available everywhere live in this global object.
+For example, to have some code execute after 5 seconds we can use either
+global.setTimeout or just setTimeout . The global keyword is optiona.
+
+setTimeout(() => {
+ console.log('hello World');
+},5000);
+
+Probably the most famous global is global.console.log which we write as just
+console.log.
+}
+
+{
+            [Node.js Module System]
+    {
+                 [The require Function]
+        We can re-use existing code by using the Node built-in require() function. This function
+        imports code from another module.
+
+        Example :-
+        const fs = require('fs');
+        fs.readFileSync('hello.txt');
+
+        or
+
+        const { readFileSync } = require('fs');
+        readFileSync('hello.txt');
+    }
+    {
+        1.Key built-in modules include:
+
+        fs - read and write files on your file system
+        path - combine paths regardless of which OS you're using
+        process - information about the currently running process, e.g. process.argv for
+        arguments passed in or process.env for environment variables
+        http - make requests and create HTTP servers
+        https - work with secure HTTP servers using SSL/TLS
+        events - work with the EventEmitter
+        crypto - cryptography tools like encryption and hashing
+    }
+}
+{
+                         [Node.js Packages]
+            Node developers often publicly share packages, that other developers can use to help
+            solve common problems. A package is a collection of Node modules along with a
+            package.json file describing the package.
+            To work with Node packages we use NPM. NPM includes two things:
+            1. The NPM registry with a massive collection of Node packages for us to use.
+            2. The NPM tool that you installed when you installed Node.
+     {
+                       [NPM Commands]
+        Command Comments
+npm start  ------------------->Execute the current Node package defined by package.json. Defaults to
+executing node server.js .
+
+npm init  -------------------> Initialize a fresh package.json file
+npm init -y  -------------------> Initialize a fresh package.json file, accepting all default options. Equivalent
+to npm init —yes
+
+npm install  -------------------> Equivalent to npm i
+npm instal <package name>   ------------------->Install a package from the NPM registry at www.npmjs.com Equivalent to
+npm i <package>
+
+npm install -D <package name>   -------------------> Install a package as a development dependency Equivalent to npm install
+—save-dev <package>
+
+npm install -g <package name>  -------------------> Install a package globally.
+npm update <package name>------------------->  Update an already installed package Equivalent to npm up <package>
+npm uninstall <package name> -------------------> Uninstall a package from your node_modules/ folder Equivalent to npm un
+<package>
+
+npm outdated------------------->  Check for outdated package dependencies
+npm audit------------------->  Check for security vulnerabilities in package dependencies
+npm audit fix------------------->  Try to fix any security vulnerabilities by automatically updating vulnerable
+packages.
+
+     }       
+}
+*/
