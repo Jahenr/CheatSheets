@@ -46,6 +46,7 @@ MariaDB:
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
 
-	
+	#Select the table
+		SELECT * FROM table1;
     
     
