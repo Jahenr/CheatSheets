@@ -99,6 +99,9 @@ VsCode:
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
         
+    #Go to Definition
+        F12
+        
     #Open new terminal
         Ctrl + `
 
@@ -107,3 +110,6 @@ VsCode:
 
     #Go to File...
         Ctrl+P
+        
+    #Select Current Line
+        Ctrl + L

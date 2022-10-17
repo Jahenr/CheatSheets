@@ -353,10 +353,12 @@ Linux/Unix:
 
 	#Write the output to a new file
 		sort -o <current filename> <new filename>
-
-		
+	
   	#List Block Devices mounted on the system
 		lsblk
+
+	#Displays the file content in reverse order
+		tac <file name>  
 
 	#Displays screenful contents of a file at a time
 		more <file name> 
@@ -366,4 +368,3 @@ Linux/Unix:
 
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
-
