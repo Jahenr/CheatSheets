@@ -32,4 +32,6 @@
 
 	#To delete document
 		db.collection_name.remove(deletion_field)
-    
+
+	#Finding a Single Record
+		db. collectionname.findOne({"field1": "content"})
