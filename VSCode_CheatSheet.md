@@ -99,3 +99,5 @@ VsCode:
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
 
+    #Show all Symbols
+        Ctrl+T 
