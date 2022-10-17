@@ -76,3 +76,6 @@ MYSQL
 
 	#Deletes multiple views.
 		DROP VIEW VIEW1,VIEW2…;
+		
+	#return the number of rows
+		SELECT COUNT(*) FROM TABLENAME
