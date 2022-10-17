@@ -102,3 +102,6 @@ VsCode:
     #Open new terminal
         Ctrl + `
 
+    #Auto Fix...
+        Shift + Alt + .
+
