@@ -354,7 +354,7 @@ Linux/Unix:
 	#Write the output to a new file
 		sort -o <current filename> <new filename>
 	
-  #List Block Devices mounted on the system
+  	#List Block Devices mounted on the system
 		lsblk
 
 	#Displays the file content in reverse order
