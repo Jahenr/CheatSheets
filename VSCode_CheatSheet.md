@@ -102,3 +102,14 @@ VsCode:
     #To delete line
         Ctrl + SHIFT + K
 
+    #Go to Definition
+        F12
+        
+    #Open new terminal
+        Ctrl + `
+
+    #Auto Fix...
+        Shift + Alt + .
+
+    #Select Current Line
+        Ctrl + L

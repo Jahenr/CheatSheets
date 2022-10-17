@@ -27,6 +27,9 @@
 
 	#Install modules whose names are listed in a file (requirements.txt)
 		pip3 install -r requirements.txt
+       
+	#Find out pip version
+		pip3 --version
 
 	#Sort a 2D list (lst) based on any one index (i is the index)
 		lst.sort(key = lambda x : x[i])
