@@ -108,3 +108,5 @@ VsCode:
     #Auto Fix...
         Shift + Alt + .
 
+    #Select Current Line
+        Ctrl + L
