@@ -98,6 +98,9 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+        
+    #Refactor...    
+        Ctrl + Shift + R
 
     #Debug: Stop
         shift + F5
