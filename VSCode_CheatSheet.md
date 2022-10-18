@@ -102,3 +102,14 @@ VsCode:
     #Add multiple cursors
         Ctrl + Alt + Up/Down
 
+    #Go to Definition
+        F12
+        
+    #Open new terminal
+        Ctrl + `
+
+    #Auto Fix...
+        Shift + Alt + .
+
+    #Select Current Line
+        Ctrl + L
