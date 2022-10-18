@@ -46,4 +46,7 @@ MariaDB:
 
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
+	
+	#Rename a table from t1 to t2
+	        ALTER TABLE t1 RENAME TO t2;
 
