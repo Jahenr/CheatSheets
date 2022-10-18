@@ -110,3 +110,6 @@ VsCode:
 
     #Select Current Line
         Ctrl + L
+        
+    #Toggle word wrap
+        Alt + Z
