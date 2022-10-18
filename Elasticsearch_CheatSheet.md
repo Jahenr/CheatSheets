@@ -59,3 +59,6 @@
 
         #Check pending tasks
                 curl -XGET http://localhost:9200/_cat/pending_tasks?v
+                
+        #List index mapping
+                curl -X GET http://localhost:9200/samples
