@@ -211,5 +211,8 @@ NPM / Node Package Manager
                 
         # Show npm version
                 npm --version
+                
+        # Update a package
+                npm update lodash
 
 
