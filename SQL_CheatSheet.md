@@ -37,6 +37,9 @@ MariaDB:
         
 	#Enable foreign key checks
 	         SET FOREIGN_KEY_CHECKS=1
+	
+	#Delete a row
+		DELETE FROM table_name [WHERE condition];
 		 
 	#DELETE it is used to remove one or more row from a table
 	         DELETE FROM table_name [WHERE condition];
