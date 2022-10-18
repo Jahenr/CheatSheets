@@ -12,3 +12,5 @@
                 
         #Select the context to use
                 kubectl config use-context <context name>
+       # get the password for the e2e user
+                kubectl config view -o jsonpath='{.users[?(@.name == "e2e")].user.password}'
