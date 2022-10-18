@@ -114,5 +114,9 @@ VsCode:
     #Auto Fix...
         Shift + Alt + .
 
+    #Show Command Palette
+        Ctrl + SHIFT + P
+
     #Select Current Line
         Ctrl + L
+
