@@ -47,6 +47,9 @@ NPM / Node Package Manager
         # Test & Show the full dependency tree 
                 npm install --dry-run
         
+        # Manage package owners  
+                npm owner
+
         # Start a script defined in package.json file eg. npm run client, npm run server
                 npm run <script name>
 
@@ -211,5 +214,4 @@ NPM / Node Package Manager
                 
         # Show npm version
                 npm --version
-
 
