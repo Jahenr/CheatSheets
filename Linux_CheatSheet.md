@@ -353,10 +353,18 @@ Linux/Unix:
 
 	#Write the output to a new file
 		sort -o <current filename> <new filename>
-
-		
+	
   	#List Block Devices mounted on the system
 		lsblk
+
+	#Download files from the internet
+	        wget <option> <url>
+
+	#Open the calendar of the current month
+		cal
+
+	#Displays the file content in reverse order
+		tac <file name>  
 
 	#Displays screenful contents of a file at a time
 		more <file name> 
