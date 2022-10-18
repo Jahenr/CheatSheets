@@ -98,7 +98,10 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
-        
+    
+    #Replace
+        Ctrl + H
+
     #Refactor...    
         Ctrl + Shift + R
 
