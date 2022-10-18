@@ -59,3 +59,7 @@
 
         #Check pending tasks
                 curl -XGET http://localhost:9200/_cat/pending_tasks?v
+          
+          
+        #Query using URL parameters
+                curl -X GET http://localhost:9200/samples/_search?q=school:Harvard
