@@ -36,6 +36,9 @@ WINDOWS:
 
 	#List all content in current directory
 		ls
+		
+	#Display all current TCP/IP network configuration values and refresh Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings
+		ipconfig
 
 	#Deletes a folder
 		rmdir folderName
