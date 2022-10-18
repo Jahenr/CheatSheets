@@ -113,3 +113,6 @@ VsCode:
 
     #Select Current Line
         Ctrl + L
+        
+    #Format document
+        Shift+Alt+F 
