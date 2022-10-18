@@ -368,3 +368,7 @@ Linux/Unix:
 
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
+		
+	#Add a user on Linux server
+		useradd  username  
+	
