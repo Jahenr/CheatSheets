@@ -32,4 +32,10 @@
 
 	#To delete document
 		db.collection_name.remove(deletion_field)
-    
+		
+	#To Show All Databases
+	  	show dbs
+	 
+   	#To display documents from collection (first 10)
+		db.collection_name.find()
+
