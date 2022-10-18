@@ -32,5 +32,8 @@ Byobu/Tmux:
 
 	#Kill split in focus
 		Ctrl + F6
+		
+	#Join all splits
+		Shift + F5
 
 	 
