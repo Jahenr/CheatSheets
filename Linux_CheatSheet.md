@@ -356,6 +356,9 @@ Linux/Unix:
 	
   	#List Block Devices mounted on the system
 		lsblk
+		
+	#Open the calendar of the current month
+		cal
 
 	#Displays the file content in reverse order
 		tac <file name>  
