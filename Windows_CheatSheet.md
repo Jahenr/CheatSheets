@@ -23,8 +23,6 @@ WINDOWS:
 
 	#List all content in current directory
 		ls
+		
 	#To exit the terminal
 	        exit
-
-
-
