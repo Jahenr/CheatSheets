@@ -46,6 +46,9 @@ NPM / Node Package Manager
 
         # Test & Show the full dependency tree 
                 npm install --dry-run
+      
+        # To manage the ownership of the published package
+                npm owner
         
         # NPM Build Command: It is used to build a package
                 npm build
