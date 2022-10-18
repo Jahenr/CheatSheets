@@ -356,7 +356,10 @@ Linux/Unix:
 	
   	#List Block Devices mounted on the system
 		lsblk
-		
+
+	#Download files from the internet
+	        wget <option> <url>
+
 	#Open the calendar of the current month
 		cal
 
@@ -371,3 +374,4 @@ Linux/Unix:
 
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
+
