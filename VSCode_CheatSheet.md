@@ -98,6 +98,25 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+        
+    #To quickly search over all files in the currently opened folder
+        Ctrl + Shift + F
+
+    #Add multiple cursors
+        Ctrl + Alt + Up/Down
+
+    #Go to Definition
+        F12
+        
+    #Open new terminal
+        Ctrl + `
+
+    #Auto Fix...
+        Shift + Alt + .
 
     #Show Command Palette
         Ctrl + SHIFT + P
+
+    #Select Current Line
+        Ctrl + L
+
