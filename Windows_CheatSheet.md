@@ -23,6 +23,7 @@ WINDOWS:
 
 	#List all content in current directory
 		ls
+		
 	#Displays the current date
 	        date
 
