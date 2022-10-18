@@ -1,3 +1,6 @@
+        #Get the documentation for pod manifests
+                kubectl explain pods
+                
         #Get total nodes in cluster
                 kubectl get nodes
                 
