@@ -25,14 +25,23 @@
 	#Redirect the modules and dependencies installed to requirements.txt.
 		pip3 freeze > requirements.txt
 
-  	#Install modules whose names are listed in a file (requirements.txt)
+	#Install modules whose names are listed in a file (requirements.txt)
 		pip3 install -r requirements.txt
-        
-  	#Sort a 2D list (lst) based on any one index (i is the index)
+       
+	#Find out pip version
+		pip3 --version
+
+	#Sort a 2D list (lst) based on any one index (i is the index)
 		lst.sort(key = lambda x : x[i])
-    
-  	#Return the absolute value of a number.
+
+	#Return the absolute value of a number.
 		abs()
+
+	#Print command can be used to print any type of object like integer,string, list, tuple, etc.
+		print(object)
+
+	#Round is used to round a number to a given precision in decimal digits. 
+		round(number, digits)
 
 	#Return an asynchronous iterator for an asynchronous iterable.
 		aiter()
@@ -234,3 +243,4 @@
 
 	#This function is invoked by the import statement.
 		import()
+    
