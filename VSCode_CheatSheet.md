@@ -110,3 +110,6 @@ VsCode:
 
     #Select Current Line
         Ctrl + L
+
+    #Select all occurences of Find match
+        Alt + Enter
