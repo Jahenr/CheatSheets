@@ -110,3 +110,6 @@ VsCode:
 
     #Select Current Line
         Ctrl + L
+        
+    #Show Output panel   
+        Ctrl + SHIFT + U
