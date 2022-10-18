@@ -98,6 +98,9 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+
+    #Debug: Stop
+        shift + F5
         
     #To quickly search over all files in the currently opened folder
         Ctrl + Shift + F
