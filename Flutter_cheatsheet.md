@@ -110,5 +110,3 @@
 
       #Tip: speed up Flutter Development
          use the third packages to suit your needs. Google first.
-
-[Flutter CLI List](https://docs.flutter.dev/reference/flutter-cli)
