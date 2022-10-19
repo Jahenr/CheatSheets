@@ -135,3 +135,5 @@ VsCode:
     #Select Current Line
         Ctrl + L
 
+    #Jump to matching bracket
+        Ctrl + SHIFT + \
