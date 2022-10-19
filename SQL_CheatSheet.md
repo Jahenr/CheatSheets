@@ -37,6 +37,9 @@ MariaDB:
         
 	#Enable foreign key checks
 	         SET FOREIGN_KEY_CHECKS=1
+		 
+	#Delete the table
+		DROP TABLE table_name
 	
 	#Delete a row
 		DELETE FROM table_name [WHERE condition];
