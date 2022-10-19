@@ -19,20 +19,20 @@
 	#Exit any other mode and enter Normal mode
 		<esc> key
 
-    #Search for text in buffer
-        /<search-pattern>
+    	#Search for text in buffer
+        	/<search-pattern>
 
-    #Jump to the beginning of the line 
-        0
+    	#Jump to the beginning of the line 
+		0
 
-    #Jump to the end of the line 
-        $
+    	#Jump to the end of the line 
+		$
 
-    #Jump to next search match
-        n
+    	#Jump to next search match
+		n
 
-    #Jump to previous search match
-        N
+    	#Jump to previous search match
+		N
 
 	#Write changes
 		:w
@@ -45,8 +45,7 @@
 
 	#Write and quit
 		:wq
-        :x
-
+   
 	#Enter visual mode to select characters
 		v
 
@@ -80,23 +79,22 @@
 	#Undo vim action
 		u
 
-    #Jump to the first character of the next word in the line
-        w
+    	#Jump to the first character of the next word in the line
+       		w
 
-    #Jump to the last character of the next word in the line
-        e
+    	#Jump to the last character of the next word in the line
+        	e
 
-    #Jump to the previous word in the line
-        b
+    	#Jump to the previous word in the line
+        	b
 
-    #Jump to the top of the buffer
-        gg
+    	#Jump to the top of the buffer
+        	gg
 
-    #Jump to the bottom of the buffer
-        G
+    	#Jump to the bottom of the buffer
+        	G
 
 	#Redo vim action
-        <C-r>
 		ctrl + r
 
 	#Open a bash session from Vim
