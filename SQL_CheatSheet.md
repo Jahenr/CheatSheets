@@ -53,3 +53,6 @@ MariaDB:
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
 
+	#Update Command
+		UPDATE table_name SET column_name = new_value [WHERE condition];	
+
