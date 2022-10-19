@@ -129,5 +129,9 @@ VsCode:
     #Show Command Palette
         Ctrl + SHIFT + P
 
+    #Toggle line comment
+        Ctrl+/
+
     #Select Current Line
         Ctrl + L
+
