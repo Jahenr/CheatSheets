@@ -5,16 +5,16 @@
 		I
 
 	#Enter insert mode after cursor (Append)
-        a
+       		a
 
 	#Enter insert mode at the end of the current line
-        A
+        	A
 
 	#Create blank line below cursor & and enter insert mode
-        o
+        	o
 
 	#Create blank line above cursor & and enter insert mode
-        O
+        	O
 
 	#Exit any other mode and enter Normal mode
 		<esc> key
