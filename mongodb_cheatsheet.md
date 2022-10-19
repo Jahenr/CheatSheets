@@ -35,3 +35,13 @@
 
 	#Finding a Single Record
 		db. collectionname.findOne({"field1": "content"})
+
+	#To finding a Single Record:
+		db. collectionname.findOne({"field1": "content"})
+		
+	#To Show All Databases
+	  	show dbs
+	 
+  #To display documents from collection (first 10)
+		db.collection_name.find()
+
