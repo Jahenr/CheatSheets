@@ -44,4 +44,7 @@
 	 
   	#To display documents from collection (first 10)
 		db.collection_name.find()
+		
+	#Listing All Indexes	
+	        db.collection_name.getIndexes()
 
