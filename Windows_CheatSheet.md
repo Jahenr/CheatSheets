@@ -36,7 +36,19 @@ WINDOWS:
 
 	#List all content in current directory
 		ls
+
+	#To exit the terminal
+	        exit
+
+	#Displays the system time
+	        time
+
+	#Display the host name
+	        hostname
 		
+	#Displays the current date
+		date
+
 	#Display all current TCP/IP network configuration values and refresh Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings
 		ipconfig
 
