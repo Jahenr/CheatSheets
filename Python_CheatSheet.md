@@ -243,4 +243,7 @@
 
 	#This function is invoked by the import statement.
 		import()
+	
+	#This string method splits a string into a list.
+		string.split(separator, maxsplit)
     
