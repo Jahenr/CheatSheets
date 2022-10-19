@@ -46,7 +46,19 @@ NPM / Node Package Manager
 
         # Test & Show the full dependency tree 
                 npm install --dry-run
+                
+        # To show the NPM Version Command
+                npm version
+
+        # To manage the ownership of the published package
+                npm owner
         
+        # NPM Build Command: It is used to build a package
+                npm build
+
+        # Manage package owners  
+                npm owner
+
         # Start a script defined in package.json file eg. npm run client, npm run server
                 npm run <script name>
 
@@ -211,5 +223,3 @@ NPM / Node Package Manager
                 
         # Show npm version
                 npm --version
-
-
