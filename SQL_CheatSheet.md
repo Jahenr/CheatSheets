@@ -49,4 +49,7 @@ MariaDB:
 
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
+		
+	#Drop a Dtabase 
+		DROP DATABASE [IF EXISTS] databasename;
 
