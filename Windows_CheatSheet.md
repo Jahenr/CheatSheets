@@ -101,4 +101,27 @@ WINDOWS:
 		
 	#To exit the command prompt window
 		exit
+
+	#To list the tasks currently performed
+		tasklist
+
+	#To see next run time & status of task scheduled 
+		schtasks
+
+	#Display curret volume name & disk serial number
+		vol
+
+	#To check availability of the host or send ICMP(Internet Control Message Protocol)request to host
+		ping
+
+	#To find IP address by resource name
+		nslookup
+
+	#To launch cmd help
+		help
+
+	#To show system configuration
+		systeminfo
+
+	
 	
