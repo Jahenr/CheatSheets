@@ -43,15 +43,24 @@ MariaDB:
 	#Enable foreign key checks
 	         SET FOREIGN_KEY_CHECKS=1
 		 
+	#Delete the table
+		DROP TABLE table_name
+	
+	#Delete a row
+		DELETE FROM table_name [WHERE condition];
+		 
+	#DELETE it is used to remove one or more row from a table
+	         DELETE FROM table_name [WHERE condition];
+
 	#Return the intersection of two queries
 	         SELECT c1,c2 FROM t1
-		 INTERSECT
-		 SELECT c1,c2 FROM t2;
+		       INTERSECT
+		       SELECT c1,c2 FROM t2;
 		 
 	#Return the intersection of two queries
 	         SELECT c1,c2 FROM t1
-		 UNION
-		 SELECT c1,c2 FROM t2;	 
+		       UNION
+		       SELECT c1,c2 FROM t2;	 
 
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
@@ -73,12 +82,8 @@ MariaDB:
 		REVOKE privilage_name ON object_name FROM "user@host";
 		
 	#Rename table
-		RENAME TABLE table_name TO table_name;
-		
-		
-		
-		
+		RENAME TABLE table_name TO table_name;	
 
-	
-    
-    
+	#Update Command
+		UPDATE table_name SET column_name = new_value [WHERE condition];	
+
