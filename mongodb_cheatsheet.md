@@ -45,3 +45,5 @@
   	#To display documents from collection (first 10)
 		db.collection_name.find()
 
+       #To Count the number of rows in the output
+                db.collection_name.find().count() 
