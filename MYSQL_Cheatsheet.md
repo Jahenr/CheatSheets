@@ -76,3 +76,33 @@ MYSQL
 
 	#Deletes multiple views.
 		DROP VIEW VIEW1,VIEW2…;
+
+	# show running queries inside mysql
+    show processlist;
+
+    # show size of a table(in MB) inside a DB
+    SELECT
+    	table_name AS `Table`,
+    	round(((data_length + index_length) / 1024 / 1024), 2) `Size in MB`
+    FROM
+    	information_schema.TABLES
+    WHERE
+    	table_schema = '<db_name>'
+    	AND table_name = '<table_name>';
+
+    # describe a table's schema
+    describe <table_name>
+
+    # retreive create table query for an existing table in DB
+    show create table <db_name>.<table_name>;
+
+    # show all current users present in mysql machine
+    Select user from mysql.user;
+
+    # get size of a particular database in MB
+    SELECT table_name AS "Table",
+    ROUND(((data_length + index_length) / 1024 / 1024), 2) AS "Size (MB)"
+    FROM information_schema.TABLES
+    WHERE table_schema = "<db_name>"
+    ORDER BY (data_length + index_length) DESC;
+
