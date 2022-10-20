@@ -78,7 +78,7 @@ MYSQL
 		DROP VIEW VIEW1,VIEW2…;
 		
 	#Truncate a table
-		TRUNCATE [TABLE] TABLENAME;
+		TRUNCATE [TABLE] table_name;
 		
 	#Rename a table
-		RENAME TABLE OLDTABLENAME TO NEWTABLENAME;
+		RENAME TABLE table_name TO table_name;
