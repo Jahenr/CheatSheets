@@ -140,3 +140,7 @@ VsCode:
 
     #Jump to matching bracket
         Ctrl + SHIFT + \
+    
+    #Toggle word wrap
+        Alt + Z
+        
