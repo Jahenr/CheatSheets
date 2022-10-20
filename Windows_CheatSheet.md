@@ -86,4 +86,10 @@ WINDOWS:
 		
 	#To exit the command prompt window
 		exit
+		
+	#To get system information
+		systeminfo
+		
+	#To get IP configuration
+		ipconfig
 	
