@@ -76,3 +76,9 @@ MYSQL
 
 	#Deletes multiple views.
 		DROP VIEW VIEW1,VIEW2…;
+		
+	#Truncate a table
+		TRUNCATE [TABLE] TABLENAME;
+		
+	#Rename a table
+		RENAME TABLE OLDTABLENAME TO NEWTABLENAME;
