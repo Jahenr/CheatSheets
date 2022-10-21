@@ -46,6 +46,7 @@ MYSQL
 	#LEFT JOIN: Returns all records from the left table, and the matched records from the right table
 	#RIGHT JOIN: Returns all records from the right table, and the matched records from the left table
 	#CROSS JOIN: Returns all records from both tables
+	
 	#Inner Join selects records that have the same values in two same or distinct tables.
 		SELECT COLUMN(S) FROM TABLENAME1 INNER JOIN TABLENAME2 ON TABLENAME1.COLUMNAME=TABLENAME2.COLUMNAME;
 
