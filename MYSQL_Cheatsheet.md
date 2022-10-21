@@ -40,12 +40,6 @@ MYSQL
 
 	#Tests for existence of a certain record. Returns a boolean value.
 		SELECT * FROM TABLE NAME WHERE EXIST (SUB QUERY);
-
-	#A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
-	#INNER JOIN: Returns records that have matching values in both tables
-	#LEFT JOIN: Returns all records from the left table, and the matched records from the right table
-	#RIGHT JOIN: Returns all records from the right table, and the matched records from the left table
-	#CROSS JOIN: Returns all records from both tables
 	
 	#Inner Join selects records that have the same values in two same or distinct tables.
 		SELECT COLUMN(S) FROM TABLENAME1 INNER JOIN TABLENAME2 ON TABLENAME1.COLUMNAME=TABLENAME2.COLUMNAME;
