@@ -140,3 +140,11 @@ VsCode:
 
     #Jump to matching bracket
         Ctrl + SHIFT + \
+    
+    #Indent Line
+        Ctrl + ]
+        
+    #Outdent Line
+        Ctrl + [
+        
+    
