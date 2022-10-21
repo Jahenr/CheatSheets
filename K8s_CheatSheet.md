@@ -19,3 +19,6 @@
         #Describe specific pod in deployment that is in the selected namespace with a bit more detail
                 kubectl -n <namespace> describe deployments.apps <pod name>
                 
+        #Delete resources
+                kubectl delete
+
