@@ -247,3 +247,5 @@
 	#This string method splits a string into a list.
 		string.split(separator, maxsplit)
     
+	#This method adds an element at the end of the list.
+		list.append(element)
