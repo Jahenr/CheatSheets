@@ -138,5 +138,8 @@ VsCode:
     #Select Current Line
         Ctrl + L
 
+    #Show all Symbols
+        Ctrl+T 
+
     #Jump to matching bracket
         Ctrl + SHIFT + \
