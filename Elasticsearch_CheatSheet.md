@@ -59,3 +59,30 @@
 
         #Check pending tasks
                 curl -XGET http://localhost:9200/_cat/pending_tasks?v
+        
+        #Create document inside index
+                curl -XPOST "http://localhost:9200/products/_doc/100" --header 'Content-Type: application/json' -d 
+                '{
+                        "name": "IPhone",
+                        "price": 2000,
+                        "stock_size": 50
+                }'
+
+        #Update document inside index
+                curl -XPOST "http://localhost:9200/products/_update/100" --header 'Content-Type: application/json' -d 
+                '{
+                        "doc": {
+                                "stock_size": 100
+                        }
+                }'
+
+        #Get document by _id
+                curl -XGET http://localhost:9200/products/_doc/100
+
+        #Scripted update by _id
+                curl -XPOST "http://localhost:9200/products/_update/100" --header 'Content-Type: application/json' -d 
+                '{
+                        "script": {
+                                "source": "ctx._source.price++"
+                        }
+                }'
