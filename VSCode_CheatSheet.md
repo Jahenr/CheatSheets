@@ -32,6 +32,8 @@ VsCode:
 
     #Go to Line
         Ctrl + G
+    #Go To Previous Error Or Warning
+        Shift + F8
 
     #Switch tab in Current Navigation Group
         Ctrl + Tab
