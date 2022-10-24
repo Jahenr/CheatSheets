@@ -178,3 +178,9 @@
     
 	#Stashing everything (including ignored files)
 		git stash --all
+
+	#Creating lists in Git
+		* list1
+		* list2
+		  * sublist1
+		  * sublist2
