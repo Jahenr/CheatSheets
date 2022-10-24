@@ -375,3 +375,8 @@ Linux/Unix:
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
 
+	#List keyboard region inputs
+		localectl list-x11-keymap-layouts
+		
+	#Set keyboard input
+		localectl set-keymap <language region>
