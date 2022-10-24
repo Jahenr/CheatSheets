@@ -2,6 +2,18 @@
         
         Info: Add "-u <username:password> --insecure" if the cluster uses https authentication.
         Tip: Add "?pretty" to the end of the API request to make the output more human readable.
+        #Aggregation and Bucket Aggregation
+                curl -XGET --user $pwd --header 'Content-Type: application/json'  https://58571402f5464923883e7be42a037917.eu-central-1.aws.cloud.es.io:9243/logstash/_search?pretty -d '{
+"aggs": {
+"cityName": {
+"terms": {
+"field": "geoip.city_name.keyword",
+"size": 50
+}
+}
+}
+}
+'
         
         #Show cluster information
                 curl -XGET https://localhost:9200/
