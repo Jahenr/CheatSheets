@@ -1,0 +1,82 @@
+#Character type
+  char variable_name
+
+#Integer type
+  int variable_name
+
+#Float type
+  float variable_name
+  
+#Double type
+  double variable_name
+  
+#Void type
+  void
+  
+#Boolean type
+  bool
+  
+#Alarm or Beep
+  \a
+
+#Backspace
+  \b
+  
+#Form feed
+  \f
+
+#Newline
+  \n
+  
+#Carriage return
+  \r
+  
+#Single line comment
+  // It's a single line comment
+
+#Multi-line comment
+  /* It's a 
+    multi-line
+    comment
+  */
+  
+#max function
+  cout << max(a, b)
+  
+#min function
+  cout << min(a, b)
+  
+#sqrt function
+  #include <cmath>
+  cout << sqrt(a)
+
+#ceil function
+  ceil(x)
+  
+#floor function
+  floor(x)
+  
+#pow function
+  pow(x, y)
+  
+#Ternary Operator
+  variable = (condition) ? expressionTrue : expressionFalse
+  
+#Switch Case Statement
+  switch (expression) 
+  {
+  case constant-expression: 
+  statement1;
+  statement2;
+  break;
+  case constant-expression: 
+  statement;
+  break;
+  ...
+  default: 
+  statement;
+  }
+  
+
+  
+ 
