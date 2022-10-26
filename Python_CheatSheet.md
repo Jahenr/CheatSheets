@@ -61,6 +61,9 @@
 	#Return a Boolean value.
 		bool()
 
+	#Ends a loop prematurely
+		break()
+
 	#Drops you into the debugger at the call site.
 		breakpoint()
 
