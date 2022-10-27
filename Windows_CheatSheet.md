@@ -52,6 +52,12 @@ WINDOWS:
 	#Display all current TCP/IP network configuration values and refresh Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings
 		ipconfig
 
+	#Display all running processes
+		tasklist
+		
+	#Display a more advanced and detailed list of running processes and output the results into text file
+		wmic process > yourfilename.txt
+		
 	#Deletes a folder
 		rmdir folderName
     
