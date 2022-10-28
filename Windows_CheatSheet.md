@@ -101,4 +101,7 @@ WINDOWS:
 		
 	#To exit the command prompt window
 		exit
+
+	#To open the Run command window
+		windows + R
 	
