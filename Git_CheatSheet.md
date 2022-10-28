@@ -151,6 +151,14 @@
 
 	#To see all configurations
 		git config --list
+
+	#To change your git configurations, add aliases, etc
+		 git config --global --edit
+
+	#Open your .gitconfig file and edit
+		Linux directory: ~/.gitconfig
+
+		Windows directory: C:/Users/{username}/.gitconfig
     
 	#Add origin/upstream remote
 		git add origin/upstream <git_url>
