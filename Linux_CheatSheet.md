@@ -380,3 +380,6 @@ Linux/Unix:
 		
 	#Set keyboard input
 		localectl set-keymap <language region>
+		
+	#curl is a command-line tool to transfer data to or from a server or for commuincating to a website
+		curl <options/URLs>
