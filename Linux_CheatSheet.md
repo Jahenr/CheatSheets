@@ -6,12 +6,39 @@ Linux/Unix:
 				-l = List
 				-h = Human readable file/directory size
 				-a = Show hidden files/directories
+
+	#Colorize the output of the ls command 
+		ls --color=auto
 	
 	#Change Directory
 	    cd <pathname>
+	        
+			#Options
+				cd .. = Moves to the previous parent directory
+				cd ~  = Moves to the home directory of current user
+				cd -  = Moves to the previous directory
+	    
+	#Home Directory 
+	     cd
+	
+	#Moves to the Parent Directory of current Directory
+	      cd..
+	
+	#To find the content of the file
+		grep <"content to find"> <file name
+	    Ex: grep "Google" companies.txt
+	
+	#To see previously ran commands
+		history
+	
+	#Print ASCII character strings in large letters
+		banner <text>
 
 	#List running processes
 		ps
+
+	#Create a new directory
+		mkdir <directory name to be created>
 	
 	#Print the working directory
 		pwd
@@ -21,6 +48,15 @@ Linux/Unix:
 	
 	#View full contents of file in terminal
 		cat <filename>
+	
+	#Overwriting a file
+		cat > <filename>
+
+	#Appending text to a file from the terminal
+		cat >> <file name>
+
+			#Option include
+				>> = Redirection operator
 		
 	#Copy a file
 		cp <original filename> <copy filename>
@@ -107,6 +143,9 @@ Linux/Unix:
 	#Create a file
 		touch <filename>
 
+	#Create multiple files
+		touch <filename1> <filename2> <filename3>
+
 	#Print the first 10 lines of a file to standard output
 		head <filename>
 			#Options include
@@ -119,7 +158,15 @@ Linux/Unix:
 			#Options include
 				-n [NUM] = Print the last [NUM] lines instead of 10
 				-n +[NUM] = Print all lines starting with [NUM] until EOF
-		
+				
+	#Check the current system clock time
+		timedatectl
+	        	#Options include
+				set-time "yyyy-MM-dd hh:mm:ss" = Set the local time of the system clock directly
+	  		        list-timezones = available timezones
+				set-timezone timezone = Set the system timezone
+				set-ntp on = Enable Network Time Protocol (NTP) synchronization
+       
 	#View Date on terminal 
 		date
 
@@ -207,9 +254,129 @@ Linux/Unix:
 	#Show detailed domain information
 		dig <host>
 	
-	#View sttrings in a file
+	#View strings in a file
 		strings <filename>
 
 	#View file type
 		file <filename>
+
+	#Details on all Active Processes
+		top
+		
+  	#Determine system boot-up performance statistics
+	   systemd-analyze
+     
+  	#Determine system boot-up performance statistics
+    		systemd-analyze
+
+	#Request system information / software version
+		uname -a
+    
+	#Clear all previous commands from the history
+		cat /dev/null > ~/.bash_history && history -c
+
+  	#find the files by name
+		locate <filename>
+    
+    	#List Block Devices mounted on the system
+		lsblk
+
+	#Delete a regular file
+		rm <filename>
 	
+	#Delete an empty directory
+		rm -r <directory>/
+
+	#Delete a directory with content inside
+		rm -rf <directory>/
+
+	#Get the active username
+		whoami
+
+	#Find the difference between two files
+		diff <file 1> <file 2>
+
+	#Clear the terminal display
+		clear
+    
+	#Look for the path of the file
+		find <filename>
+
+			#Option include
+				f = file
+				. = current directory
+
+			#Query optimisation
+				-type = type of file
+				-name = matching with a filename	
+
+	#Look for a file with a giving name using query optimisation
+		find . -type f -name <filename>
+
+	#Remove Directory if it is empty
+		rmdir <directory name>
+
+	#Remove Directory
+		rm <option> <directory name>
+
+			#Options include
+				-r = recursive/content	
+
+	#Check OS Details
+		uname <option>
+
+			#Options include
+				-a = Information about the Operating System, Kernel version and hardware
+				-s = Kernel name
+
+	#Get information from a command and it's options
+		help <command>
+
+	#Display free disc space
+		df <option>
+
+			#Option include
+				-h = Disc space in human readable format
+
+	#Number of lines in a file
+		nl <filename>
+
+	#Content in alphabetical order
+		sort <filename>
+
+			#Option include
+				-o = Write the output to a new file
+				-r = Reverse Order
+
+	#Content in a reverse order from a file
+		sort -r <filename>
+
+	#Write the output to a new file
+		sort -o <current filename> <new filename>
+	
+  	#List Block Devices mounted on the system
+		lsblk
+
+	#Download files from the internet
+	        wget <option> <url>
+
+	#Open the calendar of the current month
+		cal
+
+	#Displays the file content in reverse order
+		tac <file name>  
+
+	#Displays screenful contents of a file at a time
+		more <file name> 
+
+	#Command line calculator
+		bc
+
+	#Replace old text with new text
+		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
+
+	#List keyboard region inputs
+		localectl list-x11-keymap-layouts
+		
+	#Set keyboard input
+		localectl set-keymap <language region>

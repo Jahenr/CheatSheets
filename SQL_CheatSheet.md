@@ -31,7 +31,23 @@ MariaDB:
 
 	#Update specified row by specifying id of row
 		update "table name" set "column name" = "data in row", where "column name" = "data in row"
+	
+	#Disable foreign key checks
+	         SET FOREIGN_KEY_CHECKS=0
+        
+	#Enable foreign key checks
+	         SET FOREIGN_KEY_CHECKS=1
+		 
+	#Delete the table
+		DROP TABLE table_name
+	
+	#Delete a row
+		DELETE FROM table_name [WHERE condition];
+		 
+	#DELETE it is used to remove one or more row from a table
+	         DELETE FROM table_name [WHERE condition];
 
+SQL-Queries
 	#Viewing tables in the selected database
 	   show tables;
 
@@ -76,8 +92,13 @@ MariaDB:
     #Minimum function
        select min(population) from city group by population;
 
-	  
+	  #Return the intersection of two queries
+	         SELECT c1,c2 FROM t1 INTERSECT SELECT c1,c2 FROM t2;
 
-	
-    
-    
+	  #Drop a table
+		DROP TABLE [IF EXISTS] table_name;
+
+	  #Update Command
+		UPDATE table_name SET column_name = new_value [WHERE condition];	
+
+
