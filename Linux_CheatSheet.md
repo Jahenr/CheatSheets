@@ -380,3 +380,10 @@ Linux/Unix:
 		
 	#Set keyboard input
 		localectl set-keymap <language region>
+	
+	#cut command that allow you to process and filter text files
+		cut <option> <filename>
+				
+				#option include
+				-f = used for specifying a field, a set of fields, or a range of fields.
+				-d = Specify a delimiter that will be used, for ex: "," or " " or "-" or any single character delimiter. Default is "tab".
