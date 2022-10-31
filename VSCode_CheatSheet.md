@@ -2,7 +2,7 @@ VsCode:
 
     #Open Settings
         Ctrl + ,
-    
+
     #New Window Instance
         Ctrl + Shift + N
 
@@ -14,7 +14,7 @@ VsCode:
 
     #Swap Current Line to the Line Above
         Alt + UP
-    
+
     #Swap Current Line to the Line Below
         Alt + DOWN
 
@@ -23,7 +23,7 @@ VsCode:
 
     #Fold Block
         Ctrl + Shift + [
-        
+
     #Unfold Block
         Ctrl + Shift + ]
 
@@ -35,15 +35,15 @@ VsCode:
 
     #Switch tab in Current Navigation Group
         Ctrl + Tab
-    
+
     #Switch Navigation Group
         Ctrl + 1
 
     #Switch with Next Navigation Group
-        Ctrl + K Right
+        Ctrl + K + RIGHT
 
     #Switch with Previous Navigation Group
-        Ctrl + K Left
+        Ctrl + K + LEFT
 
     #Toggle Sidebar
         Ctrl + B
@@ -71,7 +71,7 @@ VsCode:
 
     #Insert cursor to the Line Below
         Shift + Alt + DOWN
-        
+
     #Add Cursor to Multiple Lines Anywhere
         Alt + Mouse Left Click
 
@@ -91,7 +91,7 @@ VsCode:
         Ctrl + Shift + LEFT
 
     #Expand Highlight to nearest block
-        Ctrl + Alt + Right
+        Ctrl + Alt + RIGHT
 
     #Select ALL
         Ctrl + A
@@ -100,29 +100,62 @@ VsCode:
         Ctrl + SPACE
 
     #Trigger Parameter Hint
-        Ctrl + SHIFT + SPACE
- 
+        Ctrl + Shift + SPACE
+
     #Show Extensions
-        Ctrl + SHIFT + X
+        Ctrl + Shift + X
 
     #Replace
         Ctrl + H
 
-    #Refactor...    
+    #Refactor...
         Ctrl + Shift + R
 
+    #Debug: Start/Continue
+        F5
+
     #Debug: Stop
-        shift + F5
-        
+        Shift + F5
+
+    #Debug: Step over
+        F10
+
+    #Debug: Step into
+        F11
+
+    #Debug: Step out
+        Shift + F11
+
+    #Debug: Show hover
+        Ctrl + K, Ctrl + I
+
     #To quickly search over all files in the currently opened folder
         Ctrl + Shift + F
 
     #Add multiple cursors
-        Ctrl + Alt + Up/Down
+        Ctrl + Alt + UP/DOWN
 
-    #Go to Definition
+    #Find next
+        F3
+
+    #Find previous
+        Shift+F3
+
+    #Close file
+        Ctrl + F4
+
+    #Go to next error or warning
+        F8
+
+    #Go to previous error or warning
+        Shift + F8
+
+    #Toggle breakpoint
+        F9
+
+     #Go to Definition
         F12
-        
+
     #Open new terminal
         Ctrl + `
 
@@ -130,16 +163,16 @@ VsCode:
         Shift + Alt + .
 
     #Show Command Palette
-        Ctrl + SHIFT + P
+        Ctrl + Shift + P
 
     #Toggle line comment
-        Ctrl+/
+        Ctrl + /
 
     #Select Current Line
         Ctrl + L
 
     #Show all Symbols
-        Ctrl+T 
+        Ctrl + T
 
     #Jump to matching bracket
-        Ctrl + SHIFT + \
+        Ctrl + Shift + \
