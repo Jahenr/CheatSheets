@@ -138,6 +138,9 @@ VsCode:
     #Select Current Line
         Ctrl + L
         
+    #Format document
+        Shift+Alt+F 
+
     #Toggle word wrap
         Alt + Z
 
@@ -149,4 +152,5 @@ VsCode:
 
     #Jump to matching bracket
         Ctrl + SHIFT + \
+
 
