@@ -37,6 +37,9 @@ MariaDB:
         
 	#Enable foreign key checks
 	         SET FOREIGN_KEY_CHECKS=1
+		 
+	#Delete the table
+		DROP TABLE table_name
 	
 	#Delete a row
 		DELETE FROM table_name [WHERE condition];
@@ -49,4 +52,13 @@ MariaDB:
 
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
+		
+	#Drop a Dtabase 
+		DROP DATABASE [IF EXISTS] databasename;
+
+	#Delete all the rows from the table and free the space containing the table
+		TRUNCATE TABLE table_name;  
+
+	#Update Command
+		UPDATE table_name SET column_name = new_value [WHERE condition];	
 
