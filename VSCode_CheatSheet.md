@@ -137,6 +137,9 @@ VsCode:
 
     #Select Current Line
         Ctrl + L
+        
+    #Toggle word wrap
+        Alt + Z
 
     #Select all occurrences of current selection
         Shift + Ctrl + L
