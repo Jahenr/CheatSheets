@@ -224,6 +224,9 @@ NPM / Node Package Manager
         # Show npm version
                 npm --version
                 
+        # Display prefix
+                npm prefix
+
         # Check for outdated packages
                 npm outdated     
 
