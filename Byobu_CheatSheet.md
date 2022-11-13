@@ -32,8 +32,10 @@ Byobu/Tmux:
 
 	#Kill split in focus
 		Ctrl + F6
-	
+		
+	#Kill the current window
+		Ctrl + A + K
+
 	#Move focus to next split
 		Shift + F3
 
-	 
