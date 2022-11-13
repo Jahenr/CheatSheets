@@ -46,7 +46,19 @@ NPM / Node Package Manager
 
         # Test & Show the full dependency tree 
                 npm install --dry-run
+                
+        # To show the NPM Version Command
+                npm version
+
+        # To manage the ownership of the published package
+                npm owner
         
+        # NPM Build Command: It is used to build a package
+                npm build
+
+        # Manage package owners  
+                npm owner
+
         # Start a script defined in package.json file eg. npm run client, npm run server
                 npm run <script name>
 
@@ -215,4 +227,54 @@ NPM / Node Package Manager
         # Display prefix
                 npm prefix
 
+        # Check for outdated packages
+                npm outdated     
 
+        # Scan and list all the vulnerabilities in the project
+                npm audit
+
+        # Run this project's tests  
+                npm test
+                
+        # Run the script named <foo>
+                npm run <foo>
+                
+        # Search for help on <term> (in a browser)  
+                npm help <term>
+                
+        # Create or verify a user named <username>
+                npm login
+                         # Options 
+                                 --scope = Associate an operation with a scope for a scoped registry
+                                 --registry = The base URL of the npm registry
+                
+        # Log out of the registry
+                npm logout
+                          # Options 
+                                 --scope = Associate an operation with a scope for a scoped registry
+                                 --registry = The base URL of the npm registry  
+                                
+        # Publishes a package to the registry so that it can be installed by name.
+                npm publish <package-spec>
+                
+        # This removes a package version from the registry, deleting its entry and removing the tarball.    
+                npm unpublish [<package-spec>]
+                
+        # Print the folder where npm will install executables.
+                npm bin
+                
+        # This command will print to stdout all the versions of packages that are installed      
+                npm ls <package-spec>
+                
+        # Search the registry for packages matching the search terms
+                npm search [search terms ...]
+                
+        # Print the effective node_modules folder to standard out
+                npm root
+                
+        # Display the npm username of the currently logged-in user
+                npm whoami
+                
+        # This runs a predefined command specified in the "stop" property of a package's "scripts" object.
+                npm stop
+                
