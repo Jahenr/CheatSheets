@@ -32,5 +32,8 @@ Byobu/Tmux:
 
 	#Kill split in focus
 		Ctrl + F6
+	
+	#Move focus to next split
+		Shift + F3
 
 	 
