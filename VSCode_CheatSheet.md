@@ -71,6 +71,9 @@ VsCode:
 
     #Insert cursor to the Line Below
         Shift + Alt + DOWN
+        
+    #Add Cursor to Multiple Lines Anywhere
+        Alt + Mouse Left Click
 
     #Hightlight Current Line
         Ctrl + I
@@ -98,7 +101,25 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
+ 
+    #Show Extensions
+        Ctrl + SHIFT + X
+
+    #Replace
+        Ctrl + H
+
+    #Refactor...    
+        Ctrl + Shift + R
+
+    #Debug: Stop
+        shift + F5
         
+    #To quickly search over all files in the currently opened folder
+        Ctrl + Shift + F
+
+    #Add multiple cursors
+        Ctrl + Alt + Up/Down
+
     #Go to Definition
         F12
         
@@ -108,5 +129,24 @@ VsCode:
     #Auto Fix...
         Shift + Alt + .
 
+    #Show Command Palette
+        Ctrl + SHIFT + P
+
+    #Toggle line comment
+        Ctrl+/
+
     #Select Current Line
         Ctrl + L
+        
+    #Toggle word wrap
+        Alt + Z
+
+    #Select all occurrences of current selection
+        Shift + Ctrl + L
+
+    #Show all Symbols
+        Ctrl+T 
+
+    #Jump to matching bracket
+        Ctrl + SHIFT + \
+
