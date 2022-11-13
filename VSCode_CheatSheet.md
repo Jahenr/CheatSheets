@@ -152,5 +152,7 @@ VsCode:
 
     #Jump to matching bracket
         Ctrl + SHIFT + \
-
+        
+    #Replace in files
+        Ctrl+ SHIFT + H
 
