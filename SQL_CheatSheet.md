@@ -53,6 +53,9 @@ MariaDB:
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
 
+	#Delete all the rows from the table and free the space containing the table
+		TRUNCATE TABLE table_name;  
+
 	#Update Command
 		UPDATE table_name SET column_name = new_value [WHERE condition];	
 
