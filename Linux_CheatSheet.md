@@ -357,6 +357,12 @@ Linux/Unix:
   	#List Block Devices mounted on the system
 		lsblk
 
+	#Download files from the internet
+	        wget <option> <url>
+
+	#Open the calendar of the current month
+		cal
+
 	#Displays the file content in reverse order
 		tac <file name>  
 
@@ -368,3 +374,9 @@ Linux/Unix:
 
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
+
+	#List keyboard region inputs
+		localectl list-x11-keymap-layouts
+		
+	#Set keyboard input
+		localectl set-keymap <language region>
