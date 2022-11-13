@@ -138,8 +138,12 @@ VsCode:
     #Select Current Line
         Ctrl + L
 
+    #Select all occurrences of current selection
+        Shift + Ctrl + L
+
     #Show all Symbols
         Ctrl+T 
 
     #Jump to matching bracket
         Ctrl + SHIFT + \
+
