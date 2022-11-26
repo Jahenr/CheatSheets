@@ -86,3 +86,10 @@
                                 "source": "ctx._source.price++"
                         }
                 }'
+          
+        #Query using URL parameters
+                curl -X GET http://localhost:9200/samples/_search?q=school:Harvard
+                
+        #List index mapping
+                curl -X GET http://localhost:9200/samples
+                

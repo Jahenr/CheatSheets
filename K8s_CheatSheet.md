@@ -1,3 +1,6 @@
+        #Get the documentation for pod manifests
+                kubectl explain pods
+                
         #Get total nodes in cluster
                 kubectl get nodes
                 
@@ -19,3 +22,5 @@
         #Describe specific pod in deployment that is in the selected namespace with a bit more detail
                 kubectl -n <namespace> describe deployments.apps <pod name>
                 
+        #List all services in the namespace       
+                kubectl get services                

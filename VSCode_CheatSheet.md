@@ -137,9 +137,22 @@ VsCode:
 
     #Select Current Line
         Ctrl + L
+        
+    #Format document
+        Shift+Alt+F 
+
+    #Toggle word wrap
+        Alt + Z
+
+    #Select all occurrences of current selection
+        Shift + Ctrl + L
 
     #Show all Symbols
         Ctrl+T 
 
     #Jump to matching bracket
         Ctrl + SHIFT + \
+        
+    #Replace in files
+        Ctrl+ SHIFT + H
+
