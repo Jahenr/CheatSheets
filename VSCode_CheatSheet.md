@@ -2,7 +2,7 @@ VsCode:
 
     #Open Settings
         Ctrl + ,
-    
+
     #New Window Instance
         Ctrl + Shift + N
 
@@ -14,18 +14,30 @@ VsCode:
 
     #Swap Current Line to the Line Above
         Alt + UP
-    
+
     #Swap Current Line to the Line Below
         Alt + DOWN
 
     #Cut Current Line or Highlighted lines
         Ctrl + X
 
+    #Undo
+        Ctrl + Z
+
+    #Redo
+        Ctrl + Y
+
     #Fold Block
         Ctrl + Shift + [
-        
+
     #Unfold Block
         Ctrl + Shift + ]
+
+    #Indent Line
+        Ctrl + ]
+
+    Outdent line
+        Ctrl + [
 
     #Go to File
         Ctrl + P
@@ -35,7 +47,7 @@ VsCode:
 
     #Switch tab in Current Navigation Group
         Ctrl + Tab
-    
+
     #Switch Navigation Group
         Ctrl + 1
 
@@ -71,7 +83,7 @@ VsCode:
 
     #Insert cursor to the Line Below
         Shift + Alt + DOWN
-        
+
     #Add Cursor to Multiple Lines Anywhere
         Alt + Mouse Left Click
 
@@ -101,19 +113,19 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
- 
+
     #Show Extensions
         Ctrl + SHIFT + X
 
     #Replace
         Ctrl + H
 
-    #Refactor...    
+    #Refactor...
         Ctrl + Shift + R
 
     #Debug: Stop
         shift + F5
-        
+
     #To quickly search over all files in the currently opened folder
         Ctrl + Shift + F
 
@@ -122,7 +134,7 @@ VsCode:
 
     #Go to Definition
         F12
-        
+
     #Open new terminal
         Ctrl + `
 
@@ -133,13 +145,16 @@ VsCode:
         Ctrl + SHIFT + P
 
     #Toggle line comment
-        Ctrl+/
+        Ctrl + /
+
+    #Toggle Block Comment
+        Shift + Alt + A
 
     #Select Current Line
         Ctrl + L
-        
+
     #Format document
-        Shift+Alt+F 
+        Shift + Alt + F
 
     #Toggle word wrap
         Alt + Z
@@ -148,11 +163,40 @@ VsCode:
         Shift + Ctrl + L
 
     #Show all Symbols
-        Ctrl+T 
+        Ctrl + T
 
     #Jump to matching bracket
         Ctrl + SHIFT + \
-        
-    #Replace in files
-        Ctrl+ SHIFT + H
 
+    #Replace in files
+        Ctrl + SHIFT + H
+
+    #Activate Zen Mode
+        Ctrl + K   Z
+
+    #Go to Beginning of Line
+        Home
+
+    #Go to End of Line
+        End
+
+    #Go to Beginning of File
+        Ctrl + Home
+
+    #Go to End of File
+        Ctrl + End
+
+    #Scroll Line Down
+        Ctrl + Down
+
+    #Scroll Line Up
+        Ctrl + Up
+
+    #Scroll Page Down
+        Alt + PageDown
+
+    #Scroll Page Up
+    	Alt + PageUp
+
+    #Go back to last cursor Location
+        Alt + Left
