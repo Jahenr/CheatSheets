@@ -129,6 +129,9 @@ VsCode:
     #Auto Fix...
         Shift + Alt + .
 
+    #Go to File...
+        Ctrl+P
+        
     #Show Command Palette
         Ctrl + SHIFT + P
 
