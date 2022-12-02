@@ -223,7 +223,10 @@ NPM / Node Package Manager
                 
         # Show npm version
                 npm --version
-                
+  
+        #Install a project with a clean slate and run tests
+                npm install-ci-test
+      
         # Display prefix
                 npm prefix
 
@@ -278,3 +281,4 @@ NPM / Node Package Manager
         # This runs a predefined command specified in the "stop" property of a package's "scripts" object.
                 npm stop
                 
+
