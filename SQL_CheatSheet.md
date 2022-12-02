@@ -38,14 +38,29 @@ MariaDB:
 	#Enable foreign key checks
 	         SET FOREIGN_KEY_CHECKS=1
 		 
+	#Delete the table
+		DROP TABLE table_name
+	
+	#Delete a row
+		DELETE FROM table_name [WHERE condition];
+		 
+	#DELETE it is used to remove one or more row from a table
+	         DELETE FROM table_name [WHERE condition];
+
 	#Return the intersection of two queries
-	         SELECT c1,c2 FROM t1
-		 INTERSECT
-		 SELECT c1,c2 FROM t2;
+	         SELECT c1,c2 FROM t1 INTERSECT SELECT c1,c2 FROM t2;
 
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
+		
+	#Drop a Dtabase 
+		DROP DATABASE [IF EXISTS] databasename;
 
-	
-    
-    
+	#Delete all the rows from the table and free the space containing the table
+		TRUNCATE TABLE table_name;  
+
+	#Update Command
+		UPDATE table_name SET column_name = new_value [WHERE condition];	
+
+	#Select the table
+		SELECT * FROM table1;
