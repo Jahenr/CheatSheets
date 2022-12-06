@@ -63,6 +63,6 @@
 	#To Show All Databases
 	  	show dbs
 	 
-  #To display documents from collection (first 10)
+  	#To display documents from collection (first 10)
 		db.collection_name.find()
 
