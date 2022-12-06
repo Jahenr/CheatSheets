@@ -79,3 +79,7 @@ MYSQL
 		
 	#return the number of rows
 		SELECT COUNT(*) FROM TABLENAME
+
+	#Use of IN operator with WHERE clause
+		SELECT <field_list> FROM <table_name> WHERE <expression|column_1> IN (value1, value2, …)
+
