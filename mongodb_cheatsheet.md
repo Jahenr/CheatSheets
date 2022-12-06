@@ -33,6 +33,24 @@
 	#To delete document
 		db.collection_name.remove(deletion_field)
 
+	#To view the db object methods
+		db.help()
+	
+	#To view the collectio object methods
+		db.collection_name.help()
+		
+	#To get collection document pretty format for easy to read
+		db.collection_name.find().pretty()
+	
+	#To set get collection document limit
+		db.collection_name.find().limit(10)
+		
+	#To skip document
+		db.collection_name.find().skip(10)
+	
+	#To get no of document inside collection
+		db.collection_name.find().count()
+
 	#Finding a Single Record
 		db. collectionname.findOne({"field1": "content"})
 
