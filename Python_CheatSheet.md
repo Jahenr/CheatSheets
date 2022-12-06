@@ -244,5 +244,12 @@
 	#This function is invoked by the import statement.
 		import()
 
-    #Returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default).
+  #Returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default).
 		range()
+
+	#This string method splits a string into a list.
+		string.split(separator, maxsplit)
+    
+	#This method adds an element at the end of the list.
+		list.append(element)
+
