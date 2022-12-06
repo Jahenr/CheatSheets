@@ -33,4 +33,12 @@ Byobu/Tmux:
 	#Kill split in focus
 		Ctrl + F6
 
-	 
+	#Join all splits
+		Shift + F5
+
+	#Kill the current window
+		Ctrl + A + K
+
+	#Move focus to next split
+		Shift + F3
+
