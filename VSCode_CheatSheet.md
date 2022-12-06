@@ -141,6 +141,9 @@ VsCode:
     #Select Current Line
         Ctrl + L
         
+    #Show Output panel   
+        Ctrl + SHIFT + U
+
     #Format document
         Shift+Alt+F 
 
@@ -158,4 +161,3 @@ VsCode:
         
     #Replace in files
         Ctrl+ SHIFT + H
-
