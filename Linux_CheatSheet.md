@@ -390,6 +390,9 @@ Linux/Unix:
 
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
+
+	#Shows you the disk usage of the current directory you are in
+		du -h
 	
 	#Change hostname of the system
 		hostname <new hostname>
@@ -408,4 +411,3 @@ Linux/Unix:
 		
 	#Set keyboard input
 		localectl set-keymap <language region>
-
