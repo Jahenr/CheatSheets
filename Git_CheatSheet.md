@@ -179,5 +179,5 @@
 	#Stashing everything (including ignored files)
 		git stash --all
 	
-	#push code from working branch to another branch 
+	#Push code from working branch to another branch 
 		git push origin branch1: branch2
