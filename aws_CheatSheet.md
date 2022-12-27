@@ -1,5 +1,3 @@
-
-
 	#Config
 		#Create profiles
 			aws configure --profile profilename
@@ -46,7 +44,12 @@
 	#EC2
 		#List Instance ID, Type and Name
 			aws ec2 describe-instances
-
+		#Create a key pair 
+			aws ec2 create-key-pair --key-name MyKeyPair --query 'KeyMaterial' --output text > MyKeyPair.pem
+				#Options include.
+				--key-name = Your key name
+				--query = A JMESPath query to use in filtering the response data
+				--output = The formatting style for command output. (json | text | table)
 	#IAM
 		#To create the IAM group
 			aws iam create-group --group-name
@@ -57,8 +60,36 @@
 				
 				#Create a bucket in specified region
 					aws s3 mb bucket_name --region region_name
+
+		#List all buckets in your account
+			aws s3 ls
+
+		#Sync objects under a specified bucket prefix to a local directory
+			aws sync <local_dir_path> <bucket_prefix>
+			
+		#Sync objects in a local directory to a specified bucket prefix
+			aws sync <bucket_prefix> <local_dir_path>
+
 	#Amazon SNS
 		#Get the list of subscribed sns
 			aws sns list-subscriptions
+		#Get the list of topics
+			aws sns list-topics
+		#Create a topic with the specified name
+			aws sns create-topic --name my-topic
+		#Subscribe to a topic
+			aws sns subscribe --topic-arn arn:aws:sns:us-west-2:123456789012:my-topic --protocol email --notification-endpoint saanvi@example.com
+				#Options include.
+				--topic-arn = The ARN of the topic you want to subscribe to
+				--protocol = The protocol that you want to use
+				--notification-endpoint = The endpoint that you want to receive notifications
+		#Publish to a topic and sends the message "Hello World!" to all subscribers of the specified topic
+			aws sns publish --topic-arn arn:aws:sns:us-west-2:123456789012:my-topic --message "Hello World!"
+		#Unsubscribe from a topic
+			aws sns unsubscribe --subscription-arn arn:aws:sns:us-west-2:123456789012:my-topic:1328f057-de93-4c15-512e-8bb22EXAMPLE
+		#Delete a topic
+			aws sns delete-topic --topic-arn arn:aws:sns:us-west-2:123456789012:my-topic
 		
-	
+	#Amazon AWS
+		#Create alias for frequently-used commands
+			$ whoami = sts get-caller-identity

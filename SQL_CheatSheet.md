@@ -52,7 +52,18 @@ MariaDB:
 
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
+	
+	#Rename a table from t1 to t2
+	        ALTER TABLE t1 RENAME TO t2;
+		
+	#Drop a Dtabase 
+		DROP DATABASE [IF EXISTS] databasename;
+
+	#Delete all the rows from the table and free the space containing the table
+		TRUNCATE TABLE table_name;  
 
 	#Update Command
-		UPDATE table_name SET column_name = new_value [WHERE condition];	
+		UPDATE table_name SET column_name = new_value [WHERE condition];
 
+	#Select the table
+		SELECT * FROM table1;
