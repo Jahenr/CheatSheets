@@ -79,5 +79,7 @@
 			aws sns unsubscribe --subscription-arn arn:aws:sns:us-west-2:123456789012:my-topic:1328f057-de93-4c15-512e-8bb22EXAMPLE
 		#Delete a topic
 			aws sns delete-topic --topic-arn arn:aws:sns:us-west-2:123456789012:my-topic
-			
-	
+		
+	#Amazon AWS
+		#Create alias for frequently-used commands
+			$ whoami = sts get-caller-identity
