@@ -103,7 +103,10 @@ VsCode:
 
     #Trigger Parameter Hint
         Ctrl + SHIFT + SPACE
- 
+        
+    #Trim trailing whitespace
+        Ctrl + KCTRL + X
+        
     #Show Extensions
         Ctrl + SHIFT + X
 
