@@ -1,3 +1,6 @@
+        #Get the documentation for pod manifests
+                kubectl explain pods
+                
         #Get total nodes in cluster
                 kubectl get nodes
                 
@@ -12,5 +15,16 @@
                 
         #Select the context to use
                 kubectl config use-context <context name>
-       # get the password for the e2e user
+
+        #Get the password for the e2e user
                 kubectl config view -o jsonpath='{.users[?(@.name == "e2e")].user.password}'
+
+        #Get all pods in all namespaces and list from most resource hungry to less
+                kubectl top pod --all-namespaces | sort --reverse --key 3 --numeric | less
+                
+        #Describe specific pod in deployment that is in the selected namespace with a bit more detail
+                kubectl -n <namespace> describe deployments.apps <pod name>
+                
+        #List all services in the namespace       
+                kubectl get services                
+
