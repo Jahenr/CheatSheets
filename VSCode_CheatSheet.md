@@ -129,6 +129,9 @@ VsCode:
     #Auto Fix...
         Shift + Alt + .
 
+    #Go to File...
+        Ctrl+P
+        
     #Show Command Palette
         Ctrl + SHIFT + P
 
@@ -138,5 +141,27 @@ VsCode:
     #Select Current Line
         Ctrl + L
 
+    #Select all occurences of Find match
+        Alt + Enter
+       
+    #Show Output panel   
+        Ctrl + SHIFT + U
+
+    #Format document
+        Shift+Alt+F 
+
+    #Toggle word wrap
+        Alt + Z
+
+    #Select all occurrences of current selection
+        Shift + Ctrl + L
+
+    #Show all Symbols
+        Ctrl+T 
+
     #Jump to matching bracket
         Ctrl + SHIFT + \
+        
+    #Replace in files
+        Ctrl+ SHIFT + H
+

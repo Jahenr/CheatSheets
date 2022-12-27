@@ -102,3 +102,5 @@ WINDOWS:
 	#To exit the command prompt window
 		exit
 	
+	#To Display or configure the active code page number
+	        chcp
