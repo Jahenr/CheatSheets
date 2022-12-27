@@ -13,6 +13,9 @@
         #List contexts added in .kube config
                 kubectl config list-contexts
                 
+        #List the running Pods:
+                kubectl get pods
+                
         #Select the context to use
                 kubectl config use-context <context name>
 
