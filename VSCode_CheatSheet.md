@@ -140,7 +140,10 @@ VsCode:
 
     #Select Current Line
         Ctrl + L
-        
+
+    #Select all occurences of Find match
+        Alt + Enter
+       
     #Show Output panel   
         Ctrl + SHIFT + U
 
@@ -161,3 +164,4 @@ VsCode:
         
     #Replace in files
         Ctrl+ SHIFT + H
+
