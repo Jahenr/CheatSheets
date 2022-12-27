@@ -16,6 +16,9 @@
         #Select the context to use
                 kubectl config use-context <context name>
 
+        #Get the password for the e2e user
+                kubectl config view -o jsonpath='{.users[?(@.name == "e2e")].user.password}'
+
         #Get all pods in all namespaces and list from most resource hungry to less
                 kubectl top pod --all-namespaces | sort --reverse --key 3 --numeric | less
                 
@@ -24,3 +27,4 @@
                 
         #List all services in the namespace       
                 kubectl get services                
+
