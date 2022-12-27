@@ -162,6 +162,8 @@ VsCode:
     #Jump to matching bracket
         Ctrl + SHIFT + \
         
+    #Navigate editor group history
+        Ctrl + SHIFT + Tab
+
     #Replace in files
         Ctrl+ SHIFT + H
-
