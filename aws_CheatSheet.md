@@ -60,6 +60,16 @@
 				
 				#Create a bucket in specified region
 					aws s3 mb bucket_name --region region_name
+
+		#List all buckets in your account
+			aws s3 ls
+
+		#Sync objects under a specified bucket prefix to a local directory
+			aws sync <local_dir_path> <bucket_prefix>
+			
+		#Sync objects in a local directory to a specified bucket prefix
+			aws sync <bucket_prefix> <local_dir_path>
+
 	#Amazon SNS
 		#Get the list of subscribed sns
 			aws sns list-subscriptions
