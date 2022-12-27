@@ -25,6 +25,8 @@
         #Describe specific pod in deployment that is in the selected namespace with a bit more detail
                 kubectl -n <namespace> describe deployments.apps <pod name>
                 
+        #Get a deployment's status subresource       
+                kubectl get deployment nginx-deployment --subresource=status
+
         #List all services in the namespace       
                 kubectl get services                
-
