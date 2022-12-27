@@ -61,4 +61,6 @@
 		#Get the list of subscribed sns
 			aws sns list-subscriptions
 		
-	
+	#Amazon AWS
+		#Create alias for frequently-used commands
+			$ whoami = sts get-caller-identity
