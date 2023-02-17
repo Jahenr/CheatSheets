@@ -61,6 +61,9 @@
 	#Return a Boolean value.
 		bool()
 
+	#Ends a loop prematurely.
+		break
+
 	#Drops you into the debugger at the call site.
 		breakpoint()
 
@@ -84,6 +87,9 @@
 
 	#Return a complex number with the value real + imag*1j.
 		complex()
+	
+	#Continues the execution of the current loop.
+		continue
 
 	#Deletes the named attribute, provided the object allows it.
 		delattr()
@@ -213,8 +219,11 @@
 
 	#Return a sliced object representing a set of indices.
 		slice()	
+	
+	#Sorts a list in the same list sequence.
+		sort()
 
-	#Return a new sorted list from the items in iterable.
+	#Return a new sorted list sequence from the items in iterable.
 		sorted()
 
 	#Transform a method into a static method.
