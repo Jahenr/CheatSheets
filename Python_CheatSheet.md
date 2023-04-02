@@ -9,6 +9,9 @@
 	#Help page on modules or inbuilt functions.
 		help()
 			Tip: Enter module or function name in the parentheses
+			
+	#List installed python modules.
+		help('modules')
 
 	#Create virtual environment in current folder.
 		python -m venv ./venv
