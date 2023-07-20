@@ -13,7 +13,7 @@
  		wait();
 
    	#Creates an identical process to the parent process
-    		fork();
+ 		fork();
 
 	#Show output on the screen
 		printf("Hello world");
