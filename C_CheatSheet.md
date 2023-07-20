@@ -48,7 +48,7 @@
 		continue;
 
 	#Breaks the loop
-		break
+		break;
 
 	#Returns a value from a function/method
 		return val;
