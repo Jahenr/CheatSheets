@@ -71,3 +71,7 @@
 		}
 
 		
+	#Loops number of times specified
+		for(int i = start_val; i<end_val; i++){
+  		code goes here
+		}
