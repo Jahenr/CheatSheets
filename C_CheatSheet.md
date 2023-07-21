@@ -8,6 +8,12 @@
 				EXIT_SUCCESS = executed successfully without error
 				EXIT_FALIURE or 0 = Indicates presence of an error in the code
 				Can be any number from 0 - 255
+    
+	#Waits until a process is finished
+ 		wait();
+
+   	#Creates an identical process to the parent process
+ 		fork();
 
 	#Show output on the screen
 		printf("Hello world");
@@ -48,7 +54,7 @@
 		continue;
 
 	#Breaks the loop
-		break
+		break;
 
 	#Returns a value from a function/method
 		return val;
@@ -71,3 +77,7 @@
 		}
 
 		
+	#Loops number of times specified
+		for(int i = start_val; i<end_val; i++){
+  		code goes here
+		}
