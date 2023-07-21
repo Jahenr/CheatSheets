@@ -265,3 +265,25 @@
 	#This method adds an element at the end of the list.
 		list.append(element)
 
+	#This method remove the first item from list whose value is equal to the element.
+		list.remove(element)
+
+	#This method inserts an item at a give position
+		list.insert(index, x)
+
+	#Removes an item at the given postion in the list and returns it
+		list.pop([i])
+			Other Options:
+				blank = If no index is specified pops the item at the end of the list 
+
+	#Clears the entire list
+		list.clear()
+
+	#Count the number of times x apears in the list
+		list.count(x)
+
+	#Reverses the elements of te list
+		list.reverse()
+
+	#Returns a shallow copy of a list
+		list.copy()
