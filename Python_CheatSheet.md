@@ -286,4 +286,4 @@
 		list.reverse()
 
 	#Returns a shallow copy of a list
-		list.copy()
+		list.copy() 
