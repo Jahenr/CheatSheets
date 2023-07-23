@@ -277,10 +277,10 @@
 	#Clears the entire list
 		list.clear()
 
-	#Count the number of times x apears in the list
+	#Count the number of times x appears in the list
 		list.count(x)
 
-	#Reverses the elements of te list
+	#Reverses the elements of the list
 		list.reverse()
 
 	#Returns a shallow copy of a list
