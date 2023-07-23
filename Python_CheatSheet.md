@@ -268,7 +268,7 @@
 	#This method remove the first item from list whose value is equal to the element.
 		list.remove(element)
 
-	#This method inserts an item at a give position
+	#This method inserts an item at a given index/position
 		list.insert(index, x)
 
 	#Removes an item at the given postion in the list and returns it
