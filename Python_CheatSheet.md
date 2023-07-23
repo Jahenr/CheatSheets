@@ -265,7 +265,7 @@
 	#This method adds an element at the end of the list.
 		list.append(element)
 
-	#This method remove the first item from list whose value is equal to the element.
+	#This method removes the first item from list whose value is equal to the element.
 		list.remove(element)
 
 	#This method inserts an item at a given index/position
