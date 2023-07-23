@@ -273,8 +273,6 @@
 
 	#Removes an item at the given postion in the list and returns it
 		list.pop([i])
-			Other Options:
-				blank = If no index is specified pops the item at the end of the list 
 
 	#Clears the entire list
 		list.clear()
