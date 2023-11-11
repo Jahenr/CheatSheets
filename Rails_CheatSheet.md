@@ -19,3 +19,5 @@ Rails:
     rails g model model_name column_name:data_type column_name:data_type column_name:data_type
 
 # Controller Commands
+1. Generate controller
+    rails g controller controller_name
