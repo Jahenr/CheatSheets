@@ -11,3 +11,6 @@ Rails:
     rails s
 5. Stop server
     Ctrl + C
+
+# Model Commands
+1. 
