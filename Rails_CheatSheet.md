@@ -13,7 +13,8 @@ Rails:
     Ctrl + C
 
 # Migration Commands
-1. Generate all resources (model, controller, )
+1. Generate all resources (model, controller, serializer, all routes, migration file)
+    
 2. Generate migration to add column
     rails g migration Add(column_name)To(table_name) column_name:data_type
 3. Generate migration to remove column
