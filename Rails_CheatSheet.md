@@ -25,7 +25,8 @@ Rails:
     rails g controller controller_name route route
 
 # Migrations
-1. Generate migration to add columns
+1. Generate migration to add column
     rails g migration Add(column_name)To(table_name) column_name:data_type column_name:data_type column_name:data_type
-2. Migrate all
+2. Generate migration to remove column
+3. Migrate all
     rails g migrate
