@@ -45,3 +45,5 @@ Rails:
 10. :text
 11. :time
 12. :timestamp
+
+# Routes
