@@ -21,3 +21,5 @@ Rails:
 # Controller Commands
 1. Generate controller
     rails g controller controller_name
+2. Generate controller with routes
+    rails g controller controller_name route route
