@@ -26,7 +26,8 @@ Rails:
 
 # Migrations
 1. Generate migration to add column
-    rails g migration Add(column_name)To(table_name) column_name:data_type column_name:data_type column_name:data_type
+    rails g migration Add(column_name)To(table_name) column_name:data_type
 2. Generate migration to remove column
+    rails g migration Remove(column_name)From(table_name) column_name:data_type
 3. Migrate all
     rails g migrate
