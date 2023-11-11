@@ -25,7 +25,7 @@ Rails:
     rails g controller controller_name route route
 
 # Migrations
-1. Genearte migration with table columns
-    rails g migration migration_name column_name:data_type column_name:data_type column_name:data_type
+1. Genearte migration to add columns
+    rails g migration Add(column_name)To(table_name) column_name:data_type column_name:data_type column_name:data_type
 2. Migrate all
     rails g migrate
