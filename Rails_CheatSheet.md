@@ -12,6 +12,15 @@ Rails:
 5. Stop server
     Ctrl + C
 
+# Migration Commands
+1. Generate all resources (model, controller, )
+2. Generate migration to add column
+    rails g migration Add(column_name)To(table_name) column_name:data_type
+3. Generate migration to remove column
+    rails g migration Remove(column_name)From(table_name) column_name:data_type
+4. Migrate all
+    rails g migrate
+
 # Model Commands
 1. Generate model
     rails g model model_name
@@ -23,14 +32,6 @@ Rails:
     rails g controller controller_name
 2. Generate controller with routes
     rails g controller controller_name route route
-
-# Migration Commands
-1. Generate migration to add column
-    rails g migration Add(column_name)To(table_name) column_name:data_type
-2. Generate migration to remove column
-    rails g migration Remove(column_name)From(table_name) column_name:data_type
-3. Migrate all
-    rails g migrate
 
 # Data Types:
 1. :boolean
