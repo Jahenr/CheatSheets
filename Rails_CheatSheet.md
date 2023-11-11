@@ -33,3 +33,15 @@ Rails:
     rails g migrate
 
 # Data Types:
+1. :boolean
+2. :date
+3. :datetime
+4. :decimal
+5. :float
+6. :integer
+7. :primary_key
+8. :references
+9. :string
+10. :text
+11. :time
+12. :timestamp
