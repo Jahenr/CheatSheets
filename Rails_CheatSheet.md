@@ -47,6 +47,6 @@ Rails:
 12. :timestamp
 
 # Routes
-1. Create new route mapping end-point to controller action
+1. Create custom route by mapping end-point to controller action
     # config/routes.rb
     get 'hello' => 'pages#hello'
