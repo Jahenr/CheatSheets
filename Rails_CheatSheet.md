@@ -26,4 +26,4 @@ Rails:
 
 # Migrations
 1. Migrate all
-    rails g migration
+    rails g migrate
