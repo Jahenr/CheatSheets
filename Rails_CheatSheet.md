@@ -25,5 +25,6 @@ Rails:
     rails g controller controller_name route route
 
 # Migrations
-1. Migrate all
+1. Genearte migration with table columns
+2. Migrate all
     rails g migrate
