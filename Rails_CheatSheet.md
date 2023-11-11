@@ -25,3 +25,5 @@ Rails:
     rails g controller controller_name route route
 
 # Migrations
+1. Migrate all
+    rails g migration
