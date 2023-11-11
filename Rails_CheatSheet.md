@@ -7,3 +7,5 @@ Rails:
     rails new my_app --database=postgresql
 3. Initialize database
     rake db:create
+4. Start server
+    rails s
