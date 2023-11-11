@@ -52,4 +52,7 @@ Rails:
     get 'hello' => 'pages#hello'
 2. Create all routes for a model
     # config/routes.rb
-    resources :hello 
+    resources :hello
+3. Create route for one end-point for a model
+    # config/routes.rb
+    resources :hello, :only => [:index]
