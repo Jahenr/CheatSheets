@@ -23,3 +23,5 @@ Rails:
     rails g controller controller_name
 2. Generate controller with routes
     rails g controller controller_name route route
+
+# Migrations
