@@ -26,5 +26,6 @@ Rails:
 
 # Migrations
 1. Genearte migration with table columns
+    rails g migration migration_name column_name:data_type column_name:data_type column_name:data_type
 2. Migrate all
     rails g migrate
