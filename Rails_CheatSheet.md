@@ -50,3 +50,6 @@ Rails:
 1. Create custom route by mapping end-point to controller action
     # config/routes.rb
     get 'hello' => 'pages#hello'
+2. Create all routes for a model
+    # config/routes.rb
+    resources :hello 
