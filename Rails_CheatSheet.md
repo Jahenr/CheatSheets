@@ -17,3 +17,5 @@ Rails:
     rails g model model_name
 2. Generate model with table columns for migration
     rails g model model_name column_name:data_type column_name:data_type column_name:data_type
+
+# Controller Commands
