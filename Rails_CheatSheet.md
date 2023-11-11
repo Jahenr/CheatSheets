@@ -31,3 +31,5 @@ Rails:
     rails g migration Remove(column_name)From(table_name) column_name:data_type
 3. Migrate all
     rails g migrate
+
+# Data Types:
