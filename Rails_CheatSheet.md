@@ -13,4 +13,5 @@ Rails:
     Ctrl + C
 
 # Model Commands
-1. 
+1. Generate model
+    rails g model model_name
