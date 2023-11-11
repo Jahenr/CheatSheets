@@ -9,3 +9,5 @@ Rails:
     rake db:create
 4. Start server
     rails s
+5. Stop server
+    Ctrl + C
