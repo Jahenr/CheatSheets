@@ -167,8 +167,15 @@ VsCode:
     #Jump to matching bracket
         Ctrl + SHIFT + \
         
+    #Indent Line
+        Ctrl + ]
+        
+    #Outdent Line	
+        Ctrl + [
+
     #Navigate editor group history
         Ctrl + SHIFT + Tab
 
     #Replace in files
         Ctrl+ SHIFT + H
+

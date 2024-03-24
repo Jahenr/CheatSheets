@@ -40,7 +40,7 @@ MYSQL
 
 	#Tests for existence of a certain record. Returns a boolean value.
 		SELECT * FROM TABLE NAME WHERE EXIST (SUB QUERY);
-
+	
 	#Inner Join selects records that have the same values in two same or distinct tables.
 		SELECT COLUMN(S) FROM TABLENAME1 INNER JOIN TABLENAME2 ON TABLENAME1.COLUMNAME=TABLENAME2.COLUMNAME;
 
