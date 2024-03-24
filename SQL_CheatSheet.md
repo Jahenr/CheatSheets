@@ -49,6 +49,9 @@ MariaDB:
 
 	#Return the intersection of two queries
 	         SELECT c1,c2 FROM t1 INTERSECT SELECT c1,c2 FROM t2;
+		 
+	#Return the UNION of two queries
+	         SELECT c1,c2 FROM t1 UNION SELECT c1,c2 FROM t2;		 
 
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
