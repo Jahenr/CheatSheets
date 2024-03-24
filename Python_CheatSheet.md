@@ -9,6 +9,9 @@
 	#Help page on modules or inbuilt functions.
 		help()
 			Tip: Enter module or function name in the parentheses
+			
+	#List installed python modules.
+		help('modules')
 
 	#Create virtual environment in current folder.
 		python -m venv ./venv
@@ -27,6 +30,9 @@
 
 	#Install modules whose names are listed in a file (requirements.txt)
 		pip3 install -r requirements.txt
+       
+	#Find out pip version
+		pip3 --version
 
 	#Sort a 2D list (lst) based on any one index (i is the index)
 		lst.sort(key = lambda x : x[i])
@@ -58,6 +64,9 @@
 	#Return a Boolean value.
 		bool()
 
+	#Ends a loop prematurely.
+		break
+
 	#Drops you into the debugger at the call site.
 		breakpoint()
 
@@ -81,6 +90,9 @@
 
 	#Return a complex number with the value real + imag*1j.
 		complex()
+	
+	#Continues the execution of the current loop.
+		continue
 
 	#Deletes the named attribute, provided the object allows it.
 		delattr()
@@ -210,8 +222,11 @@
 
 	#Return a sliced object representing a set of indices.
 		slice()	
+	
+	#Sorts a list in the same list sequence.
+		sort()
 
-	#Return a new sorted list from the items in iterable.
+	#Return a new sorted list sequence from the items in iterable.
 		sorted()
 
 	#Transform a method into a static method.
@@ -240,4 +255,33 @@
 
 	#This function is invoked by the import statement.
 		import()
+
+  	#Returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default).
+		range()
+
+	#This string method splits a string into a list.
+		string.split(separator, maxsplit)
     
+	#This method adds an element at the end of the list.
+		list.append(element)
+
+	#This method removes the first item from list whose value is equal to the element.
+		list.remove(element)
+
+	#This method inserts an item at a given index/position
+		list.insert(index, x)
+
+	#Removes an item at the given postion in the list and returns it
+		list.pop([i])
+
+	#Clears the entire list
+		list.clear()
+
+	#Count the number of times x appears in the list
+		list.count(x)
+
+	#Reverses the elements of the list
+		list.reverse()
+
+	#Returns a shallow copy of a list
+		list.copy() 
