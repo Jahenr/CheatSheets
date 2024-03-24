@@ -49,10 +49,24 @@ MariaDB:
 
 	#Return the intersection of two queries
 	         SELECT c1,c2 FROM t1 INTERSECT SELECT c1,c2 FROM t2;
+		 
+	#Return the UNION of two queries
+	         SELECT c1,c2 FROM t1 UNION SELECT c1,c2 FROM t2;		 
 
 	#Drop a table
 		DROP TABLE [IF EXISTS] table_name;
+	
+	#Rename a table from t1 to t2
+	        ALTER TABLE t1 RENAME TO t2;
+		
+	#Drop a Dtabase 
+		DROP DATABASE [IF EXISTS] databasename;
+
+	#Delete all the rows from the table and free the space containing the table
+		TRUNCATE TABLE table_name;  
 
 	#Update Command
-		UPDATE table_name SET column_name = new_value [WHERE condition];	
+		UPDATE table_name SET column_name = new_value [WHERE condition];
 
+	#Select the table
+		SELECT * FROM table1;
