@@ -2,6 +2,9 @@ Powershell:
 
 cmdlets:
 
+# This command allows you to get the IP address info of the network adapters intalled on the computer
+        Get-NetIPAddress
+
 # This command allows you to get support with PowerShell
         Get-Help 
 

@@ -39,6 +39,11 @@ Linux/Unix:
 
 	#Create a new directory
 		mkdir <directory name to be created>
+
+			#Options include
+				-p if directory exists and also make parent directories as necessary
+				-v verbose
+				-m provide mode for creating directory
 	
 	#Print the working directory
 		pwd
@@ -218,14 +223,28 @@ Linux/Unix:
 	#Install, build, remove and manage Debian packages
 		apt-get
 	
+	#Get current user id
+		id
+
 	#Creates a new user account
 		adduser
 	
 	#Creates a new group
 		groupadd 
 
-	#Adds a user to a group
+	#Modify a user to a group
 		usermod
+
+		#Options
+			-c, --comment = add comment to user
+			-g, --gid = Specify the primary group for the user account
+			-G, --groups = Specify a comma-separated list of supplementary groups for the user account
+			-a, --append = add the supplementary groups to the user's current set of group
+			-d, --home = Specify a particular home directory for the user account
+			-m, --move-home = Move the user's home directory to a new location. Must be used with the -d option
+			-s, --shell = Specify a particular login shell for the user account
+			-L, --lock = Lock the user account
+			-U, --unlock = Unlock the user account
 	
 	#Remove a user from a group
 		userdel
@@ -265,9 +284,6 @@ Linux/Unix:
 		
   	#Determine system boot-up performance statistics
 	   systemd-analyze
-     
-  	#Determine system boot-up performance statistics
-    		systemd-analyze
 
 	#Request system information / software version
 		uname -a
@@ -308,7 +324,7 @@ Linux/Unix:
 
 			#Query optimisation
 				-type = type of file
-				-name = matching with a filename	
+				-name = matching with a filename
 
 	#Look for a file with a giving name using query optimisation
 		find . -type f -name <filename>
@@ -375,6 +391,21 @@ Linux/Unix:
 	#Replace old text with new text
 		sed '-s/myOldText/myNewText' theFileBeingEdited.txt
 
+	#Shows you the disk usage of the current directory you are in
+		du -h
+	
+	#Change hostname of the system
+		hostname <new hostname>
+	
+	#Kill process
+		kill <process id>
+		kill -l #List all the kill signals
+
+		Ex: kill -9 5123 #Sends kill signal to process 5123
+
+	#Add a user on Linux server
+		useradd  username  
+	
 	#List keyboard region inputs
 		localectl list-x11-keymap-layouts
 		
@@ -386,4 +417,10 @@ Linux/Unix:
 			
 			#Option include
 				-l = for displaying  line count of a file/no of lines in a text file
-		
+	
+	#cut command that allow you to process and filter text files
+		cut <option> <filename>
+				
+				#option include
+				-f = used for specifying a field, a set of fields, or a range of fields.
+				-d = Specify a delimiter that will be used, for ex: "," or " " or "-" or any single character delimiter. Default is "tab".
