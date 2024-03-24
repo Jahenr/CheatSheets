@@ -101,6 +101,12 @@ WINDOWS:
 		
 	#To exit the command prompt window
 		exit
+		
+	#To get system information
+		systeminfo
+		
+	#To get IP configuration
+		ipconfig
 	
 	#To Display or configure the active code page number
 	        chcp
