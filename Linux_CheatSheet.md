@@ -411,6 +411,12 @@ Linux/Unix:
 		
 	#Set keyboard input
 		localectl set-keymap <language region>
+		
+	#for counting characters in a text file
+		wc <option> <file name>
+			
+			#Option include
+				-l = for displaying  line count of a file/no of lines in a text file
 	
 	#cut command that allow you to process and filter text files
 		cut <option> <filename>
