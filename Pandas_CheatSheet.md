@@ -1,20 +1,7 @@
-*Pull Request Description* 
 
-Title: Introduction of Basic Pandas Operations
 
-Description:This pull request introduces a variety of basic operations using the Pandas library to demonstrate DataFrame and Series functionalities. The additions include creating DataFrames and Series, viewing data, selecting and filtering data, basic data manipulations (such as adding and removing columns), data aggregation, file input/output operations, and basic text and data type manipulations. This will serve as a foundational script for our future assignments and projects where data manipulation and analysis are required.
+*Title: Introduction of Basic Pandas Operations*
 
-Course: DIGT1161
-
-Group Members and Contributions:
-Mahjabin: Focused on file input/output functions and data filtering methods.
-Alicia: Worked on data creation, viewing, and basic DataFrame operations.
-Sienna: Handled text manipulation functions and data type conversions.
-Steeve: Implemented statistical methods and basic plotting features.
-
-This collective effort has ensured a comprehensive introduction to handling data using Pandas, tailored to assist our class peers in getting up to speed with Python data manipulation.
-
-Pull Request
 # Import the pandas library
 import pandas as pd
 
