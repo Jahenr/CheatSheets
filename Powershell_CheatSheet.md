@@ -147,4 +147,8 @@ Alias:
         Remove-Variable 
 
 # Suspends an activity for a specified period of time
-        Start-Sleep              
+        Start-Sleep          
+# Starts a service on a local machine
+        Get-Service -Name bits  | Start-service
+# Starts a service on a remote machine
+        Get-Service -Name bits  -ComputerName RSLAPTOP01 | Start-service
