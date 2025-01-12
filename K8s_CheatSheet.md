@@ -35,5 +35,8 @@
                 kubectl get deployment nginx-deployment --subresource=status
 
         #List all services in the namespace       
-                kubectl get services                
+                kubectl get services
+
+        #Create temporary curl pod with interactive shell session for troubleshooting
+                kubectl run -it --tty --rm curlpod --image=curlimages/curl -- sh -n <namespace>
 
