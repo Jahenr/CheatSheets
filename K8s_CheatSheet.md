@@ -39,4 +39,3 @@
 
         #Create temporary curl pod with interactive shell session for troubleshooting
                 kubectl run -it --tty --rm curlpod --image=curlimages/curl -- sh -n <namespace>
-
