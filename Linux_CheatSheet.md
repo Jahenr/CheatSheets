@@ -429,11 +429,11 @@ Linux/Unix:
 				-d = Specify a delimiter that will be used, for ex: "," or " " or "-" or any single character delimiter. Default is "tab".
 
 	#Special shell variable that stores the last argument from the last executed command.
-     		$_
-       		e.g: 
-	 	touch file.txt
-   		cat $_
-     		or
-       		mkdir testfolder
-	 	cd $_
+		$_
+  		e.g: 
+    		touch file.txt
+      		cat $_
+		or
+  		mkdir testfolder
+    		cd $_
 
