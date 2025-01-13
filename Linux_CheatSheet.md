@@ -431,7 +431,7 @@ Linux/Unix:
 	#Special shell variable that stores the last argument from the last executed command.
 		$_
   		e.g: 
-    		touch file.txt
+      		touch file.txt
       		cat $_
 		or
   		mkdir testfolder
