@@ -428,7 +428,7 @@ Linux/Unix:
 				-f = used for specifying a field, a set of fields, or a range of fields.
 				-d = Specify a delimiter that will be used, for ex: "," or " " or "-" or any single character delimiter. Default is "tab".
 
-    	#Special shell variable that stores the last argument from the last executed command.
+	#Special shell variable that stores the last argument from the last executed command.
      		$_
        		e.g: 
 	 	touch file.txt
