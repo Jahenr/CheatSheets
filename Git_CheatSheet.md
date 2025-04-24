@@ -19,8 +19,11 @@
 
 	#Add files that are new, updated etc
 		git add <filenames>
-			Tip: git add . adds all files in the current directory.
-			Tip: git add fil* adds all files starting with "fil" in the current directory.
+			git add . #Adds all files in the current directory.
+   			git add -A #Stage all (new, modified, deleted) files.
+      			git add -u #Stage modified and deleted files only.
+	 		git add --ignore-removal . #Stage new and modified files only.
+			git add fil* #Adds all files starting with "fil" in the current directory.
 	
 	#Add patches of a file
 		git add <filename> -p  #this command adds a specific file
