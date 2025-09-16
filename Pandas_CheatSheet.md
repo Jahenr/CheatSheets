@@ -1,121 +1,242 @@
+Pandas:
 
+```bash
+        # Import the pandas library
+                import pandas as pd
 
-*Title: Introduction of Basic Pandas Operations*
+        # Create an empty DataFrame
+                pd.DataFrame()
 
-# Import the pandas library
-import pandas as pd
+        # Create a DataFrame from a dictionary of lists
+                pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
 
-# Create an empty DataFrame
-pd.DataFrame()
+        # Create a Series from a list
+                pd.Series([1, 2, 3, 4, 5])
+```
 
-# Create a DataFrame from a dictionary of lists
-# Each key becomes a column name, and the list elements are the column values
-pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+Data Viewing:
 
-# Create a Series from a list
-pd.Series([1, 2, 3, 4, 5])
+```bash
+        # View the first few rows of a DataFrame
+                df.head()
 
-# View the first few rows of a DataFrame
-# Helps to quickly inspect the beginning of large DataFrames
-df.head()
+        # View the last few rows of a DataFrame
+                df.tail()
 
-# View the last few rows of a DataFrame
-# Useful for checking the end portions of large DataFrames
-df.tail()
+        # Get the data types of columns
+                df.dtypes
 
-# Select a single column, returns a Series
-df['column_name']
+        # Get basic statistics for numerical columns
+                df.describe()
+```
 
-# Select multiple columns, returns a DataFrame
-df[['column1', 'column2']]
+Selecting Data:
 
-# Select rows by position (integer-location based)
-df.iloc[0]  # First row
-df.iloc[0:5]  # First five rows
+```bash
+        # Select a single column (returns a Series)
+                df['column_name']
 
-# Select a specific value by row and column position
-df.iloc[0, 0]  # Value in first row and first column
+        # Select multiple columns (returns a DataFrame)
+                df[['column1', 'column2']]
 
-# Filter rows based on column values
-df[df['column'] > 10]
+        # Select rows by position (integer-location based) — first row
+                df.iloc[0]
 
-# Get basic statistics for numerical columns
-df.describe()
+        # Select the first five rows
+                df.iloc[0:5]
 
-# Get the data types of columns
-df.dtypes
+        # Select a specific value by row and column position (first row, first column)
+                df.iloc[0, 0]
 
-# Check for missing values
-df.isnull()
+        # Filter rows based on a condition
+                df[df['column_name'] > 10]
+```
 
-# Drop rows with any missing values
-df.dropna()
+Missing Values:
 
-# Fill missing values with a specified value
-df.fillna(value)
+```bash
+        # Check for missing values
+                df.isnull()
 
-# Create a new column
-df['new_column'] = [value1, value2, value3]
+        # Drop rows with any missing values
+                df.dropna()
 
-# Drop a column
-df.drop('column_name', axis=1, inplace=True)
+        # Fill missing values with a specified value
+                df.fillna(value)
+```
 
-# Rename columns
-df.rename(columns={'old_name': 'new_name'}, inplace=True)
+Columns & Indexing:
 
-# Sum of a column's values
-df['column'].sum()
+```bash
+        # Create a new column
+                df['new_column'] = [value1, value2, value3]
 
-# Average (mean) of a column's values
-df['column'].mean()
+        # Drop a column
+                df.drop('column_name', axis=1, inplace=True)
 
-# Converts all characters in the column to uppercase
-df[‘text_coloumn’].str.upper()
+        # Rename columns
+                df.rename(columns={'old_name': 'new_name'}, inplace=True)
 
-# Converts all characters in the column to lowercase
-df[‘text_column’].str.lower()
+        # Set a column as the index of the DataFrame
+                df.set_index('column_name', inplace=True)
 
-# Removes leading and trailing whitespace from each entry in the column
-df[‘text_column’].str.strip()
+        # Reset the index, turning it back into a column
+                df.reset_index(inplace=True)
 
-# Aligns text to the left
-df[‘text_column’].str.ljust(width)
+        # Convert a column's data type (e.g., to float32)
+                df['column_name'] = df['column_name'].astype('float32')
+```
 
-# Aligns text to the right
-df[‘text_column’].str.rjust(width)
+Statistics & Aggregations:
 
-# Aligns text to the center
-df[‘text_column’].str.center(width)
+```bash
+        # Sum of a column's values
+                df['column_name'].sum()
 
-# Read data from a CSV file into a DataFrame
-pd.read_csv('filename.csv') #Other types: read_json, read_html, read_xml, read_excel
+        # Average (mean) of a column's values
+                df['column_name'].mean()
 
-# Write data from a DataFrame to a CSV file
-df.to_csv('filename.csv', index=False) #Other types: to_json, to_html, to_xml, to_excel
+        # Get unique values from a column
+                df['column_name'].unique()
 
-# Sort DataFrame by a column
-df.sort_values(by='column_name')
+        # Get the number of unique values in a column
+                df['column_name'].nunique()
 
-# Get unique values from a column
-df['column_name'].unique()
+        # Get the count of occurrences of each unique value in a column
+                df['column_name'].value_counts()
+```
 
-# Get the number of unique values in a column
-df['column_name'].nunique()
+GroupBy:
 
-# Get the count of occurrences of each unique value in a column
-df['column_name'].value_counts()
+```bash
+        # Group by a single column and calculate mean
+                df.groupby('column_name').mean()
 
-# Set a column as the index of the DataFrame
-df.set_index('column_name', inplace=True)
+        # Group by multiple columns
+                df.groupby(['col1', 'col2']).sum()
 
-# Reset the index, turning it back into a column
-df.reset_index(inplace=True)
+        # Apply multiple aggregations
+                df.groupby('column_name').agg({'other_column': ['mean', 'max']})
+```
 
-# Convert a column's data type
-df['column_name'] = df['column_name'].astype('new_type') #e.g. “float32”
+Merge & Join:
 
-# Basic plotting (requires matplotlib)
-df['column_name'].plot()
+```bash
+        # Merge two DataFrames on a common column (inner join by default)
+                pd.merge(df1, df2, on='key')
 
-# Save a plot to a file (requires matplotlib)
-df['column_name'].plot().figure.savefig('plot.png')
+        # Left join
+                pd.merge(df1, df2, on='key', how='left')
+
+        # Join on index
+                df1.join(df2, how='outer')
+```
+
+Concatenate:
+
+```bash
+        # Concatenate DataFrames vertically (stack rows)
+                pd.concat([df1, df2])
+
+        # Concatenate DataFrames horizontally (add columns)
+                pd.concat([df1, df2], axis=1)
+```
+
+Reshape:
+
+```bash
+        # Pivot table (summarize data)
+                df.pivot_table(values='sales', index='region', columns='year', aggfunc='sum')
+
+        # Unstack: move row index to columns
+                df.unstack()
+
+        # Stack: move columns to row index
+                df.stack()
+```
+
+Date & Time:
+
+```bash
+        # Convert a column to datetime
+                df['date'] = pd.to_datetime(df['date'])
+
+        # Extract year, month, day
+                df['year'] = df['date'].dt.year
+                df['month'] = df['date'].dt.month
+                df['day'] = df['date'].dt.day
+
+        # Filter by date range
+                df[(df['date'] >= '2023-01-01') & (df['date'] <= '2023-12-31')]
+```
+
+Sampling:
+
+```bash
+        # Random sample of n rows
+                df.sample(n=5)
+
+        # Random sample of a fraction of rows
+                df.sample(frac=0.1, random_state=1)
+```
+
+Apply & Lambda:
+
+```bash
+        # Apply a function to each element of a column
+                df['col'] = df['col'].apply(lambda x: x*2)
+
+        # Apply a function row-wise
+                df.apply(lambda row: row['col1'] + row['col2'], axis=1)
+```
+
+String Operations:
+
+```bash
+        # Convert all characters in the column to uppercase
+                df['text_column'].str.upper()
+
+        # Convert all characters in the column to lowercase
+                df['text_column'].str.lower()
+
+        # Remove leading and trailing whitespace from each entry in the column
+                df['text_column'].str.strip()
+
+        # Align text to the left with a given width
+                df['text_column'].str.ljust(width)
+
+        # Align text to the right with a given width
+                df['text_column'].str.rjust(width)
+
+        # Align text to the center with a given width
+                df['text_column'].str.center(width)
+```
+
+Sorting:
+
+```bash
+        # Sort DataFrame by a column
+                df.sort_values(by='column_name')
+```
+
+Input / Output:
+
+```bash
+        # Read data from a CSV file into a DataFrame
+                pd.read_csv('filename.csv')
+                        # Other readers include: read_json, read_html, read_xml, read_excel
+
+        # Write data from a DataFrame to a CSV file
+                df.to_csv('filename.csv', index=False)
+                        # Other writers include: to_json, to_html, to_xml, to_excel
+```
+
+Plotting (requires matplotlib):
+
+```bash
+        # Basic plotting of a single column
+                df['column_name'].plot()
+
+        # Save a plot to a file
+                df['column_name'].plot().figure.savefig('plot.png')
+```
