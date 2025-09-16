@@ -1,6 +1,6 @@
 Tableau:
 
-        # Connect to a data source (Excel, CSV, SQL, etc.)
+        # Connect to a data source (Excel, CSV, SQL, and others)
                 Data → Connect to Data
 
         # Create a new worksheet
@@ -12,8 +12,8 @@ Tableau:
 Data Basics:
 
         # Dimensions vs Measures
-                Dimensions = qualitative fields (e.g., Category, Date)
-                Measures   = quantitative fields (e.g., Sales, Profit)
+                Dimensions = qualitative fields (Category, Date)
+                Measures   = quantitative fields (Sales, Profit)
 
         # Drag a field to Columns or Rows to create a view
                 Example: Drag “Category” to Columns and “Sales” to Rows
