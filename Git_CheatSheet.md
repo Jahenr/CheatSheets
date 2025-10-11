@@ -86,6 +86,10 @@
 		git push <branch_name>
 			Tip: You can add a '+' before the branch name to force push the changes.
 
+	#Push with force ( check remote branch has not been updated by other contributer , safer method )
+		git push --force-with-lease origin task/HERM-17617
+			# this will fail and warn you if this is the case, Error: remote branch has new commits
+
 	#Pull changes from default remote repo and merges them into local.
 		git pull
 
